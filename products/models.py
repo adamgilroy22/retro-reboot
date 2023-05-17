@@ -31,6 +31,7 @@ class Product(models.Model):
     condition = models.ForeignKey('Condition', null=True, blank=True, on_delete=models.SET_NULL)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     image = models.ImageField(null=True, blank=True)
+    stock = models.IntegerField(default=10)
 
     def __str__(self):
         return self.name
