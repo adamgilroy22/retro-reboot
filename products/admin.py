@@ -23,7 +23,7 @@ class PlatformAdmin(admin.ModelAdmin):
     ordering = ('name',)
 
 
-admin.site.register(Product)
-admin.site.register(Category)
-admin.site.register(Platform)
+admin.site.register(Product, ProductAdmin)
+admin.site.register(Category, CategoryAdmin)
+admin.site.register(Platform, PlatformAdmin)
 admin.site.register(Condition)
