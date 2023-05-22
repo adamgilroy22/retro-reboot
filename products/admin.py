@@ -15,6 +15,10 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ('name',)
 
 
+class CategoryAdmin(admin.ModelAdmin):
+    ordering = ('name',)
+
+
 admin.site.register(Product)
 admin.site.register(Category)
 admin.site.register(Platform)
