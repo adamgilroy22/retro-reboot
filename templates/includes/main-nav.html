@@ -33,10 +33,9 @@
                 Consoles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="consoles-link">
-                <a href="" class="dropdown-item">Nintendo</a>
-                <a href="" class="dropdown-item">Sega</a>
-                <a href="" class="dropdown-item">Sony</a>
-                <a href="" class="dropdown-item">Other</a>
+                <a href="{% url 'products' %}?category=Console&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube" class="dropdown-item">Nintendo</a>
+                <a href="{% url 'products' %}?category=Console&platform=SEGA Dreamcast,SEGA Genesis" class="dropdown-item">Sega</a>
+                <a href="{% url 'products' %}?category=Console&platform=Playstation,Playstation 2" class="dropdown-item">Sony</a>
             </div>
         </li>
 
