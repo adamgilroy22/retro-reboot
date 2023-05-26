@@ -22,9 +22,9 @@
                 Games
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="games-link">
-                <a href="{% url 'products' %}?category=Game&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube" class="dropdown-item">Nintendo</a>
-                <a href="{% url 'products' %}?category=Game&platform=SEGA Dreamcast,SEGA Genesis" class="dropdown-item">Sega</a>
-                <a href="{% url 'products' %}?category=Game&platform=Playstation,Playstation 2" class="dropdown-item">Sony</a>
+                <a href="{% url 'products' %}?category=Game&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube&sort=platform&direction=asc" class="dropdown-item">Nintendo</a>
+                <a href="{% url 'products' %}?category=Game&platform=SEGA Dreamcast,SEGA Genesis&sort=platform&direction=asc" class="dropdown-item">Sega</a>
+                <a href="{% url 'products' %}?category=Game&platform=Playstation,Playstation 2&sort=platform&direction=asc" class="dropdown-item">Sony</a>
             </div>
         </li>
 
