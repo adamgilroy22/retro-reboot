@@ -25,7 +25,22 @@
         </div>
         <div class="row">
             <div class="product-container col-10 offset-1">
-                <div class="row">
+                <div class="row mt-1 mb-2">
+                    <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
+                        <div class="sort-select-wrapper w-50">
+                            <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
+                                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
+                                <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
+                                <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
+                                <option value="platform_asc" {% if current_sorting == 'platform_asc' %}selected{% endif %}>Platform (A-Z)</option>
+                                <option value="platform_desc" {% if current_sorting == 'platform_desc' %}selected{% endif %}>Platform (Z-A)</option>
+                                <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
+                                <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
+                                <option value="year_asc" {% if current_sorting == 'year_asc' %}selected{% endif %}>Year (oldest to newest)</option>
+                                <option value="year_desc" {% if current_sorting == 'year_desc' %}selected{% endif %}>Year (newest to oldest)</option>
+                            </select>
+                        </div>
+                    </div>
                     <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
                             {% if search_term or current_platforms or current_categories or current_sorting != 'None_None' %}
