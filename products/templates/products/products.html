@@ -13,6 +13,27 @@
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
+            <div class="col text-center mt-3">
+                <h2 class="logo-font">Products</h2>
+                {% for p in current_platforms %}
+                    <a class="category-badge text-decoration-none" href="{% url 'products' %}?platform={{ p.name }}">
+                        <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ p.name }}</span>
+                    </a>
+                {% endfor %}
+                <hr class="w-50 mb-1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-first">
+                <p class="text-muted mt-3 text-center text-md-left">
+                    {% if search_term or current_categories or current_sorting != 'None_None' %}
+                        <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                    {% endif %}
+                    {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+                </p>
+            </div>
+        </div>
+        <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row">
                     {% for product in products %}
