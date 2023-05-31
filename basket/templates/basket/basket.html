@@ -30,6 +30,7 @@
                             <th scope="col">Product Info</th>
                             <th scope="col"></th>
                             <th scope="col">Price</th>
+                            <th scope="col">Qty</th>
                         </tr>
                     </thead>
 
@@ -43,6 +44,9 @@
                             </td>
                             <td class="py-3">
                                 <p class="my-0">€{{ item.product.price }}</p>
+                            </td>
+                            <td class="py-3 w-25">
+                                {% include "basket/quantity-form.html" %}
                             </td>
                         </tr>
                     {% endfor %}
