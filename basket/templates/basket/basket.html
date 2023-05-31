@@ -23,6 +23,31 @@
     <div class="row">
         <div class="col">
             {% if basket_items %}
+            <div class="table-responsive rounded d-none d-md-block">
+                <table class="table table-sm table-borderless">
+                    <thead class="text-black">
+                        <tr>
+                            <th scope="col">Product Info</th>
+                            <th scope="col"></th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+
+                    {% for item in basket_items %}
+                        <tr>
+                            <td class="p-3 w-25">
+                                <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                            </td>
+                            <td class="py-3">
+                                <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                            </td>
+                            <td class="py-3">
+                                <p class="my-0">€{{ item.product.price }}</p>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
             {% else %}
                     <p class="lead mb-5">Your basket is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
