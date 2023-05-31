@@ -55,6 +55,11 @@
                             </td>
                         </tr>
                     {% endfor %}
+                        <tr>
+                            <td colspan="5" class="pt-5 text-right">
+                                <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
+                            </td>
+                        </tr>
                 </table>
             </div>
             {% else %}
