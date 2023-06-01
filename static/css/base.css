@@ -159,6 +159,12 @@ body {
     border-bottom-color: #343a40 !important;
 }
 
+.basket-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
