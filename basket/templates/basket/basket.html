@@ -81,6 +81,16 @@
 {% include 'products/includes/quantity_input_script.html' %}
 
 <script type="text/javascript">
+    // force qty_input to only be 0-99
+    $(".qty_input").keyup(function() {
+            let inputVal = $(this).val();
+            if (inputVal < 0 || inputVal > 99 || inputVal.length > 2) {
+                $(this).val("");
+            } else {
+                $(this).val(inputVal);
+            }
+        });
+
     // Update quantity on click
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
