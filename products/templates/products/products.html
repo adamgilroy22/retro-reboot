@@ -81,6 +81,12 @@
                                             {% else %}
                                             <p class="">{{ product.stock }} in stock</p>
                                             {% endif %}
+                                            <form method="POST" action="{% url 'add_to_basket' product.id %}">
+                                                {% csrf_token %}
+                                                <input type="hidden" name="quantity" value="1">
+                                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                                                <input type="submit" value="Add to basket" class="btn btn-black">
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
