@@ -77,7 +77,7 @@
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
                                             {% if product.stock < 10 %}
-                                            <p class="">Only {{ product.stock }} left!</p>
+                                            <div class="p-3 mb-2 bg-danger text-white text-center">Only {{ product.stock }} left!</div>
                                             {% else %}
                                             <p class="">{{ product.stock }} in stock</p>
                                             {% endif %}
