@@ -39,7 +39,7 @@
                 {% endif %}
                 <p class="mt-3">{{ product.description }}</p>
                 {% if product.stock < 10 %} 
-                <div class="p-3 mb-2 bg-danger text-white">Only {{ product.stock }} left!</div>
+                <div class="p-3 mb-2 bg-danger text-white text-center">Only {{ product.stock }} left!</div>
                     {% else %}
                     <p class="">{{ product.stock }} in stock</p>
                     {% endif %}
