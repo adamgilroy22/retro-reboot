@@ -108,11 +108,16 @@ In this section, list all of your user stories for the project.
 
 ### Site Admin
 
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site admin I want to be able to create blog posts from the front end so that I can share information with site visitors.
+- As a site admin I want to be able to edit existing blog posts so that I can ensure that posts are up to date and relevant without having to create them from scratch in case of error.
+- As a site admin I want to be able to delete existing blog posts so that I can remove any unwanted posts from the site.
+- As a site admin I want to be able to create new products from the front end so that I can easily add new products to the site.
+- As a site admin I want to be able to edit existing products so that I can ensure that all product listings are up to date and accurate.
+- As a site admin I want to be able to delete products from the site so that I can remove any products that are no longer being supplied by the site.
+- As a site admin I want to be able to send marketing emails to people who signed up to the mailing list so that I can send out updates and offers to their inboxes.
+- As a site admin I want to be able to set appropriate keywords on site pages so that I can increase the chances potential customers will find the site when searching to purchase records on Google.
+- As a site admin I want to be able to share the business on Facebook so that I can reach and market to a larger audience.
+- As a site admin I want to be able to set the stock for each product so that I can manage how many units of each product the site can sell.
 
 ## Wireframes
 
