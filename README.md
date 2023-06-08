@@ -84,21 +84,27 @@ In this section, list all of your user stories for the project.
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-### New Site Users
+### Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-
-### Returning Site Users
-
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a first-time site visitor I want to be able to clearly see what the site's purpose is so that I can decide whether or not to continue browsing it.
+- As a user I want to be able to easily navigate the website so that I can find the content I'm looking for.
+- As a site user I want to be able to search the website so that I can find specific products and see if the site has them in stock.
+- As a site user I want to be able to see a list of all site products so that I can browse what the site has to offer.
+- As a site user I want to be able to see the prices of products including current deals so that I can make a decision whether or not to purchase.
+- As a site user I want to be able to view a product on its own individual page so that I can see more information about the product.
+- As a site user I want to be able to sort products by category (game/console or games by console) so that I can find specific products related to the category I select.
+- As a site user I want to be able to add products to my shopping basket so that I can proceed to the checkout and purchase them.
+- As a site user I want to be able to see a running total of the items in my basket so that I can manage my spending and know what to expect at the checkout.
+- As a site user I want to be able to checkout with a card payment so that I can place an order for the items in my basket.
+- As a site user I want to be able to receive an order confirmation email after I purchase from the shop so that I can have a record of what I've purchased in my email inbox.
+- As a site user I want to be able to create an account on the site so that I can save my billing and shipping details and see a history of my purchases on my account.
+- As a registered site user I want to be able to add products to a wish list so that I can keep a collection of items I am interested in buying in the future.
+- As a registered user I want to be able to edit the details saved to my account so that I can keep my details up to date.
+- As a site user I want to be able to view blog posts on the website so that I can read any posts I feel are relevant to me.
+- As a site user I want to be able to sign up for the site's mailing list so that I can receive offers and news in my inbox.
+- As a site user I want to be able to apply discount codes in the checkout so that I can receive a discount on my purchase.
+- As a site user I want to be able to spin a discount wheel so that I can receive a discount code pending on the outcome of the wheel.
+- As a site user I want to be able to enter the Konami code (Up Up Down Down Left Right Left Right B A) on my keyboard so that I can experience an easter egg.
 
 ### Site Admin
 
