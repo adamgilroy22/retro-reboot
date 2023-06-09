@@ -80,6 +80,8 @@ Example:
 
 To help with the development of this project, I created user stories to map out tasks I needed to achieve in order to build the website to a good standard. I further split these user stories into epics in order to take an agile approach to its development.
 
+View a full list of user stories [here](https://github.com/adamgilroy22/retro-reboot/issues?q=is%3Aissue+label%3A%22User+Story%22).
+
 ### EPIC 1: General Site Functionality
 
 - As a first-time site visitor I want to be able to clearly see what the site's purpose is so that I can decide whether or not to continue browsing it.
