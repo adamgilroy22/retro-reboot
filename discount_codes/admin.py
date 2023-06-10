@@ -3,6 +3,11 @@ from .models import *
 
 
 class DiscountCodeAdmin(admin.ModelAdmin):
+    list_display = (
+        'code',
+        'discount'
+    )
+
     ordering = ('discount',)
 
 
