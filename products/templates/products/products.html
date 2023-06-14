@@ -87,6 +87,12 @@
                                                 <input type="hidden" name="redirect_url" value="{{ request.path }}">
                                                 <input type="submit" value="Add to basket" class="btn btn-black">
                                             </form>
+                                            {% if request.user.is_superuser %}
+                                                <small class="ml-3">
+                                                    <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                                </small>
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </div>
