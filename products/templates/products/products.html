@@ -76,17 +76,21 @@
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
-                                            {% if product.stock < 10 %}
-                                            <div class="p-3 mb-2 bg-danger text-white text-center">Only {{ product.stock }} left!</div>
+                                            {% if product.stock > 0 %}
+                                                {% if product.stock < 10 %}
+                                                <div class="text-danger text-left font-weight-bold">Only {{ product.stock }} left in stock!</div>
+                                                {% else %}
+                                                <div class="text-left font-weight-bold">{{ product.stock }} in stock</div>
+                                                {% endif %}
+                                                <form method="POST" action="{% url 'add_to_basket' product.id %}">
+                                                    {% csrf_token %}
+                                                    <input type="hidden" name="quantity" value="1">
+                                                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                                                    <input type="submit" value="Add to basket" class="btn btn-black">
+                                                </form>
                                             {% else %}
-                                            <p class="">{{ product.stock }} in stock</p>
+                                            <p class="p-2 mb-2 bg-danger text-white">SOLD OUT!</p>
                                             {% endif %}
-                                            <form method="POST" action="{% url 'add_to_basket' product.id %}">
-                                                {% csrf_token %}
-                                                <input type="hidden" name="quantity" value="1">
-                                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                                                <input type="submit" value="Add to basket" class="btn btn-black">
-                                            </form>
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 
