@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_title %}- {{ product.name }}{% endblock %}
+
+{% block extra_meta %}
+    <meta name="keywords" content="{{ product.name }}, {{ product.platform }}">
+{% endblock %}
+
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
