@@ -13,7 +13,7 @@ def all_products(request):
     A view to show all products
     """
 
-    products = Product.objects.all()
+    products = Product.objects.all().order_by('platform')
     query = None
     categories = None
     platforms = None
