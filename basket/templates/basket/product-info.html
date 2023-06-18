@@ -1,1 +1,3 @@
-<p class="my-0"><strong>{{ item.product.name }}</strong></p>
+<p class="my-0"><strong>
+    {{ item.product.name }} {% if item.product.category.name == "Game" %} - {{ item.product.platform }} {% endif %}
+</strong></p>
