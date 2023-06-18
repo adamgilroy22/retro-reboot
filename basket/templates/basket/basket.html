@@ -39,10 +39,10 @@
                     {% for item in basket_items %}
                         <tr>
                             <td class="p-3 w-25">
-                                <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                                {% include "basket/product-image.html" %}
                             </td>
                             <td class="py-3">
-                                <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                                {% include "basket/product-info.html" %}
                             </td>
                             <td class="py-3">
                                 <p class="my-0">€{{ item.product.price }}</p>
@@ -57,23 +57,12 @@
                     {% endfor %}
                         <tr>
                             <td colspan="5" class="pt-5 text-right">
-                                <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
+                                {% include "basket/basket-total.html" %}
                             </td>
                         </tr>
                         <tr>
                             <td colspan="5" class="text-right">
-                                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
-                                    <span class="icon">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </span>
-                                    <span class="text-uppercase">Keep Shopping</span>
-                                </a>
-                                <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
-                                    <span class="text-uppercase">Secure Checkout</span>
-                                    <span class="icon">
-                                        <i class="fas fa-lock"></i>
-                                    </span>
-                                </a>
+                                {% include "basket/checkout-buttons.html" %}
                             </td>
                         </tr>
                 </table>
