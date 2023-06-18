@@ -45,7 +45,9 @@
                             {% include "basket/product-info.html" %}
                         </div>
                         <div class="col-12 col-sm-6 order-sm-last">
+                            {% if item.quantity > 1 %}
                             <p class="my-0">Price Each: €{{ item.product.price }}</p>
+                            {% endif %}
                             <p><strong>Subtotal: </strong>€{{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </div>
                         <div class="col-12 col-sm-6">
