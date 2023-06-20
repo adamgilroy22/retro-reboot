@@ -165,6 +165,24 @@ body {
     overflow-y: auto;
 }
 
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    position: absolute;
+    top: 15%;
+    min-width: 30%;
+    left: -2px;
+    background-color: #23BBBB;
+}
+
+.condition {
+    color: white;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
