@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'checkout',
     'discount_codes',
     'profiles',
+    'blog',
 
     # Other
     'storages',
