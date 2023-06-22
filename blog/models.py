@@ -12,5 +12,5 @@ class Post(models.Model):
     featured_image = ImageField('image', default='placeholder')
     excerpt = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    status = models.BooleanField(default=False)
+    published = models.BooleanField(default=False)
     likes = models.ManyToManyField(User, related_name='blog_likes', blank=True)
