@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
 
 <div class="overlay"></div>
@@ -21,7 +29,7 @@
                                 <img class="card-img-top"
                                     src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
                                 {% endif %}
-                                <div class="image-flash">
+                                <div class="blog-flash">
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
                             </div>
@@ -58,4 +66,4 @@
     {% endif %}
 </div>
 
-{%endblock%}
+{% endblock %}
