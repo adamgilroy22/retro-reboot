@@ -1,10 +1,16 @@
-html {
-    height: 100%;
-}
-
 body {
     color: #555;
     font-family: 'Lato';
+}
+
+main {
+    overflow:auto;
+    height: calc(100vh - 164px);
+  }
+
+body > footer {
+    position: sticky;
+    top: 100vh;
 }
 
 /* from Bulma */
