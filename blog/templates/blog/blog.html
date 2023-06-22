@@ -3,9 +3,10 @@
 
 {% block content %}
 
-<div class="container-fluid">
-    <div class="row">
+<div class="overlay"></div>
 
+<div class="container-fluid blog">
+    <div class="row">
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
             <div class="row">
@@ -14,7 +15,7 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="image-container">
-                                {% if post.featured_image.url %}
+                                {% if post.featured_image %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% else %}
                                 <img class="card-img-top"
@@ -24,7 +25,7 @@
                                     <p class="author">Author: {{ post.author }}</p>
                                 </div>
                             </div>
-                            <a href="{% url 'post_detail' post.slug %}" class="post-link">
+                            <a href="#" class="post-link">
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
