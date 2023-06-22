@@ -14,3 +14,12 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     published = models.BooleanField(default=False)
     likes = models.ManyToManyField(User, related_name='blog_likes', blank=True)
+
+    class Meta:
+        ordering = ['-created_on']
+
+    def __str__(self):
+        return self.title
+
+    def number_of_likes(self):
+        return self.likes.count()
