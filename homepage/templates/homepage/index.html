@@ -3,6 +3,17 @@
 
 {% block extra_title %}- Home{% endblock %}
 
+{% block extra_css %}
+<style>
+    body {
+    background: url('/static/img/home-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+}
+
+</style>
+{% endblock %}
+
 {% block page_header %}
 <div class="container header-container">
     <div class="row">

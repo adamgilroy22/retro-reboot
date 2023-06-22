@@ -3,9 +3,6 @@ html {
 }
 
 body {
-    background: url('/static/img/home-image.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
@@ -165,13 +162,9 @@ body {
     overflow-y: auto;
 }
 
-.image-container {
-    position: relative;
-}
-
 .image-flash {
     position: absolute;
-    top: 15%;
+    top: 5%;
     min-width: 30%;
     left: -2px;
     background-color: #23BBBB;
