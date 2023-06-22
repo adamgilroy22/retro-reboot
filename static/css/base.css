@@ -70,16 +70,6 @@ body {
     border: 1px solid black !important;
 }
 
-.overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
-}
-
 .btt-button {
     height: 42px;
     width: 42px;
