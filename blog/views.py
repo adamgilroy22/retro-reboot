@@ -148,5 +148,4 @@ def delete_post(request, slug):
         'post': post,
     }
 
-    messages.success(request, 'Post deleted!')
     return render(request, template, context)
