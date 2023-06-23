@@ -44,6 +44,12 @@
                             <hr />
                             <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>
                                 {{ post.number_of_likes }}</p>
+                            {% if request.user.is_superuser %}
+                            <small class="ml-3">
+                                <a href="{% url 'edit_post' post.slug %}">Edit</a> |
+                                <a class="text-danger" href="#">Delete</a>
+                            </small>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
