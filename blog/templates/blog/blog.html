@@ -22,6 +22,7 @@
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
             <div class="row">
+            {% if post_list %}
             {% for post in post_list %}
                 <div class="col-md-4">
                     <div class="card mb-4">
@@ -58,6 +59,11 @@
             <div class="row">
             {% endif %}
             {% endfor %}
+            {% else %}
+            <div class="col-md-4">
+               <h1 class="text-center">No posts...yet</h1>
+            </div>
+            {% endif %}
             </div>
         </div>
     </div>
