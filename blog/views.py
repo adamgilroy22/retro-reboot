@@ -129,3 +129,23 @@ def edit_post(request, slug):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_post(request, slug):
+    """ Delete a post on the blog """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('blog'))
+
+    post = get_object_or_404(Post, slug=slug)
+    if request.method == 'POST':
+        post.delete()
+        return redirect(reverse('blog'))
+
+    template = 'blog/delete_post.html'
+    context = {
+        'post': post,
+    }
+
+    return render(request, template, context)
