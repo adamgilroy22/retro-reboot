@@ -4,7 +4,13 @@
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
-            <div class="col"></div>
+            <div class="col">
+                {% if request.user.is_superuser %}
+                <a href="{% url 'add_post' %}">
+                <button class="btn btn-black rounded-0">Add Post</button>
+                </a>
+                {% endif %}
+            </div>
         </div>
     </div>
 {% endblock %}
