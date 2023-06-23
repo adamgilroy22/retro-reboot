@@ -47,7 +47,7 @@
                             {% if request.user.is_superuser %}
                             <small class="ml-3">
                                 <a href="{% url 'edit_post' post.slug %}">Edit</a> |
-                                <a class="text-danger" href="#">Delete</a>
+                                <a class="text-danger" href="{% url 'delete_post' post.slug %}">Delete</a>
                             </small>
                             {% endif %}
                         </div>
