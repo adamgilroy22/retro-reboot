@@ -10,6 +10,7 @@
                     </span>
                 </button>
             </div>
+            <input type="hidden" id="ItemStock" name="variable" value="{{ item.product.stock }}">
             <input class="form-control form-control-sm qty_input" type="number"
                 name="quantity" value="{{ item.quantity }}" min="1" max="{{ item.product.stock }}"
                 data-item_id="{{ item.item_id }}"
