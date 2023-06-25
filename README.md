@@ -177,34 +177,112 @@ Repeat for any addition wireframe pages you have.
 
 ## Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Existing Features
 
-- **Title for feature #1**
+- **Landing Page**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This is the page a user lands on when arriving at the site. It welcomes them to the site and gives them an idea of what the site sells. A button is present that will bring the user to the site's product page.
 
 ![screenshot](documentation/feature01.png)
 
-- **Title for feature #2**
+- **All Products Page**
+
+    - This is a page containing all products that the site sells.
+
+![screenshot](documentation/feature02.png)
+
+- **Product Card**
+
+    - Each product has its own card which contains the product's condition, image, name, platform, release year and price.
+
+![screenshot](documentation/feature03.png)
+
+- **Condition Banner**
+
+    - This appears on every product to let the user know whether the product is brand new and in its original box or second hand.
+
+![screenshot](documentation/feature03.png)
+
+- **Product Stock Count**
+
+    - Every product has a finite stock and the amount of stock left for each product is displayed clearly for the user to let them know they'll need to act fast if the product they want to purchase is low on stock.
+	- If the product has less than 10 stock left then the text displaying the count is turned red to add a sense of urgency.
+	- When a product is purchased, the stock will automatically decrease by the number of units of each product the customer purchases.
+	- When a product's stock reaches 0, both the stock count and Add to basket buttons are replaced with a sold out banner and the product is not able to be added to the user's basket.
+
+![screenshot](documentation/feature03.png)
+
+- **Add to basket button**
+
+    - Every product has a button that lets the user to add it to their basket when viewing it both on the all products page or the individual product page. This adds one unit of the product to the user's basket and they can increase the quantity from their basket if they want to purchase more than one.
+
+![screenshot](documentation/feature03.png)
+
+- **Product Sorting**
+
+    - When the user is viewing the all products page, they can sort the products in a number of ways. Products can be sorted by: Price (low to high), Price (high to low), Name (A-Z), Name (Z-A), Year (oldest to newest), Year (newest to oldest), Platform (A-Z), Platform (Z-A)
+
+![screenshot](documentation/feature03.png)
+
+- **Main Nav Menu**
+
+    - Throughout the whole site the user has access to the main nav menu. Features include a search bar, account/profile access, basket link and running total if the user has items added to their baskets and links to filter products by platform and category as well as a link to the site's blog,
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature02.png)
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
 
 - **Title for feature #3**
 
