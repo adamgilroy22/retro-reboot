@@ -230,45 +230,49 @@ Repeat for any addition wireframe pages you have.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Product Filtering**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Through the nav menu, a user can sort and filter products. All products can be sorted by price, platform and release year and if the user wants to see products specific to a game or console they can sort both of these by platform (Nintendo, Sega, Sony and Arcade).
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Search Bar**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Users can use the nav menu's search bar to find specific products. The search term is matched up with products' name and description to give the user a list of products to match their search term.
+	- The user can also see how many results were returned for their search term.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Individual Product Page**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Each product also has its own individual page for the user to see more information about the product including a description for every game and console on the site. Similar to the all products page, the product's image, name, release year and price appear on the individual page along with buttons to add the product to the user's basket or to return to the all products page and keep shopping.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **My Account Dropdown**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - If the user is logged in, the my account dropdown in the nav menu will contain a link to the user's profile.
+	- If the user isn't logged in they will be given the option to either register for an account or sign in to an existing account. 
+
+![screenshot](documentation/feature03.png)
+
+- **User Sign Up**
+
+    - Users without an account can register for one through the register link in the main nav menu. This will present them with a form to add their details and created a profile for that user on completion.
+	- Users are sent a confirmation email to complete their account sign up to help avoid people from creating spam accounts on the site.
+
+![screenshot](documentation/feature03.png)
+
+- **User Sign In**
+
+    - If a user isn't signed in to the site but has a profile, they can follow the sign in link where they're presented with a log in page. They must input their username or email address and correct password to do so. There's also a checkbox to let the user be remembered on their current device to avoid having to log in every time they visit the site.
+	- There's a link for users who have forgotten their password.
+
+![screenshot](documentation/feature03.png)
+
+- **Password Reset**
+
+    - If a user is trying to log in and has forgotten their password they can visit the password reset page. Here a user must enter their email address they used to sign up with and an email will be sent to them with further instructions on resetting their password to regain access to their account.
 
 ![screenshot](documentation/feature03.png)
 
