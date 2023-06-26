@@ -9,3 +9,6 @@ class DiscountCode(models.Model):
             MaxValueValidator(99),
             MinValueValidator(1)
         ])
+
+    def __str__(self):
+        return self.code
