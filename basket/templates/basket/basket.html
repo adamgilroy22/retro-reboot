@@ -97,6 +97,19 @@
                             <td colspan="5" class="pt-5 text-right">
                                 {% include "basket/basket-total.html" %}
                             </td>
+                            <form class="card p-2" action="{% url 'add-discount' %}" method="POST">
+                                {% csrf_token %}
+                                <div class="input-group">
+                                    {{ discount_form.code | as_crispy_field }}
+                                    <div class="input-group-append">
+                                    <button class="btn btn-secondary btn-md waves-effect m-0" type="submit">Redeem</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <fieldset class="px-3">
+                                <legend class="fieldset-label small text-black px-2 w-auto">Discount Code</legend>
+                                {{ discount_form.code | as_crispy_field }}
+                            </fieldset>
                         </tr>
                         <tr>
                             <td colspan="5" class="text-right">
