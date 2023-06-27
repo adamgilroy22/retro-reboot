@@ -4,11 +4,21 @@ Welcome to Retro Reboot. An e-commerce site dedicated to providing gamers with a
 
 ## UX
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+When designing this site, I wanted to keep it pretty basic. Over complicating the design of an e-commerce store risks a bad user experience which is the last thing you want when trying to entice a user to become a customer.
 
-In this section, you will briefly explain your design processes.
+On visiting the site, user's are greeted with a large image showing various retro video game consoles along with the website's tagline "Classic games, modern convenience" and a button to begin their shopping experience with a link to the products page. While this may seem like little information, it provides the user with everything they need to know at this stage of their journey. What the site is about, why they should shop with us, and how to dive straight in to view our products.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I wanted the site to flow nicely with the user being able to add items to their basket from both the all products and individual product pages. The user has access to their basket at all times with it being embedded in the nav menu which appears on every page of the site.
+
+The user can always see the running total of their basket as they browse the site and add items to the basket. This builds trust with the user as many site will try to hide this until the checkout stage to coax the user into over spending.
+
+The site is very easy to navigate through the main nav menu. The site has been built to make it very easy for users to access games and consoles for specific platforms at the click of a link with products being able to be filtered into both game and console categories for each platform we supply.
+
+There are links in the site's footer to filter the products by games/consoles too making this information even more accessible for the user. The footer also contains a link to the contact page and a form to sign up to our newsletter.
+
+I've included an easter egg in the site for diehard retro gamers. When a user type's the famous "Konami code" into the site, a sound will play and a message will pop up for the user. This creates an even deeper connection with the user as they browse the site.
+
+Overall,  I feel the user experience on the site is very strong with the site being so easy to use and the flow being so good.
 
 ### Colour Scheme
 
