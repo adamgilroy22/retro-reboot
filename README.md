@@ -88,7 +88,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 
 - As a first-time site visitor I want to be able to clearly see what the site's purpose is so that I can decide whether or not to continue browsing it. `(MUST HAVE)`
 - As a user I want to be able to easily navigate the website so that I can find the content I'm looking for. `(MUST HAVE)`
-- As a site user I want to be able to search the website so that I can find specific products and see if the site has them in stock.
+- As a site user I want to be able to search the website so that I can find specific products and see if the site has them in stock. `(SHOULD HAVE)`
 - As a site user I want to be able to contact the site owners so that I can request further information about the site or lodge a complaint.
 
 ### EPIC 2: Products
@@ -96,21 +96,21 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 - As a site user I want to be able to see a list of all site products so that I can browse what the site has to offer. `(MUST HAVE)`
 - As a site user I want to be able to see the prices of products including current deals so that I can make a decision whether or not to purchase. `(MUST HAVE)`
 - As a site user I want to be able to view a product on its own individual page so that I can see more information about the product. `(MUST HAVE)`
-- As a site user I want to be able to sort products by category (game/console or games by console) so that I can find specific products related to the category I select.
+- As a site user I want to be able to sort products by category (game/console or games by console) so that I can find specific products related to the category I select. `(SHOULD HAVE)`
 
 ### EPIC 3: Ordering/Cart Management
 
 - As a site user I want to be able to add products to my shopping basket so that I can proceed to the checkout and purchase them. `(MUST HAVE)`
 - As a site user I want to be able to see a running total of the items in my basket so that I can manage my spending and know what to expect at the checkout. `(MUST HAVE)`
 - As a site user I want to be able to checkout with a card payment so that I can place an order for the items in my basket. `(MUST HAVE)`
-- As a site user I want to be able to receive an order confirmation email after I purchase from the shop so that I can have a record of what I've purchased in my email inbox.
+- As a site user I want to be able to receive an order confirmation email after I purchase from the shop so that I can have a record of what I've purchased in my email inbox. `(SHOULD HAVE)`
 - As a site user I want to be able to apply discount codes in the checkout so that I can receive a discount on my purchase.
 
 ### EPIC 4: Site User Accounts
 
 - As a site user I want to be able to create an account on the site so that I can save my billing and shipping details and see a history of my purchases on my account. `(MUST HAVE)`
 - As a registered site user I want to be able to add products to a wish list so that I can keep a collection of items I am interested in buying in the future.
-- As a registered user I want to be able to edit the details saved to my account so that I can keep my details up to date.
+- As a registered user I want to be able to edit the details saved to my account so that I can keep my details up to date. `(SHOULD HAVE)`
 
 ### EPIC 5: Blog
 
@@ -121,10 +121,10 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 
 ### EPIC 6: Site Admin
 
-- As a site admin I want to be able to create new products from the front end so that I can easily add new products to the site.
-- As a site admin I want to be able to edit existing products so that I can ensure that all product listings are up to date and accurate.
-- As a site admin I want to be able to delete products from the site so that I can remove any products that are no longer being supplied by the site.
-- As a site admin I want to be able to set the stock for each product so that I can manage how many units of each product the site can sell.
+- As a site admin I want to be able to create new products from the front end so that I can easily add new products to the site. `(SHOULD HAVE)`
+- As a site admin I want to be able to edit existing products so that I can ensure that all product listings are up to date and accurate. `(SHOULD HAVE)`
+- As a site admin I want to be able to delete products from the site so that I can remove any products that are no longer being supplied by the site. `(SHOULD HAVE)`
+- As a site admin I want to be able to set the stock for each product so that I can manage how many units of each product the site can sell. `(SHOULD HAVE)`
 
 ### EPIC 7: SEO & Marketing
 
@@ -133,7 +133,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 - As a site user I want to be able to enter the Konami code (Up Up Down Down Left Right Left Right B A) on my keyboard so that I can experience an easter egg.
 - As a site admin I want to be able to send marketing emails to people who signed up to the mailing list so that I can send out updates and offers to their inboxes.
 - As a site admin I want to be able to set appropriate keywords on site pages so that I can increase the chances potential customers will find the site when searching to purchase records on Google. `(MUST HAVE)`
-- As a site admin I want to be able to share the business on Facebook so that I can reach and market to a larger audience.
+- As a site admin I want to be able to share the business on Facebook so that I can reach and market to a larger audience. `(SHOULD HAVE)`
 
 ## Wireframes
 
