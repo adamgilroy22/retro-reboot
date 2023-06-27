@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@400;700&display=swap');
+
 body {
     color: #555;
-    font-family: 'Lato';
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -23,6 +25,7 @@ body > footer {
 }
 
 .logo-font {
+    font-family: 'Caprasimo', cursive;
     text-transform: uppercase;
 }
 
