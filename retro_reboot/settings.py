@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'discount_codes',
     'profiles',
     'blog',
+    'newsletter',
 
     # Other
     'storages',
