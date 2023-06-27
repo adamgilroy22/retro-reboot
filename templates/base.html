@@ -151,94 +151,66 @@
     {% endblock %}
     </main>
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Connect with us on socials:</span>
-            </div>
-
-            <!-- Right -->
-            <div>
-                <a href="" target="_blank" rel="nofollow" class="me-4 text-reset">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" target="_blank" rel="nofollow" class="me-4 text-reset">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" target="_blank" rel="nofollow" class="me-4 text-reset">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <div class="row mt-3">
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Retro Reboot
-                        </h6>
-                        <p>
-                            Cork's favourite retro gaming store.
-                        </p>
-                        <p>
-                            Open 9am - 5pm Monday - Saturday
-                        </p>
-                        <p>
-                            Open 10am - 4pm Sunday
-                        </p>
-                    </div>
-
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fa-solid fa-compact-disc"></i> Games
-                        </h6>
-                        <p>
-                            <a href="{% url 'products' %}?category=Game&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube&sort=platform&direction=asc" class="text-reset">Nintendo</a>
-                        </p>
-                        <p>
-                            <a href="{% url 'products' %}?category=Game&platform=SEGA Dreamcast,SEGA Genesis&sort=platform&direction=asc" class="text-reset">Sega</a>
-                        </p>
-                        <p>
-                            <a href="{% url 'products' %}?category=Game&platform=Playstation,Playstation 2&sort=platform&direction=asc" class="text-reset">Sony</a>
-                        </p>
-                    </div>
-
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fa-solid fa-gamepad"></i> Consoles
-                        </h6>
-                        <p>
-                            <a href="{% url 'products' %}?category=Console&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube" class="text-reset">Nintendo</a>
-                        </p>
-                        <p>
-                            <a href="{% url 'products' %}?category=Console&platform=SEGA Dreamcast,SEGA Genesis" class="text-reset">Sega</a>
-                        </p>
-                        <p>
-                            <a href="{% url 'products' %}?category=Console&platform=Playstation,Playstation 2" class="text-reset">Sony</a>
-                        </p>
-                    </div>
-
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                        <p><i class="fas fa-home me-3"></i> Cork City, IE</p>
-                        <p>
-                            <i class="fas fa-envelope me-3"></i>
-                            retrorebootshop@gmail.com
-                        </p>
-                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                    </div>
+    <footer class="text-white bg-dark">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-left d-flex flex-column item">
+                    <h3 class="font-weight-bold" style="font-size: 1rem;">Retro Reboot</h3>
+                    <ul class="list-unstyled">
+                        <li><p class="text-white">Cork's favourite retro gaming store</p></li>
+                        <li><a class="text-white" href="{% url 'blog' %}">Blog</a></li>
+                        <li><a class="text-white" href="#">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 text-center text-lg-left d-flex flex-column item">
+                    <h3 class="font-weight-bold" style="font-size: 1rem;"><i class="fa-solid fa-compact-disc"></i> Games</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="{% url 'products' %}?category=Game&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube&sort=platform&direction=asc" class="text-white">Nintendo</a></li>
+                        <li><a href="{% url 'products' %}?category=Game&platform=SEGA Dreamcast,SEGA Genesis&sort=platform&direction=asc" class="text-white">Sega</a></li>
+                        <li><a href="{% url 'products' %}?category=Game&platform=Playstation,Playstation 2&sort=platform&direction=asc" class="text-white">Sony</a></li>
+                           
+                            
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 text-center text-lg-left d-flex flex-column item">
+                    <h3 class="font-weight-bold" style="font-size: 1rem;"><i class="fa-solid fa-gamepad"></i> Consoles</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="{% url 'products' %}?category=Console&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube" class="text-white">Nintendo</a></li>
+                        <li><a href="{% url 'products' %}?category=Console&platform=SEGA Dreamcast,SEGA Genesis" class="text-white">Sega</a></li>
+                        <li><a href="{% url 'products' %}?category=Console&platform=Playstation,Playstation 2" class="text-white">Sony</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 text-center text-lg-left d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
+                    <h4 class="font-weight-bold mb-2"><strong>Subscribe to our newsletter</strong></h4>
+                    <form class="d-flex justify-content-center flex-wrap" method="post">
+                        <div class="my-2"><input class="form-control" type="email" name="email" placeholder="Your Email" /></div>
+                        <div class="my-2"><button class="btn btn-primary ml-2" type="submit">Subscribe </button></div>
+                    </form>
                 </div>
             </div>
-        </section>
-
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-            Developed By <a href="https://github.com/adamgilroy22" target="_blank" rel="nofollow">Adam Gilroy</a> for Code Institute's Portfolio Project 5 - 2023
+            <hr />
+            <div class="d-flex justify-content-between pt-3">
+                <p class="mb-0">Developed By <a href="https://github.com/adamgilroy22" target="_blank" rel="nofollow">Adam Gilroy</a> for Code Institute's Portfolio Project 5 - 2023</p>
+                <ul class="list-inline text-white-50 mb-0">
+                    <li class="list-inline-item">
+                        <a href="" target="_blank" rel="nofollow" class="me-4 text-reset">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" target="_blank" rel="nofollow" class="me-4 text-reset">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="" target="_blank" rel="nofollow" class="me-4 text-reset">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!-- Copyright -->
     </footer>
 
     {% block postloadjs %}
