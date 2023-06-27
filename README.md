@@ -89,6 +89,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 - As a first-time site visitor I want to be able to clearly see what the site's purpose is so that I can decide whether or not to continue browsing it.
 - As a user I want to be able to easily navigate the website so that I can find the content I'm looking for.
 - As a site user I want to be able to search the website so that I can find specific products and see if the site has them in stock.
+- As a site user I want to be able to contact the site owners so that I can request further information about the site or lodge a complaint
 
 ### EPIC 2: Products
 
