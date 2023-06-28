@@ -1,0 +1,13 @@
+Hello!
+
+Welcome to our newsletter!
+
+Here you'll be updated with the latest news from Retro Reboot.
+
+As an extra bonus for signing up, you can use the exclusive discount code NEWSLETTER10 to get an extra 10% off your next order with us.
+
+If you have any questions, feel free to contact us at {{ contact_email }}.
+
+Sincerely,
+
+Retro Reboot
