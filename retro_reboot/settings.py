@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['retro-reboot.herokuapp.com', 'localhost', '127.0.0.1',
-                 '8000-adamgilroy2-retroreboot-ct5dzv9txy5.ws-eu100.gitpod.io']
+                 '8000-adamgilroy2-retroreboot-ct5dzv9txy5.ws-eu101.gitpod.io']
 
 
 # Application definition
