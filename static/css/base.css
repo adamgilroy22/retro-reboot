@@ -6,8 +6,7 @@ body {
 }
 
 main {
-    overflow:auto;
-    height: calc(100vh - 164px);
+    min-height: calc(100vh - 164px);
   }
 
 body > footer {
