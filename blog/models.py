@@ -9,7 +9,7 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name="blog_posts")
     updated_on = models.DateTimeField(auto_now=True)
     content = models.TextField()
-    featured_image = models.ImageField(null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
     excerpt = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     published = models.BooleanField(default=False)
