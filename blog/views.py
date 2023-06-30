@@ -87,8 +87,9 @@ def add_post(request):
     if request.method == 'POST':
         form = PostForm(request.POST, request.FILES)
         if form.is_valid():
+            form.instance.author = request.user
             post = form.save()
-            messages.success(request, 'Successfully added post!')
+            messages.info(request, 'Successfully added post!')
             return redirect(reverse('blog'))
         else:
             messages.error(request, 'Failed to add post. Please ensure the \
