@@ -10,9 +10,9 @@ class PostForm(forms.ModelForm):
     class Meta:
         model = Post
         fields = ('title', 'slug', 'author', 'content',
-                  'excerpt', 'featured_image', 'published',)
+                  'excerpt', 'image', 'published',)
 
-    featured_image = forms.ImageField(
+    image = forms.ImageField(
         label='Image', required=False, widget=CustomClearableFileInput)
 
 
