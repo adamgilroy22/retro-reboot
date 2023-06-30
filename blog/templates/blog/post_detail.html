@@ -28,8 +28,8 @@
             </div>
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
-                {% if post.featured_image %}
-                <img src="{{ post.featured_image.url }}" width="100%">
+                {% if post.image %}
+                <img src="{{ post.image.url }}" width="100%">
                 {% else %}
                 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
                 {% endif %}
