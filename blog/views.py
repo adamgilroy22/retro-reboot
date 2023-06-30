@@ -73,8 +73,10 @@ class PostLike(View):
 
         if post.likes.filter(id=request.user.id).exists():
             post.likes.remove(request.user)
+            messages.info(request, 'Post unliked!')
         else:
             post.likes.add(request.user)
+            messages.info(request, 'Post liked!')
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
