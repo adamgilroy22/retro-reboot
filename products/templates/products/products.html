@@ -18,7 +18,7 @@
                 <h2 class="logo-font">Products</h2>
                 {% for p in current_platforms %}
                     <a class="category-badge text-decoration-none" href="{% url 'products' %}?platform={{ p.name }}">
-                        <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ p.name }}</span>
+                        <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ p.display_name }}</span>
                     </a>
                 {% endfor %}
                 <hr class="w-50 mb-1">
@@ -77,7 +77,7 @@
                                     <p class="mb-0">{{ product.name }}</p>
                                     <p>
                                         {% if product.category.name == "Game" %}
-                                        <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform }}</a> - 
+                                        <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a> - 
                                         {% endif %}
                                         {{ product.year }}
                                     </p>
