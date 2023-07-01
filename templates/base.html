@@ -168,31 +168,29 @@
                 <div class="col-sm-4 col-md-3 text-center text-lg-left d-flex flex-column item">
                     <h3 class="font-weight-bold" style="font-size: 1rem;"><i class="fa-solid fa-compact-disc"></i> Games</h3>
                     <ul class="list-unstyled">
-                        <li><a href="{% url 'products' %}?category=Game&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube&sort=platform&direction=asc" class="text-white">Nintendo</a></li>
-                        <li><a href="{% url 'products' %}?category=Game&platform=SEGA Dreamcast,SEGA Genesis&sort=platform&direction=asc" class="text-white">Sega</a></li>
-                        <li><a href="{% url 'products' %}?category=Game&platform=Playstation,Playstation 2&sort=platform&direction=asc" class="text-white">Sony</a></li>
-                           
-                            
+                        <li><a href="{% url 'products' %}?category=Game&platform=nes,super-nintendo,nintendo-64,gameboy,gameboy-colour,nintendo-gamecube&sort=platform&direction=asc" class="text-white">Nintendo</a></li>
+                        <li><a href="{% url 'products' %}?category=Game&platform=sega-dreamcast,sega-genesis&sort=platform&direction=asc" class="text-white">Sega</a></li>
+                        <li><a href="{% url 'products' %}?category=Game&platform=playstation,playstation-2&sort=platform&direction=asc" class="text-white">Sony</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4 col-md-3 text-center text-lg-left d-flex flex-column item">
                     <h3 class="font-weight-bold" style="font-size: 1rem;"><i class="fa-solid fa-gamepad"></i> Consoles</h3>
                     <ul class="list-unstyled">
-                        <li><a href="{% url 'products' %}?category=Console&platform=NES,Super Nintendo,Nintendo 64,Gameboy,Gameboy Colour,Nintendo Gamecube" class="text-white">Nintendo</a></li>
-                        <li><a href="{% url 'products' %}?category=Console&platform=SEGA Dreamcast,SEGA Genesis" class="text-white">Sega</a></li>
-                        <li><a href="{% url 'products' %}?category=Console&platform=Playstation,Playstation 2" class="text-white">Sony</a></li>
+                        <li><a href="{% url 'products' %}?category=Console&platform=nes,super-nintendo,nintendo-64,gameboy,gameboy-colour,nintendo-gamecube" class="text-white">Nintendo</a></li>
+                        <li><a href="{% url 'products' %}?category=Console&platform=sega-dreamcast,sega-genesis" class="text-white">Sega</a></li>
+                        <li><a href="{% url 'products' %}?category=Console&platform=playstation,playstation-2" class="text-white">Sony</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 text-center text-lg-left d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
                     <h4 class="font-weight-bold mb-2"><strong>Subscribe to our newsletter</strong></h4>
                     <form class="d-flex justify-content-center flex-wrap" method="POST" action="{% url 'newsletter-signup' %}">
                         {% csrf_token %}
-                        <div class="my-2"><input class="form-control" type="email" name="email" placeholder="Your Email"/></div>
+                        <div class="my-2"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
                         <div class="my-2"><button class="btn btn-primary ml-2" type="submit">Subscribe </button></div>
                     </form>
                 </div>
             </div>
-            <hr/>
+            <hr>
             <div class="d-flex justify-content-between pt-3">
                 <p class="mb-0">Developed By <a href="https://github.com/adamgilroy22" target="_blank" rel="nofollow">Adam Gilroy</a> for Code Institute's Portfolio Project 5 - 2023</p>
                 <ul class="list-inline text-white-50 mb-0">
