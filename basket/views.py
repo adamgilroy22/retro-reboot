@@ -6,7 +6,6 @@ from django.views.generic import View
 from django.core.exceptions import ObjectDoesNotExist
 from products.models import Product
 from discount_codes.forms import DiscountForm
-from discount_codes.models import DiscountCode
 
 
 def view_basket(request):
@@ -14,11 +13,7 @@ def view_basket(request):
     A view to render shopping basket page
     """
 
-    context = {
-        'discount_form': DiscountForm(),
-    }
-
-    return render(request, 'basket/basket.html', context)
+    return render(request, 'basket/basket.html')
 
 
 def add_to_basket(request, item_id):
@@ -94,21 +89,3 @@ def remove_from_basket(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
-
-
-def get_discount_code(request, code):
-    try:
-        discount_code = DiscountCode.objects.get(code=code)
-        messages.info(request, "Successfully added coupon")
-        return discount_code.discount
-    except ObjectDoesNotExist:
-        messages.error(request, "This code does not exist")
-        return redirect(reverse('view_basket'))
-
-
-def add_discount(request, *args, **kwargs):
-    discount_form = DiscountForm(request.POST or None)
-    if discount_form.is_valid():
-        code = discount_form.cleaned_data.get('code')
-        discount_code = get_discount_code(request, code)
-        return redirect(reverse('view_basket'))
