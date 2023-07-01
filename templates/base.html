@@ -187,12 +187,12 @@
                     <h4 class="font-weight-bold mb-2"><strong>Subscribe to our newsletter</strong></h4>
                     <form class="d-flex justify-content-center flex-wrap" method="POST" action="{% url 'newsletter-signup' %}">
                         {% csrf_token %}
-                        <div class="my-2"><input class="form-control" type="email" name="email" placeholder="Your Email" /></div>
+                        <div class="my-2"><input class="form-control" type="email" name="email" placeholder="Your Email"/></div>
                         <div class="my-2"><button class="btn btn-primary ml-2" type="submit">Subscribe </button></div>
                     </form>
                 </div>
             </div>
-            <hr />
+            <hr/>
             <div class="d-flex justify-content-between pt-3">
                 <p class="mb-0">Developed By <a href="https://github.com/adamgilroy22" target="_blank" rel="nofollow">Adam Gilroy</a> for Code Institute's Portfolio Project 5 - 2023</p>
                 <ul class="list-inline text-white-50 mb-0">
@@ -219,7 +219,7 @@
     {% block postloadjs %}
     <script src="{% static 'js/konami-code.js' %}"></script>
 
-    <script type="text/javascript">
+    <script>
         $('.toast').toast('show');
     </script>
     {% endblock %}
