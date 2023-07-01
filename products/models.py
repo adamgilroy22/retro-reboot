@@ -14,6 +14,7 @@ class Category(models.Model):
 
 class Platform(models.Model):
     name = models.CharField(max_length=254)
+    display_name = models.CharField(max_length=254)
 
     def __str__(self):
         return self.name
