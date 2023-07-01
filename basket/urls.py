@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 from . import views
+from . import contexts
 
 urlpatterns = [
     path('', views.view_basket, name='view_basket'),
@@ -8,5 +9,4 @@ urlpatterns = [
     path('adjust/<item_id>/', views.adjust_basket, name='adjust_basket'),
     path('remove/<item_id>/', views.remove_from_basket,
          name='remove_from_basket'),
-    path('add-discount/', views.add_discount, name='add-discount'),
 ]

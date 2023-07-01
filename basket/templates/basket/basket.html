@@ -104,7 +104,7 @@
                             </td>
                         </tr>
                 </table>
-                <form class="card p-2" action="{% url 'add-discount' %}" method="POST">
+                <form class="card p-2" method="POST">
                     {% csrf_token %}
                     <div class="input-group">
                         {{ discount_form.code | as_crispy_field }}
