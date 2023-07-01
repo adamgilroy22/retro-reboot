@@ -38,7 +38,7 @@
                 {% if product.category.name == "Game" %}
                 <p class="small mt-1 mb-0">
                     <a class="text-muted" href="">
-                        <i class="fas fa-gamepad mr-1"></i><a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform }}</a>
+                        <i class="fas fa-gamepad mr-1"></i><a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a>
                     </a>
                 </p>
                 {% endif %}
