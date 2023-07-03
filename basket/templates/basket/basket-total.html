@@ -1,5 +1,12 @@
 <h6><strong>Basket Total: €{{ total|floatformat:2 }}</strong></h6>
+{% if free_delivery_delta != 0 %}
 <h6>Delivery: €{{ delivery|floatformat:2 }}</h6>
+{% else %}
+<h6>Delivery: FREE</h6>
+{% endif %}
+{% if discount > 0 %}
+<h6 class="text-danger"><strong>Discount: -€{{ savings|floatformat:2 }}</strong></h6>
+{% endif %}
 <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
 {% if free_delivery_delta > 0 %}
     <p class="mb-1 text-danger">
