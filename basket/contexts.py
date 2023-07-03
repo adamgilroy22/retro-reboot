@@ -8,6 +8,11 @@ from . import views
 
 
 def basket_contents(request):
+    """
+    Handle calculations for adding products to the basket
+    and taking a percentage off the grand total if a discount
+    code has been used
+    """
 
     basket_items = []
     total = 0
@@ -35,7 +40,7 @@ def basket_contents(request):
     grand_total = delivery + total
 
     if discount:
-        grand_total -= discount
+        grand_total -= ((grand_total/100) * discount)
 
     context = {
         'basket_items': basket_items,
