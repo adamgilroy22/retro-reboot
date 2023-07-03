@@ -40,7 +40,10 @@ def basket_contents(request):
     grand_total = delivery + total
 
     if discount:
-        grand_total -= ((grand_total/100) * discount)
+        savings = ((grand_total/100) * discount)
+        grand_total -= savings
+    else:
+        savings = 0
 
     context = {
         'basket_items': basket_items,
@@ -50,6 +53,8 @@ def basket_contents(request):
         'free_delivery_delta': free_delivery_delta,
         'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
         'grand_total': grand_total,
+        'discount': discount,
+        'savings': savings,
     }
 
     return context
