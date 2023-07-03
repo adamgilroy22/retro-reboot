@@ -6,6 +6,7 @@ from django.views.generic import View
 from django.core.exceptions import ObjectDoesNotExist
 from products.models import Product
 from discount_codes.forms import DiscountForm
+from discount_codes.models import DiscountCode
 
 
 def view_basket(request):
@@ -13,7 +14,11 @@ def view_basket(request):
     A view to render shopping basket page
     """
 
-    return render(request, 'basket/basket.html')
+    context = {
+        'discount_form': DiscountForm(),
+    }
+
+    return render(request, 'basket/basket.html', context)
 
 
 def add_to_basket(request, item_id):
@@ -89,3 +94,33 @@ def remove_from_basket(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
+
+
+def get_discount_code(request, code):
+    """
+    Check if the code input by the user is a valid code
+    return the discount amount if it is and return 0
+    if it isn't
+    """
+    try:
+        discount_code = DiscountCode.objects.get(code=code)
+        messages.info(request, "Successfully added coupon")
+        return discount_code.discount
+    except ObjectDoesNotExist:
+        messages.error(request, "This code does not exist")
+        return 0
+
+
+def add_discount(request, *args, **kwargs):
+    """
+    Handle user adding a discount code using
+    the discount code form and set the sessions
+    discount code to the input if form is valid
+    """
+    discount_form = DiscountForm(request.POST or None)
+    discount = request.session.get('discount')
+    if discount_form.is_valid():
+        code = discount_form.cleaned_data.get('code')
+        discount_code = get_discount_code(request, code)
+        request.session['discount'] = discount_code
+        return redirect(reverse('view_basket'))
