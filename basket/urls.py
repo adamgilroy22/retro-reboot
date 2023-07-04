@@ -9,4 +9,5 @@ urlpatterns = [
     path('remove/<item_id>/', views.remove_from_basket,
          name='remove_from_basket'),
     path('add-discount/', views.add_discount, name='add-discount'),
+    path('remove-discount/', views.remove_discount, name='remove-discount'),
 ]
