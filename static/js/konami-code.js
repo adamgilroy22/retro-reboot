@@ -28,7 +28,7 @@ document.addEventListener('keydown', keyHandler, false);
 
 // Play sound on pattern completion
 
-const audioArray = ["{% static '/music/zelda-secret.mp3' %}", "{% static '/music/mario-secret.mp3' %}", "{% static '/music/sonic-secret.mp3' %}"];
+const audioArray = [zeldaSecret, marioSecret, sonicSecret];
 
 function playRandomAudio() {
 	const audioIndex = Math.floor(Math.random() * audioArray.length);
