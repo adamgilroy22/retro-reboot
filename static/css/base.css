@@ -274,15 +274,6 @@ body > footer {
     border: none;
 }
 
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -365,6 +356,15 @@ body > footer {
     border-radius: 0;
 }
 
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -426,3 +426,10 @@ body > footer {
         padding: .25rem .5rem !important;
     }
 }
+
+/* Slightly larger container on xl screens */
+@media (max-width: 470px) {
+    .home-text {
+      font-size: xx-large;
+    }
+  }
