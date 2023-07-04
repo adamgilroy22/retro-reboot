@@ -120,7 +120,7 @@ def add_discount(request, *args, **kwargs):
     discount_form = DiscountForm(request.POST or None)
     discount = request.session.get('discount')
     if discount_form.is_valid():
-        code = discount_form.cleaned_data.get('code')
+        code = discount_form.cleaned_data.get('code').upper()
         discount_code = get_discount_code(request, code)
         request.session['discount'] = discount_code
         return redirect(reverse('view_basket'))
