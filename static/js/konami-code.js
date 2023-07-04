@@ -27,7 +27,7 @@ var keyHandler = function (event) {
 document.addEventListener('keydown', keyHandler, false);
 
 // Play sound on pattern completion
-const audioArray = ["/media/music/zelda-secret.mp3", "/media/music/mario-secret.mp3", "/media/music/sonic-secret.mp3"];
+const audioArray = ["media/music/zelda-secret.mp3","media/music/mario-secret.mp3","media/music/sonic-secret.mp3"];
 
 function playRandomAudio() {
   const audioIndex = Math.floor(Math.random() * audioArray.length);
