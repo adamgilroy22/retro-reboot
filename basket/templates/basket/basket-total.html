@@ -5,7 +5,15 @@
 <h6>Delivery: FREE</h6>
 {% endif %}
 {% if discount > 0 %}
-<h6 class="text-danger"><strong>Discount: -€{{ savings|floatformat:2 }}</strong></h6>
+<form action="{% url 'add-discount' %}" method="POST">
+    {% csrf_token %}
+    <div class="input-group">
+        {{ discount_form.code | as_crispy_field }}
+        <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit">Redeem</button>
+        </div>
+    </div>
+</form>
 {% endif %}
 <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
 {% if free_delivery_delta > 0 %}
