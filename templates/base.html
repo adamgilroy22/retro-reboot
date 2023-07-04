@@ -151,6 +151,23 @@
     {% block content %}
     <!-- Content Goes here -->
     {% endblock %}
+
+    <!-- Vertically centered modal -->
+    <div class="modal" id="konamiModal" aria-labelledby="konamiModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="konamiModalLabel">It's dangerous to go alone! Take this.</h5>
+                <button type="button" class="close close-button text-danger" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Use code <strong>HIDDEN5</strong> in your basket to get 5% off your order!</p>
+              </div>
+            </div>
+    </div>
+</div>
     </main>
     <!-- Footer -->
     <footer class="text-white bg-dark">
