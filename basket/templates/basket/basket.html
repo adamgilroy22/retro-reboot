@@ -104,15 +104,6 @@
                             </td>
                         </tr>
                 </table>
-                <form class="card p-2" action="{% url 'add-discount' %}" method="POST">
-                    {% csrf_token %}
-                    <div class="input-group">
-                        {{ discount_form.code | as_crispy_field }}
-                        <div class="input-group-append">
-                        <button class="btn-secondary btn-md waves-effect m-0" type="submit">Redeem</button>
-                        </div>
-                    </div>
-                </form>
             </div>
             {% else %}
                     <p class="lead mb-5">Your basket is empty.</p>
