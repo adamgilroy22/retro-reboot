@@ -26,6 +26,15 @@ var keyHandler = function (event) {
 // Listen for keydown events
 document.addEventListener('keydown', keyHandler, false);
 
+// Play sound on pattern completion
+
+function playRandomAudio() {
+	const audioIndex = Math.floor(Math.random() * audioArray.length);
+	const audio = new Audio(audioArray[audioIndex]);
+	audio.volume = 0.2;
+	audio.play();
+}
+
 // Close modal on button click
 closeButton.addEventListener("click", () => {
     modal.style.display = "none";
