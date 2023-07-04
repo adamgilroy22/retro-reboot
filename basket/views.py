@@ -124,3 +124,12 @@ def add_discount(request, *args, **kwargs):
         discount_code = get_discount_code(request, code)
         request.session['discount'] = discount_code
         return redirect(reverse('view_basket'))
+
+
+def remove_discount(request):
+    """
+    Remove discount from session
+    """
+    del request.session['discount']
+    messages.info(request, "Successfully removed coupon")
+    return redirect(reverse('view_basket'))
