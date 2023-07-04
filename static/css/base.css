@@ -14,6 +14,15 @@ body > footer {
     top: 100vh;
 }
 
+.modal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.close-button {
+    font-size: 2rem;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
