@@ -6,11 +6,14 @@
 {% block extra_css %}
 <style>
     body {
-    background: url("{% static 'img/home-image.jpg' %}") no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-}
+        background: url("{% static 'img/home-image.jpg' %}") no-repeat center center fixed;
+        background-size: cover;
+        height: calc(100vh - 164px);
+    }
 
+    main {
+        height: 100%;
+    }
 </style>
 {% endblock %}
 
@@ -23,16 +26,16 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row my-auto h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-white">Classic games, modern convenience</h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
-                </div>
+<div class="container h-100">
+    <div class="row my-auto h-100">
+        <div class="col-7 col-md-6 my-auto">
+            <h1 class="display-4 logo-font text-white">Classic games, modern convenience</h1>
+            <div class="my-5">
+                <h4>
+                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                </h4>
             </div>
         </div>
     </div>
+</div>
 {% endblock %}
