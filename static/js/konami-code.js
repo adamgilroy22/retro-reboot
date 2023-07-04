@@ -16,11 +16,25 @@ var keyHandler = function (event) {
 
 	// If complete, alert and reset
 	if (pattern.length === current) {
+		playRandomAudio()
 		modal.style.display = "block";
 		current = 0;
 	}
 
 };
+
+// Listen for keydown events
+document.addEventListener('keydown', keyHandler, false);
+
+// Play sound on pattern completion
+const audioArray = ["/static/music/zelda-secret.mp3", "/static/music/mario-secret.mp3", "/static/music/sonic-secret.mp3"];
+
+function playRandomAudio() {
+  const audioIndex = Math.floor(Math.random() * audioArray.length);
+  const audio = new Audio(audioArray[audioIndex]);
+  audio.volume = 0.2;
+  audio.play();
+}
 
 // Close modal on button click
 closeButton.addEventListener("click", () => {
@@ -33,6 +47,3 @@ window.addEventListener("click", (e) => {
         modal.style.display = "none";
     }
 });
-
-// Listen for keydown events
-document.addEventListener('keydown', keyHandler, false);
