@@ -148,26 +148,26 @@
     {% endblock %}
 
     <main>
-    {% block content %}
-    <!-- Content Goes here -->
-    {% endblock %}
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock %}
 
-    <!-- Vertically centered modal -->
-    <div class="modal" id="konamiModal" aria-labelledby="konamiModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="konamiModalLabel">It's dangerous to go alone! Take this.</h5>
-                <button type="button" class="close close-button text-danger" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p>Use code <strong>HIDDEN5</strong> in your basket to get 5% off your order!</p>
-              </div>
+        <!-- Vertically centered modal -->
+        <div class="modal" id="konamiModal" aria-labelledby="konamiModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="konamiModalLabel">It's dangerous to go alone! Take this.</h5>
+                        <button type="button" class="close close-button text-danger" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Use code <strong>HIDDEN5</strong> in your basket to get 5% off your order!</p>
+                    </div>
+                </div>
             </div>
-    </div>
-</div>
+        </div>
     </main>
     <!-- Footer -->
     <footer class="text-white bg-dark">
@@ -176,10 +176,12 @@
                 <div class="col-sm-4 col-md-3 text-center text-lg-left d-flex flex-column item">
                     <h3 class="font-weight-bold" style="font-size: 1rem;">Retro Reboot</h3>
                     <ul class="list-unstyled">
-                        <li><p class="text-white">Cork's favourite retro gaming store</p></li>
+                        <li>
+                            <p class="text-white">Cork's favourite retro gaming store</p>
+                        </li>
                         <li><a class="text-white" href="{% url 'blog' %}">Blog</a></li>
                         <li><a class="text-white" href="{% url 'contact' %}">Contact Us</a></li>
-                        
+
                     </ul>
                 </div>
                 <div class="col-sm-4 col-md-3 text-center text-lg-left d-flex flex-column item">
@@ -232,7 +234,57 @@
     </footer>
 
     {% block postloadjs %}
-   <script src="{% static 'js/konami-code.js' %}"></script>
+    <script>
+        var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+        var current = 0;
+        var modal = document.getElementById("konamiModal");
+        let closeButton = document.querySelector(".close-button");
+
+        var keyHandler = function (event) {
+
+            // If the key isn't in the pattern, or isn't the current key in the pattern, reset
+            if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
+                current = 0;
+                return;
+            }
+
+            // Update how much of the pattern is complete
+            current++;
+
+            // If complete, alert and reset
+            if (pattern.length === current) {
+                playRandomAudio()
+                modal.style.display = "block";
+                current = 0;
+            }
+
+        };
+
+        // Listen for keydown events
+        document.addEventListener('keydown', keyHandler, false);
+
+        // Play sound on pattern completion
+        const audioArray = ["media/music/zelda-secret.mp3", "media/music/mario-secret.mp3", "media/music/sonic-secret.mp3"];
+
+        function playRandomAudio() {
+            const audioIndex = Math.floor(Math.random() * audioArray.length);
+            const audio = new Audio(audioArray[audioIndex]);
+            audio.volume = 0.2;
+            audio.play();
+        }
+
+        // Close modal on button click
+        closeButton.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+
+        // Close modal when clicking outside it
+        window.addEventListener("click", (e) => {
+            if (e.target == modal) {
+                modal.style.display = "none";
+            }
+        });
+    </script>
 
     <script>
         $('.toast').toast('show');
