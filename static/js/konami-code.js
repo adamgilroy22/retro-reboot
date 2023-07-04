@@ -16,7 +16,7 @@ var keyHandler = function (event) {
 
 	// If complete, alert and reset
 	if (pattern.length === current) {
-		playRandomAudio()
+		playAudio()
 		modal.style.display = "block";
 		current = 0;
 	}
