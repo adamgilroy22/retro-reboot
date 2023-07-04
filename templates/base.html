@@ -232,6 +232,12 @@
     </footer>
 
     {% block postloadjs %}
+    <script>
+        var zeldaSecret = "{% static '/music/zelda-secret.mp3' %}"
+        var marioSecret = "{% static '/music/mario-secret.mp3' %}"
+        var sonicSecret = "{% static '/music/sonic-secret.mp3' %}"
+    </script>
+
     <script src="{% static 'js/konami-code.js' %}"></script>
 
     <script>
