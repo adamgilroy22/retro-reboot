@@ -77,7 +77,7 @@
                                     </p>
                                     <p>
                                         {% if product.category.name == "Game" %}
-                                        <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a>
+                                        <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a> - 
                                         {% endif %}
                                         {{ product.year }}
                                     </p> 
