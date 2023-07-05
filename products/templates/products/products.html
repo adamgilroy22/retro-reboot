@@ -66,8 +66,8 @@
                                     </a>
                                     {% endif %}
                                 </div>
-                                <div class="card-body pb-0">
-                                    <p>
+                                <div class="card-body">
+                                    <p class="mb-0">
                                         <span class="lead mb-0 font-weight-bold">{{ product.name }}</span>
                                         {% if product.condition.name == "New" %}
                                         <span class="badge badge-dark">NEW</span>
@@ -75,7 +75,7 @@
                                         <span class="badge badge-dark">USED</span>
                                         {% endif %}
                                     </p>
-                                    <p>
+                                    <p class="mb-0">
                                         {% if product.category.name == "Game" %}
                                         <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a> - 
                                         {% endif %}
@@ -84,18 +84,17 @@
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
-                                        <div class="col">
-                                            <p class="lead text-left font-weight-bold">€{{ product.price }}
+                                        <p class="lead text-left font-weight-bold">€{{ product.price }}
                                             {% if product.stock > 0 %}
-                                                {% if product.stock < 10 %}
-                                                <span class="badge badge-pill badge-warning">{{ product.stock }} in stock</span>
+                                            {% if product.stock < 10 %} <span class="badge badge-pill badge-warning">{{ product.stock }} in stock</span>
                                                 {% else %}
                                                 <span class="badge badge-pill badge-success">{{ product.stock }} in stock</span>
                                                 {% endif %}
-                                            {% else %} 
-                                            <span class="badge badge-pill badge-danger">SOLD OUT</span>
-                                            {% endif %}
-                                            </p>
+                                                {% else %}
+                                                <span class="badge badge-pill badge-danger">SOLD OUT</span>
+                                                {% endif %}
+                                        </p>
+                                        <div class="col">
                                             {% if product.stock > 0 %}
                                                 <form method="POST" action="{% url 'add_to_basket' product.id %}">
                                                     {% csrf_token %}
