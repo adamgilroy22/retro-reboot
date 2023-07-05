@@ -75,28 +75,30 @@
                                 </div>
                                 <div class="card-body pb-0">
                                     <p class="lead mb-0 font-weight-bold">
-                                        {{ product.name }}
+                                        {{ product.name }} - {{ product.year }}
                                         <br>
-                                        {% if product.stock > 0 %}
-                                            {% if product.stock < 10 %}
-                                            <span class="badge badge-pill badge-warning">{{ product.stock }} in stock</span>
-                                            {% else %}
-                                            <span class="badge badge-pill badge-success">{{ product.stock }} in stock</span>
-                                            {% endif %}
-                                        {% else %} 
-                                        <span class="badge badge-pill badge-danger">SOLD OUT</span>{% endif %}</p>
+                                        </p>
                                     <p>
                                         {% if product.category.name == "Game" %}
-                                        <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a> - 
+                                        <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a>
                                         {% endif %}
-                                        {{ product.year }}
-                                    </p>
+                                    </p> 
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
+                                            <p class="lead text-left font-weight-bold">€{{ product.price }}
                                             {% if product.stock > 0 %}
-                                            <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
+                                                {% if product.stock < 10 %}
+                                                <span class="badge badge-pill badge-warning">{{ product.stock }} in stock</span>
+                                                {% else %}
+                                                <span class="badge badge-pill badge-success">{{ product.stock }} in stock</span>
+                                                {% endif %}
+                                            {% else %} 
+                                            <span class="badge badge-pill badge-danger">SOLD OUT</span>
+                                            {% endif %}
+                                            </p>
+                                            {% if product.stock > 0 %}
                                                 <form method="POST" action="{% url 'add_to_basket' product.id %}">
                                                     {% csrf_token %}
                                                     <input type="hidden" name="quantity" value="1">
