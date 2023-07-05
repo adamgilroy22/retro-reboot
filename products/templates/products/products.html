@@ -79,12 +79,12 @@
                                         <br>
                                         {% if product.stock > 0 %}
                                             {% if product.stock < 10 %}
-                                            <span class="badge badge-warning">{{ product.stock }} in stock</span>
+                                            <span class="badge badge-pill badge-warning">{{ product.stock }} in stock</span>
                                             {% else %}
-                                            <span class="badge badge-success">{{ product.stock }} in stock</span>
+                                            <span class="badge badge-pill badge-success">{{ product.stock }} in stock</span>
                                             {% endif %}
                                         {% else %} 
-                                        <span class="badge badge-danger">Sold Out</span>{% endif %}</p>
+                                        <span class="badge badge-pill badge-danger">SOLD OUT</span>{% endif %}</p>
                                     <p>
                                         {% if product.category.name == "Game" %}
                                         <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a> - 
