@@ -66,22 +66,20 @@
                                     </a>
                                     {% endif %}
                                 </div>
-                                <div class="image-flash">
-                                    {% if product.condition.name == "New" %}
-                                    <p class="condition">New in box</p>
-                                    {% else %}
-                                    <p class="condition">Pre-owned</p>
-                                    {% endif %}
-                                </div>
                                 <div class="card-body pb-0">
-                                    <p class="lead mb-0 font-weight-bold">
-                                        {{ product.name }} - {{ product.year }}
-                                        <br>
-                                        </p>
+                                    <p>
+                                        <span class="lead mb-0 font-weight-bold">{{ product.name }}</span>
+                                        {% if product.condition.name == "New" %}
+                                        <span class="badge badge-info">NEW</span>
+                                        {% else %}
+                                        <span class="badge badge-info">USED</span>
+                                        {% endif %}
+                                    </p>
                                     <p>
                                         {% if product.category.name == "Game" %}
                                         <a href="{% url 'products' %}?platform={{ product.platform.name }}">{{ product.platform.display_name }}</a>
                                         {% endif %}
+                                        {{ product.year }}
                                     </p> 
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
