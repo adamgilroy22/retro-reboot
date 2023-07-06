@@ -110,6 +110,8 @@
                                                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
                                                     <input type="submit" value="Add to basket" class="btn btn-black btn-block">
                                                 </form>
+                                            {% else %}
+                                            <button class="btn btn-black btn-block disabled">Add to basket</button>
                                             {% endif %}
                                         </div>
                                     </div>
