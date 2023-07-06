@@ -90,23 +90,25 @@
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
-                                        <p class="lead text-left font-weight-bold">€{{ product.price }}
-                                            {% if product.stock > 0 %}
-                                            {% if product.stock < 10 %} <span class="badge badge-pill badge-warning">{{ product.stock }} in stock</span>
-                                                {% else %}
-                                                <span class="badge badge-pill badge-success">{{ product.stock }} in stock</span>
-                                                {% endif %}
-                                                {% else %}
-                                                <span class="badge badge-pill badge-danger">SOLD OUT</span>
-                                                {% endif %}
-                                        </p>
-                                        <div class="col">
+                                        <div class="col-12">
+                                            <p class="lead text-left font-weight-bold">€{{ product.price }}
+                                                {% if product.stock > 0 %}
+                                                {% if product.stock < 10 %} <span class="badge badge-pill badge-warning">{{ product.stock }} in stock</span>
+                                                    {% else %}
+                                                    <span class="badge badge-pill badge-success">{{ product.stock }} in stock</span>
+                                                    {% endif %}
+                                                    {% else %}
+                                                    <span class="badge badge-pill badge-danger">SOLD OUT</span>
+                                                    {% endif %}
+                                            </p>
+                                        </div>
+                                        <div class="col-12 my-auto justify-content-center">
                                             {% if product.stock > 0 %}
                                                 <form method="POST" action="{% url 'add_to_basket' product.id %}">
                                                     {% csrf_token %}
                                                     <input type="hidden" name="quantity" value="1">
                                                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                                                    <input type="submit" value="Add to basket" class="btn btn-black">
+                                                    <input type="submit" value="Add to basket" class="btn btn-black btn-block">
                                                 </form>
                                             {% endif %}
                                         </div>
