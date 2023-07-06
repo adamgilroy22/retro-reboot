@@ -41,13 +41,13 @@
                             </a>
                             <hr />
                             <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>
-                                {{ post.number_of_likes }}</p>
-                            {% if request.user.is_superuser %}
-                            <small class="ml-3">
-                                <a href="{% url 'edit_post' post.slug %}">Edit</a> |
-                                <a class="text-danger" href="{% url 'delete_post' post.slug %}">Delete</a>
-                            </small>
-                            {% endif %}
+                                {{ post.number_of_likes }}
+                                {% if request.user.is_superuser %}
+                                <small class="ml-3">
+                                    <a class="text-dark" href="{% url 'edit_post' post.slug %}"><i class="fa-solid fa-pen-to-square"></i></a> |
+                                    <a class="text-danger" href="{% url 'delete_post' post.slug %}"><i class="fa-regular fa-trash-can"></i></a>
+                                </small>
+                                {% endif %}</p>
                         </div>
                     </div>
                 </div>
