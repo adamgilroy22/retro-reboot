@@ -14,6 +14,11 @@ body > footer {
     top: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .modal {
     display: none;
     background-color: rgba(0, 0, 0, 0.6);
@@ -249,6 +254,7 @@ body > footer {
 .post-link:hover,
 .page-link {
     color: #E84610;
+    text-decoration: none;
 }
 
 .post-title {
