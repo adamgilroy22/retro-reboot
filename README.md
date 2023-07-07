@@ -392,51 +392,62 @@ Repeat for any addition wireframe pages you have.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Basket**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The basket can be accessed from the main nav menu.
+    - In the menu a running total is shown of the items in the user's basket.
+    - When the user clicks on this they can see all the items in their basket, individual price of each product, subtotal per product if the quantity is greater than 1 and a quantity selector for each product with buttons to update the quantity or remove the product completely from their basket.
+    - If a user doesn't have anything in their basket, a message will appear prompting the user to continue shopping.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Basket Quantity Selector**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Similar to the quantity selector in the individual product page, users can adjust the quantity of a product already in their basket.
+    - If the users sets the quantity to 0 or clicks the remove button, the product will be completely removed from their basket.
+    - The user can add a maximum of the product's stock to their basket from here the same as on the individual product page.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Basket Total**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This is the amount that the user's basket comes to after all the products and their quantities are added together.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Delivery Cost**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Under the basket total, the user can see their delivery cost. If their basket comes to over €50 then delivery is free, otherwise it's calculated at 10% of their order.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Discount Code Form**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - If a user has a discount code, they can add it in their basket to receive a percentage off their order.
+    - If a user enters a code that doesn't exist they will see a message telling them so.
+    - If the code they use does exist, they will see a message confirming the discount has been added and the form will be replaced with the amount that has been taken off their order.
+    - The form is removed when a discount has been added to avoid users stacking discounts.
+    - If a user removes their current discount then the form will appear again.
+
+![screenshot](documentation/feature03.png)
+
+- **Discount Amount**
+
+    - When a user successfully adds a discount code, the amount that has been taken off is displayed in red text in place of the discount code form.
+    - A delete icon appears next to the discount amount if the user wants to use a different discount code and on clicking, a message appears confirming the discount has been removed and the discount code form will appear in place of the discount amount.
+
+![screenshot](documentation/feature03.png)
+
+- **Grand Total**
+
+    - At the bottom of the basket page a user can see their grand total.
+    - This is the final total they will be charged and is calculated by adding their basket total to their shipping costs if they haven't met the free shipping criteria and taking away whatever percentage discount if they used a discount code.
+
+![screenshot](documentation/feature03.png)
+
+- **Basket Buttons**
+
+    - After the grand total, users will see two buttons, one to continue shopping and one to continue to the checkout.
 
 ![screenshot](documentation/feature03.png)
 
