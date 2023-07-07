@@ -60,7 +60,7 @@ def contact_form(request):
     return render(request, template, context)
 
 
-class OpenTickets(LoginRequiredMixin, UserPassesTestMixin, View):
+class ViewOpenTickets(LoginRequiredMixin, UserPassesTestMixin, View):
     """
     Display all open tickets in a list
     only accessible by an admin
