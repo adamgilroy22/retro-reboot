@@ -254,6 +254,14 @@ Repeat for any addition wireframe pages you have.
 
 ![screenshot](documentation/feature03.png)
 
+- **Product Quantity Selectors**
+
+    - Each individual product page contains a quantity selector if the product is in stock.
+    - The selector lets the user add a minimum of 1 and a maximum of whatever the product's current stock is to their basket.
+    - After setting the quantity, a user can click the add to basket button to add that number of the product to their basket.
+
+![screenshot](documentation/feature03.png)
+
 - **My Account Dropdown**
 
     - If the user is logged in, the my account dropdown in the nav menu will contain a link to the user's profile.
