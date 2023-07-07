@@ -210,9 +210,10 @@ Repeat for any addition wireframe pages you have.
 - **Product Stock Count**
 
     - Every product has a finite stock and the amount of stock left for each product is displayed clearly for the user to let them know they'll need to act fast if the product they want to purchase is low on stock.
-	- If the product has less than 10 stock left then the text displaying the count is turned red to add a sense of urgency.
+    - Products with more than 10 stock left have a green badge with the stock count displayed.
+	- If the product has less than 10 stock left then the badge displaying the count is turned yellow to add a sense of urgency.
 	- When a product is purchased, the stock will automatically decrease by the number of units of each product the customer purchases.
-	- When a product's stock reaches 0, both the stock count and Add to basket buttons are replaced with a sold out banner and the product is not able to be added to the user's basket.
+	- When a product's stock reaches 0, the stock count is replaced with a sold out badge and the Add to basket button is disabled so product is not able to be added to the user's basket.
 
 ![screenshot](documentation/feature03.png)
 
