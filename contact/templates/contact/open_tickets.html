@@ -14,7 +14,7 @@
 {% block content %}
 <div class="container py-4 py-xl-5">
     {% if open_tickets %}
-    <h1 class="logo-font text-center pb-3">Open Tickets</h1>
+    <h1 class="logo-font text-center pb-3">{{ open_ticket_count }} Open Ticket{% if open_ticket_count > 1 %}s{% endif %}</h1>
     <div class="row">
         {% for ticket in open_tickets %}
         <div class="col-md-8 mx-auto">

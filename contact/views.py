@@ -76,8 +76,11 @@ class ViewOpenTickets(LoginRequiredMixin, UserPassesTestMixin, View):
         page_num = request.GET.get('page')
         tickets = paginator.get_page(page_num)
 
+        open_ticket_count = open_tickets.count()
+
         context = {
             'open_tickets': tickets,
+            'open_ticket_count': open_ticket_count
         }
 
         return render(request, 'contact/open_tickets.html', context)
