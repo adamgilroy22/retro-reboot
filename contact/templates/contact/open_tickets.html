@@ -23,7 +23,13 @@
                     <h5 class="font-weight-bold">{{ ticket.name }} - {{ ticket.email }}</h5>
                     <p>{{ ticket.message }}</p>
                     <p class="small">{{ ticket.sent_at }}</p>
-                    <a href="#">Learn More</a>
+                    <form method="POST" action="{% url 'close_ticket' ticket.pk %}">
+                        {% csrf_token %}
+                        <input type="hidden" name="next" value="{{ request.path }}">
+                        <button class="btn btn-primary" type="submit">
+                            Close Ticket
+                        </button>
+                    </form>
                 </div>
             </div>
             <hr class="my-5">
