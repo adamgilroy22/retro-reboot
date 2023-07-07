@@ -494,9 +494,11 @@ Repeat for any addition wireframe pages you have.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Konami Code Easter Egg**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - I've hidden an easter egg in the site when a user enters the famous "Konami Code" (Up, Up, Down, Down, Left, Right, Left, Right, B, A) on their keyboard anywhere on the site.
+    - When the user types the code in, a sound is played and a modal box appears giving them an exclusive discount code to use in their basket.
+    - This feature currently only works on devices connected to a keyboard.
 
 ![screenshot](documentation/feature03.png)
 
