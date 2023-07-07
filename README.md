@@ -125,6 +125,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 - As a site admin I want to be able to edit existing products so that I can ensure that all product listings are up to date and accurate. `(SHOULD HAVE)`
 - As a site admin I want to be able to delete products from the site so that I can remove any products that are no longer being supplied by the site. `(SHOULD HAVE)`
 - As a site admin I want to be able to set the stock for each product so that I can manage how many units of each product the site can sell. `(SHOULD HAVE)`
+- As a site admin I want to be able to see a list of open tickets so that I can manage contact form inquiries. `(COULD HAVE)`
 
 ### EPIC 7: SEO & Marketing
 
