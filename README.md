@@ -298,15 +298,18 @@ Repeat for any addition wireframe pages you have.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Site Footer**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This appears across the whole site and contains links to the blog, contact us page, social media pages on the left.
+    - Two columns with links to games and consoles by platform in the middle.
+    - A form to subscribe to the newsletter on the right.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Newsletter**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Using the form in the footer, users can sign up to the site's newsletter where on submission, they will be sent a welcome email containing an exclusive discount code to use on the site.
+    - Users can only sign up to the newsletter once and if they try to sign up with an already registered email address, they will see a message letting them know.
 
 ![screenshot](documentation/feature03.png)
 
