@@ -314,21 +314,25 @@ Repeat for any addition wireframe pages you have.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Contact Us Page**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This page can be accessed from the footer across the site and contains a map of Cork which is where the business is located and a contact us form.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Contact Us Form**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - This is a simple form that a user can fill out to contact the site owners.
+    - When the form is submitted, the user is sent an automated email confirming that their message has been seen and that a member of the team will follow up with them.
+    - A ticket is created using the Ticket model with the information from the form with the seen field set to false as default.
+
+![screenshot](documentation/feature03.png)
+
+- **Ticket Management**
+
+    - Admins can view a list of open tickets on a page accessed through the nav menu. This page lists all tickets where the seen field in the model is equal to false.
+    - Once admins have viewed/dealt with open tickets, they can click the button to close the ticket. This will set the seen field to true and it will no longer appear in the list of open tickets.
+    - The heading shows a count of the amount of open tickets if there are some and a message shows up if there are no open tickets letting the admin know so.
 
 ![screenshot](documentation/feature03.png)
 
