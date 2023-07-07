@@ -451,39 +451,46 @@ Repeat for any addition wireframe pages you have.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Checkout**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The final step of the users shopping journey on the site is the checkout page.
+    - This page contains a form for the user's delivery and payment information and a summary of the user's order.
+    - If the user has an account on the site, they can save their delivery information on their profile to automatically be filled in the checkout.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Customer Details Form**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - In the checkout the user can add their details and if they're logged in, can check the box to save their details for future transactions.
+    - Users must enter their payment information before completing the checkout and all payments are handled via Stripe.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Order Summary**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - A final summary of the user's order is shown containing all the user's basket items, quantity and subtotal for each item.
+    - The user can also see their order total, delivery costs, any discounts that have been applied and the grand total in the summary.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Checkout Buttons**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - At the very end of the checkout the user will see two buttons, one to adjust their basket and another to complete their order.
+    - The grand total is displayed under the complete order button to further inform the user of how much their card will be charged on order completion.
+
+![screenshot](documentation/feature03.png)
+
+- **Order Confirmation Email**
+
+    - Once the order is complete and payment has been received, the user will receive an order confirmation email containing their order number and a receipt with the total paid.
+
+![screenshot](documentation/feature03.png)
+
+- **Order Confirmation Page**
+
+    - After the order has been completed, the user is redirected to a confirmation page letting them know an order confirmation email has been sent to their provided email address.
+    - This page contains a final rundown of the order and what the user purchased.
+    - This page can be accessed again from the user's profile if they have an account on the site by clicking the order number from the list of past orders.
 
 ![screenshot](documentation/feature03.png)
 
