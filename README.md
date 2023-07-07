@@ -336,39 +336,50 @@ Repeat for any addition wireframe pages you have.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Blog**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The blog contains a list of articles to do with retro gaming and caring for products that are sold on the site.
+    - Each post has a main image, title, excerpt, author, like count and when the post was published.
+    - Users can click on a post to read the full thing.
+    - If the logged in user is an admin, edit and delete icons are present to either change or remove the post.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Blog Post**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Each post has an individual page where users can read the full post, like the post or leave a comment.
+    - Under the post is a list of comments left by users.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Blog Comments**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - There's a form on each blog post page for users to comment on a post.
+    - When the form is submitted users are given a message confirming so.
+    - Comments are approved by default but if an admin sees a comment that isn't appropriate they can be removed by changing the comment's approved status to false.
 
 ![screenshot](documentation/feature03.png)
 
-- **Title for feature #3**
+- **Add Blog Post Page**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Admin's can add a new post to the blog by clicking "Add new blog post" in the site's nav menu.
+    - This brings them to a page containing a form to create a new post.
+    - The admin must fill out the Title, Content, Excerpt and select an image for the post.
+    - The Slug for the post will auto fill as the admin types the Title.
+    - The post author is automatically set to be the current logged in admin who is creating the post.
+
+![screenshot](documentation/feature03.png)
+
+- **Edit Blog Post Page**
+
+    - Admin's can edit blog posts by selecting the edit icon on a post.
+    - This shows a form containing the current data for the post and allows the admin to edit.
+
+![screenshot](documentation/feature03.png)
+
+- **Delete Blog Post Page**
+
+    - Admin's can also delete blog posts from the front end by selecting the delete icon. This will bring them to a confirmation page to delete the post to avoid any accidental data loss.
 
 ![screenshot](documentation/feature03.png)
 
