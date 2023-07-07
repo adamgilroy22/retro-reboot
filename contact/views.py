@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, reverse
 from django.views import View
 from django.core.paginator import Paginator
 from django.contrib import messages
+from django.http import HttpResponseRedirect
 from django.conf import settings
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
@@ -83,3 +84,22 @@ class ViewOpenTickets(LoginRequiredMixin, UserPassesTestMixin, View):
 
     def test_func(self):
         return self.request.user.is_superuser
+
+
+class CloseTicket(LoginRequiredMixin, View):
+    """
+    Close open tickets from open ticket list
+    """
+
+    def post(self, request, pk, *args, **kwargs):
+        ticket = Ticket.objects.get(pk=pk)
+
+        if not ticket.seen:
+            ticket.seen = True
+            ticket.save()
+            messages.info(request, 'Ticket closed!')
+        else:
+            messages.error(request, 'Error!')
+
+        next = request.POST.get('next', '/')
+        return HttpResponseRedirect(next)
