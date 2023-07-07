@@ -1,8 +1,11 @@
 from django.shortcuts import render, redirect, reverse
+from django.views import View
+from django.core.paginator import Paginator
 from django.contrib import messages
 from django.conf import settings
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
+from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from .models import Ticket
 from .forms import ContactForm
 
@@ -55,3 +58,28 @@ def contact_form(request):
     }
 
     return render(request, template, context)
+
+
+class OpenTickets(LoginRequiredMixin, UserPassesTestMixin, View):
+    """
+    Display all open tickets in a list
+    only accessible by an admin
+    """
+
+    def get(self, request, *args, **kwargs):
+
+        open_tickets = Ticket.objects.filter(
+            seen=False).order_by('-sent_at')
+
+        paginator = Paginator(open_tickets, 5)
+        page_num = request.GET.get('page')
+        tickets = paginator.get_page(page_num)
+
+        context = {
+            'open_tickets': tickets,
+        }
+
+        return render(request, 'contact/open_tickets.html', context)
+
+    def test_func(self):
+        return self.request.user.is_superuser
