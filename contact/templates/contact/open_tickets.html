@@ -13,10 +13,11 @@
 
 {% block content %}
 <div class="container py-4 py-xl-5">
-    <h1 class="logo-font text-center mb-3">Open Tickets</h1>
+    {% if open_tickets %}
+    <h1 class="logo-font text-center pb-3">Open Tickets</h1>
     <div class="row">
         {% for ticket in open_tickets %}
-        <div class="col-md-8 mx-auto p-4">
+        <div class="col-md-8 mx-auto">
             <div class="d-flex align-items-center align-items-md-start align-items-xl-center">
                 <div>
                     <h5 class="font-weight-bold">{{ ticket.name }} - {{ ticket.email }}</h5>
@@ -28,5 +29,22 @@
         </div>
         {% endfor %}
     </div>
+    {% if open_tickets.has_other_pages %}
+    <nav aria-label="Post navigation">
+        <ul class="pagination justify-content-center">
+            {% if open_tickets.has_previous %}
+            <li class="page-item"><a href="?page={{ open_tickets.previous_page_number }}" class="btn btn-outline-primary">Newer</a></li>
+            {% endif %}
+
+            {% if open_tickets.has_next %}
+            <li class="page-item"><a href="?page={{ open_tickets.next_page_number }}" class="btn btn-outline-primary">Older</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}
+
+    {% else %}
+    <h1 class="logo-font text-center mb-3">No Open Tickets</h1>
+    {% endif %}
 </div>
 {% endblock %}
