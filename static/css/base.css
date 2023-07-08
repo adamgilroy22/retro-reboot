@@ -32,9 +32,18 @@ footer {
     color: var(--off-white);
 }
 
+footer a {
+    color: var(--main-yellow);
+}
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--main-yellow);
 }
 
 .home-text {
