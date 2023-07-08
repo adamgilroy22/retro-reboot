@@ -9,7 +9,7 @@
 }
 
 body {
-    color: #555;
+    color: var(--main-dark);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -97,7 +97,7 @@ a {
 }
 
 .text-white {
-    color: #fff !important;
+    color: var(--off-white) !important;
 }
 
 .border-black {
@@ -191,7 +191,7 @@ a {
     top: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: var(--main-teal);
 }
 
 .condition {
@@ -215,7 +215,7 @@ a {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: var(--main-teal);
 }
 
 .author {
@@ -234,8 +234,8 @@ a {
 }
 
 .masthead-text {
-    background-color: #445261;
-    color: white;
+    background-color: var(--main-teal);
+    color: var(--off-white);
     position: relative;
 }
 
@@ -251,7 +251,7 @@ a {
     right: 90%;
     height: 100%;
     width: 150%;
-    background: #445261;
+    background: var(--main-teal);
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
@@ -260,12 +260,12 @@ a {
 
 .post-link {
     text-decoration: none;
-    color: #445261;
+    color: var(--main-dark);
 }
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: var(--main-teal);
     text-decoration: none;
 }
 
@@ -276,7 +276,7 @@ a {
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: var(--off-white);
 }
 
 .btn-like {
@@ -300,7 +300,7 @@ a {
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: var(--main-dark);
     border-radius: 0;
 }
 
@@ -317,7 +317,7 @@ a {
 	/* btn */
 	display: inline-block;
     font-weight: 400;
-    color: #fff;
+    color: var(--off-white);
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
