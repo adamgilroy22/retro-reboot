@@ -15,7 +15,12 @@ body {
 
 main {
     min-height: calc(100vh - 164px);
-  }
+}
+
+#mainnav, #topnav {
+    background-color: var(--main-dark);
+    color: var(--off-white);
+}
 
 body > footer {
     position: sticky;
@@ -95,10 +100,6 @@ a {
 .btn-black:focus {
     background: var(--main-yellow);
     color: var(--main-dark);
-}
-
-.text-black {
-    color: #000 !important;
 }
 
 .text-white {
@@ -419,15 +420,21 @@ a {
 
     .nav-link {
         padding: 0.15rem;
+        color: var(--off-white) !important;
     }
 
     .nav-link i.fa-lg {
         font-size: 1rem;
+        color: var(--off-white) !important;
     }
 
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
+    }
+
+    .navbar-toggler-icon {
+        color: var(--off-white);
     }
 
     #delivery-banner h4 {

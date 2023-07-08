@@ -1,12 +1,12 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item d-block d-md-none">
-            <a class="font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+            <a class="font-weight-bold nav-link text-white mr-5" href="{% url 'home' %}" id="home-link">
                 Home
             </a>
         </li>
         <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-white mr-5" href="{% url 'products' %}" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
@@ -18,7 +18,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="games-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-white mr-5" href="#" id="games-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Games
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="games-link">
@@ -29,7 +29,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="consoles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-white mr-5" href="#" id="consoles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Consoles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="consoles-link">
@@ -41,14 +41,14 @@
         </li>
 
         <li class="nav-item">
-            <a class="font-weight-bold nav-link text-black" href="{% url 'blog' %}" id="blog-link">
+            <a class="font-weight-bold nav-link text-white" href="{% url 'blog' %}" id="blog-link">
                 Blog
             </a>
         </li>
 
         {% if request.user.is_superuser %}
         <li class="nav-item dropdown d-lg-none">
-            <a class="font-weight-bold nav-link text-black mr-5" href="#" id="consoles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-white mr-5" href="#" id="consoles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Admin
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="consoles-link">
