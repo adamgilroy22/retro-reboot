@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --main-dark: #252412;
+    --main-dark: #0D0D11;
     --main-pink: #e83e8c;
     --main-yellow: #ffc107;
     --main-teal: #17a2b8;
@@ -9,7 +9,8 @@
 }
 
 body {
-    color: var(--main-dark);
+    color: var(--off-white);
+    background-color: var(--main-dark);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,6 +21,11 @@ main {
 body > footer {
     position: sticky;
     top: 100vh;
+}
+
+footer {
+    background-color: var(--main-dark);
+    color: var(--off-white);
 }
 
 a {
