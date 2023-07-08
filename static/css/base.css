@@ -46,9 +46,18 @@ a:hover {
     color: var(--main-yellow);
 }
 
-.home-text {
+.home-heading,
+.home-subheading {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  }
+}
+
+.home-heading {
+    font-size: 72px;
+}
+
+.home-subheading {
+  font-size: 48px;
+}
 
 .modal {
     display: none;
@@ -466,9 +475,33 @@ a:hover {
     }
 }
 
-/* Slightly larger container on xl screens */
-@media (max-width: 470px) {
-    .home-text {
-      font-size: xx-large;
+/* Homepage Text */
+@media (max-width: 655px) {
+    .home-heading {
+        font-size: 48px;
+    }
+
+    .home-subheading {
+      font-size: 30px;
+    }
+  }
+
+@media (max-width: 450px) {
+    .home-heading {
+        font-size: 36px;
+    }
+
+    .home-subheading {
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width: 345px) {
+    .home-heading {
+        font-size: 30px;
+    }
+
+    .home-subheading {
+      font-size: 18px;
     }
   }
