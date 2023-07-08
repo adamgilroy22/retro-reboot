@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --main-dark: #0D0D11;
-    --main-pink: #e83e8c;
-    --main-yellow: #ffc107;
-    --main-teal: #17a2b8;
+    --main-dark: #0d0d11;
+    --main-pink: #ff2273;
+    --main-yellow: #ffd33b;
+    --main-teal: #00bfc3;
     --off-white: #f5f5f5;
 }
 
