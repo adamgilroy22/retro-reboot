@@ -5,14 +5,11 @@
 
 {% block extra_css %}
 <style>
-    body {
-        background: url("{% static 'img/home-image.jpg' %}") no-repeat center center fixed;
+    .homepage-image {
+        background: url("{% static 'img/homepage.png' %}") no-repeat center;
         background-size: cover;
+        box-shadow: inset 0 0 0 2000px rgba(59, 47, 47, 0.3);
         height: calc(100vh - 164px);
-    }
-
-    main {
-        height: 100%;
     }
 </style>
 {% endblock %}
@@ -26,15 +23,12 @@
 {% endblock %}
 
 {% block content %}
-<div class="container h-100">
-    <div class="row my-auto h-100">
-        <div class="col-7 col-md-6 my-auto">
-            <h1 class="home-text display-4 logo-font text-white">Classic games, modern convenience</h1>
-            <div class="my-5">
-                <h4>
-                    <a href="{% url 'products' %}" class="shop-now-button btn btn-md text-uppercase py-3">Shop Now</a>
-                </h4>
-            </div>
+<div class="text-center bg-image homepage-image">
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white p-3">
+            <h1 class="mb-3 home-text display-3 logo-font text-outline-black text-white">Classic Games</h1>
+            <h4 class="mb-3 home-text display-4 logo-font text-white">Modern Convenience</h4>
+            <a class="shop-now-button btn btn-sm text-uppercase py-3" href="{% url 'products' %}" role="button">Start</a>
         </div>
     </div>
 </div>
