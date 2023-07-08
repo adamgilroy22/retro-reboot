@@ -64,9 +64,9 @@ a {
 }
 
 .shop-now-button {
-    background: white;
-    color: black;
-    min-width: 260px;
+    background: var(--main-pink);
+    color: var(--off-white);
+    min-width: 200px;
 }
 
 .btn-black {
@@ -93,8 +93,8 @@ a {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
-    color: white;
+    background: var(--main-yellow);
+    color: var(--main-dark);
 }
 
 .text-black {

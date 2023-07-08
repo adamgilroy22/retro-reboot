@@ -10,6 +10,10 @@
         background-size: cover;
         height: calc(100vh - 164px);
     }
+
+    body {
+        background-color: #0D0D11;
+    }
 </style>
 {% endblock %}
 
@@ -27,7 +31,7 @@
         <div class="text-white p-3">
             <h1 class="mb-3 home-text display-3 logo-font text-outline-black text-white">Classic Games</h1>
             <h4 class="mb-3 home-text display-4 logo-font text-white">Modern Convenience</h4>
-            <a class="shop-now-button btn btn-sm text-uppercase py-3" href="{% url 'products' %}" role="button">Start</a>
+            <a class="shop-now-button btn text-uppercase py-3" href="{% url 'products' %}" role="button">Shop Now</a>
         </div>
     </div>
 </div>
