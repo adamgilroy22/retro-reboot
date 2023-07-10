@@ -465,12 +465,12 @@ a:hover {
 
     .nav-link {
         padding: 0.15rem;
-        color: var(--off-white) !important;
+        color: var(--off-white);
     }
 
     .nav-link i.fa-lg {
         font-size: 1rem;
-        color: var(--off-white) !important;
+        color: var(--off-white);
     }
 
     .navbar-toggler {
