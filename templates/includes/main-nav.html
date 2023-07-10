@@ -9,7 +9,7 @@
             <a class="font-weight-bold nav-link text-yellow mr-5" href="{% url 'products' %}" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <div class="dropdown-menu" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=platform&direction=asc" class="dropdown-item">By Platform</a>
                 <a href="{% url 'products' %}?sort=year&direction=asc" class="dropdown-item">By Release Year</a>
@@ -21,7 +21,7 @@
             <a class="font-weight-bold nav-link text-yellow mr-5" href="#" id="games-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Games
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="games-link">
+            <div class="dropdown-menu" aria-labelledby="games-link">
                 <a href="{% url 'products' %}?category=Game&platform=nes,super-nintendo,nintendo-64,gameboy,gameboy-colour,nintendo-gamecube&sort=platform&direction=asc" class="dropdown-item">Nintendo</a>
                 <a href="{% url 'products' %}?category=Game&platform=sega-dreamcast,sega-genesis&sort=platform&direction=asc" class="dropdown-item">Sega</a>
                 <a href="{% url 'products' %}?category=Game&platform=playstation,playstation-2&sort=platform&direction=asc" class="dropdown-item">Sony</a>
@@ -32,7 +32,7 @@
             <a class="font-weight-bold nav-link text-yellow mr-5" href="#" id="consoles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Consoles
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="consoles-link">
+            <div class="dropdown-menu" aria-labelledby="consoles-link">
                 <a href="{% url 'products' %}?category=Console&platform=nes,super-nintendo,nintendo-64,gameboy,gameboy-colour,nintendo-gamecube" class="dropdown-item">Nintendo</a>
                 <a href="{% url 'products' %}?category=Console&platform=sega-dreamcast,sega-genesis" class="dropdown-item">Sega</a>
                 <a href="{% url 'products' %}?category=Console&platform=playstation,playstation-2" class="dropdown-item">Sony</a>
@@ -51,7 +51,7 @@
             <a class="font-weight-bold nav-link text-yellow mr-5" href="#" id="consoles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Admin
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="consoles-link">
+            <div class="dropdown-menu" aria-labelledby="consoles-link">
                 <a href="{% url 'add_product' %}" class="dropdown-item">Add New Product</a>
                 <a href="{% url 'add_post' %}" class="dropdown-item">Add New Blog Post</a>
                 <a href="{% url 'open_tickets' %}" class="dropdown-item">View Open Tickets</a>

@@ -23,6 +23,15 @@ main {
     color: var(--off-white);
 }
 
+.dropdown-menu {
+    background-color: var(--main-dark);
+    border: 2px solid var(--main-pink);
+}
+
+.dropdown-item {
+    color: var(--off-white);
+}
+
 body > footer {
     position: sticky;
     top: 100vh;
