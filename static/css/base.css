@@ -245,12 +245,10 @@ a:hover {
     overflow-y: auto;
 }
 
-.image-flash {
-    position: absolute;
-    top: 5%;
-    min-width: 30%;
-    left: -2px;
-    background-color: var(--main-teal);
+/* Products */
+
+.product-card {
+    border: 2px solid var(--main-pink) !important;
 }
 
 .condition {
