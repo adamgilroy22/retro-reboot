@@ -1,13 +1,13 @@
 <div class="toast custom-toast rounded-0 border-top-0" data-autohide="false">
     <div class="arrow-up arrow-success"></div>
     <div class="w-100 toast-capper bg-success"></div>
-    <div class="toast-header bg-white text-dark">
+    <div class="toast-header">
         <strong class="mr-auto">Success!</strong>
         <button type="button" class="ml-2 mb-1 close text-dark" data-dismiss="toast" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
-    <div class="toast-body bg-white">
+    <div class="toast-body">
         <div class="row">
             <div class="col">
                 {{ message }}
@@ -16,7 +16,7 @@
         </div>
     </div>
     {% if grand_total %}
-            <p class="logo-font bg-white text-black py-1">Your Basket ({{ product_count }})</p>
+            <p class="logo-font py-1">Your Basket ({{ product_count }})</p>
             <div class="basket-notification-wrapper">
                 {% for item in basket_items %}
                     <div class="row">
