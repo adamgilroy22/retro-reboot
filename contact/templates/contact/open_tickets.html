@@ -14,7 +14,7 @@
 {% block content %}
 <div class="container py-4 py-xl-5">
     {% if open_tickets %}
-    <h1 class="logo-font text-center pb-3">{{ open_ticket_count }} Open Ticket{% if open_ticket_count > 1 %}s{% endif %}</h1>
+    <h1 class="logo-font text-center pb-3 text-yellow">{{ open_ticket_count }} Open Ticket{% if open_ticket_count > 1 %}s{% endif %}</h1>
     <div class="row">
         {% for ticket in open_tickets %}
         <div class="col-md-8 mx-auto">
@@ -26,7 +26,7 @@
                     <form method="POST" action="{% url 'close_ticket' ticket.pk %}">
                         {% csrf_token %}
                         <input type="hidden" name="next" value="{{ request.path }}">
-                        <button class="btn btn-primary" type="submit">
+                        <button class="btn btn-outline-black" type="submit">
                             Close Ticket
                         </button>
                     </form>
@@ -51,7 +51,7 @@
     {% endif %}
 
     {% else %}
-    <h1 class="logo-font text-center mb-3">No Open Tickets</h1>
+    <h1 class="logo-font text-center mb-3 text-yellow">No Open Tickets</h1>
     {% endif %}
 </div>
 {% endblock %}
