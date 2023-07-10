@@ -9,7 +9,8 @@
 }
 
 body {
-    color: var(--main-dark);
+    background-color: var(--main-dark);
+    color: var(--off-white);
     font-family: 'Montserrat', sans-serif;
 }
 
