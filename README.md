@@ -699,6 +699,7 @@ email address if they are interested in learning more about what the business ha
 I created a custom newsletter app in my project with a custom NewsletterSignup model and added a form to the site's footer to collect user email addresses 
 
 Newsletter model:
+
     ```python
     class NewsletterSignup(models.Model):
     email = models.EmailField(unique=True, null=False, blank=False)
