@@ -64,6 +64,10 @@ a:hover {
     color: var(--main-pink) !important;
 }
 
+.text-teal {
+    color: var(--main-teal) !important;
+}
+
 .bg-dark {
     background-color: var(--main-dark) !important;
 }
