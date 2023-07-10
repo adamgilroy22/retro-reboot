@@ -104,6 +104,17 @@ a:hover {
     border: 1px solid black;
 }
 
+.add-to-basket-btn {
+    background: var(--main-dark);
+    border: 1px solid var(--main-yellow);
+    color: var(--off-white);
+}
+
+.add-to-basket-btn:hover {
+    background: var(--main-yellow);
+    color: var(--main-dark);
+}
+
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
