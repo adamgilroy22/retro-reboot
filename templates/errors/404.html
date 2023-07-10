@@ -5,12 +5,15 @@
 
 {% block extra_css %}
 <style>
-    body {
-    background: url("{% static 'img/home-image.jpg' %}") no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-}
+    .homepage-image {
+        background: url("{% static 'img/homepage.png' %}") no-repeat center;
+        background-size: cover;
+        height: calc(100vh - 164px);
+    }
 
+    body {
+        background-color: #0D0D11;
+    }
 </style>
 {% endblock %}
 
@@ -23,16 +26,12 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row my-auto h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-white">The page you are looking for isn't available</h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Return to shop</a>
-                    </h4>
-                </div>
-            </div>
+<div class="text-center bg-image homepage-image">
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white p-3">
+            <h1 class="mb-3 home-heading logo-font text-outline-black text-white">The Page You're Looking For Is In Another Castle</h1>
+            <a class="shop-now-button btn text-uppercase py-3" href="{% url 'products' %}" role="button">Return To Shop</a>
         </div>
     </div>
+</div>
 {% endblock %}
