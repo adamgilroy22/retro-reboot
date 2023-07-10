@@ -65,7 +65,7 @@
             <div class="table-responsive rounded d-none d-md-block">
                 <table class="table table-dark table-sm table-borderless">
                     <thead>
-                        <tr class="basket-border">
+                        <tr class="pink-border">
                             <th scope="col">Product Info</th>
                             <th scope="col"></th>
                             <th scope="col">Price</th>
@@ -75,7 +75,7 @@
                     </thead>
 
                     {% for item in basket_items %}
-                        <tr class="basket-border">
+                        <tr class="pink-border">
                             <td class="p-3 w-25">
                                 {% include "basket/product-image.html" %}
                             </td>
@@ -93,7 +93,7 @@
                             </td>
                         </tr>
                     {% endfor %}
-                        <tr class="basket-border">
+                        <tr class="pink-border">
                             <td colspan="5" class="pt-5">
                                 {% include "basket/basket-total.html" %}
                             </td>

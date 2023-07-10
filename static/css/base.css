@@ -247,10 +247,6 @@ a:hover {
 
 /* Products */
 
-.product-card {
-    border: 2px solid var(--main-pink) !important;
-}
-
 .condition {
     color: white;
     margin: 4px;
@@ -436,7 +432,7 @@ a:hover {
     background-color: var(--main-dark);
 }
 
-.basket-border {
+.pink-border {
     border: 2px solid var(--main-pink);
 }
 
