@@ -700,13 +700,13 @@ I created a custom newsletter app in my project with a custom NewsletterSignup m
 
 Newsletter model:
 
-    ```python
-    class NewsletterSignup(models.Model):
-    email = models.EmailField(unique=True, null=False, blank=False)
+```python
+class NewsletterSignup(models.Model):
+email = models.EmailField(unique=True, null=False, blank=False)
 
-    def __str__(self):
-        return self.email
-    ```
+def __str__(self):
+    return self.email
+```
 
 I set the email address to be unique to avoid users signing up multiple times with the same email address. If a user tries to sign up twice with the same address they will be shown a message letting them know they've already signed up.
 
