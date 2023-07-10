@@ -24,10 +24,11 @@ Overall,  I feel the user experience on the site is very strong with the site be
 
 I wanted to give the site a retro feel so decided to use bright neon-like colours across the site with a dark background. I feel like the dark background makes elements on the site pop nicely to give the user an elevated experience as they browse what we have to offer.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+- `#0d0d11` used for the site background.
+- `#E84610` used for primary text across the site.
+- `#00bfc3` used for secondary text.
+- `#ffd33b` used for highlights including headers.
+- `#ff2273` used for secondary highlights such as borders around cards and the homepage button.
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
