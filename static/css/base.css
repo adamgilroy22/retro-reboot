@@ -296,12 +296,12 @@ a:hover {
 
 .post-link {
     text-decoration: none;
-    color: var(--main-dark);
+    color: var(--off-white);
 }
 
 .post-link:hover,
 .page-link {
-    color: var(--main-teal);
+    color: var(--main-yellow);
     text-decoration: none;
 }
 
