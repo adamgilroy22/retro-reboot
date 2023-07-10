@@ -19,20 +19,20 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Checkout</h2>
+                <h2 class="logo-font mb-4 text-yellow">Checkout</h2>
                 <hr>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 col-lg-6 order-lg-last mb-5">
-                <p class="text-yellow">Order Summary ({{ product_count }})</p>
+                <p class="text-teal">Order Summary ({{ product_count }})</p>
                 <div class="row">
                     <div class="col-7 offset-2">
-                        <p class="mb-1 mt-0 small text-yellow">Item</p>
+                        <p class="mb-1 mt-0 small text-teal">Item</p>
                     </div>
                     <div class="col-3 text-right">
-                        <p class="mb-1 mt-0 small text-yellow">Subtotal</p>
+                        <p class="mb-1 mt-0 small text-teal">Subtotal</p>
                     </div>
                 </div>
                 {% for item in basket_items %}
@@ -48,10 +48,10 @@
                         </div>
                         <div class="col-7">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                            <p class="my-0 small text-yellow">Qty: {{ item.quantity }}</p>
+                            <p class="my-0 small">Qty: {{ item.quantity }}</p>
                         </div>
                         <div class="col-3 text-right">
-                            <p class="my-0 small text-yellow">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
+                            <p class="my-0 small">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </div>
                     </div>
                 {% endfor %}
@@ -76,7 +76,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <p class="text-yellow">Please fill out the form below to complete your order</p>
+                <p class="text-teal">Please fill out the form below to complete your order</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
                     <fieldset class="rounded px-3 mb-5">
@@ -99,8 +99,8 @@
                                 <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info" checked>
 							{% else %}
 								<label class="form-check-label" for="id-save-info">
-                                    <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or 
-                                    <a class="text-info" href="{% url 'account_login' %}">login</a> to save this information
+                                    <a class="text-teal" href="{% url 'account_signup' %}">Create an account</a> or 
+                                    <a class="text-teal" href="{% url 'account_login' %}">login</a> to save this information
                                 </label>
 							{% endif %}
 						</div>
