@@ -420,6 +420,11 @@ a:hover {
     border-radius: 0;
 }
 
+/* Basket */
+.table-dark {
+    background-color: var(--main-dark);
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

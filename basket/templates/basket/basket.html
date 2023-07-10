@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col">
                         {% include "basket/checkout-buttons.html" %}
-                        <p class="text-muted mb-5">A summary of your basket contents is below</p>
+                        <p class="text-yellow mb-5">A summary of your basket contents is below</p>
                     </div>
                 </div>
                 {% for item in basket_items %}
@@ -57,14 +57,14 @@
                 {% endfor %}
                 <div class="btt-button shadow-sm rounded-0 border border-black">
                     <a class="btt-link d-flex h-100">
-                        <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+                        <i class="fas fa-arrow-up mx-auto my-auto"></i>
                     </a>	
                 </div>
             </div>
 
             <div class="table-responsive rounded d-none d-md-block">
-                <table class="table table-sm table-borderless">
-                    <thead class="text-black">
+                <table class="table table-dark table-sm table-borderless">
+                    <thead>
                         <tr>
                             <th scope="col">Product Info</th>
                             <th scope="col"></th>
