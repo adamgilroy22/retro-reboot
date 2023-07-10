@@ -1,3 +1,11 @@
+:root {
+  --main-dark: #0d0d11;
+  --main-pink: #ff2273;
+  --main-yellow: #ffd33b;
+  --main-teal: #00bfc3;
+  --off-white: #f5f5f5;
+}
+
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
