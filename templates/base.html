@@ -75,7 +75,7 @@
                                 <p class="my-0">Admin</p>
                             </div>
                         </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="admin-options">
+                        <div class="dropdown-menu" aria-labelledby="admin-options">
                             <a href="{% url 'add_product' %}" class="dropdown-item">Add New Product</a>
                             <a href="{% url 'add_post' %}" class="dropdown-item">Add New Blog Post</a>
                             <a href="{% url 'open_tickets' %}" class="dropdown-item">View Open Tickets</a>
@@ -89,7 +89,7 @@
                                 <p class="my-0">Account</p>
                             </div>
                         </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                        <div class="dropdown-menu" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
