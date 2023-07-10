@@ -98,14 +98,14 @@ a:hover {
 }
 
 .btn-black {
-    background: black;
-    color: white;
+    background: var(--main-dark);
+    color: var(--off-white);
 }
 
 .btn-outline-black {
-    background: white;
-    color: black !important;
-    border: 1px solid black;
+    background: var(--off-white);
+    color: var(--main-dark) !important;
+    border: 1px solid var(--main-dark);
 }
 
 .add-to-basket-btn {
@@ -122,8 +122,8 @@ a:hover {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
-    color: white !important;
+    background: var(--main-dark);
+    color: var(--main-yellow) !important;
 }
 
 .shop-now-button:hover,
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid var(--main-dark) !important;
 }
 
 .btt-button {
