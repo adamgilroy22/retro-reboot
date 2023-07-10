@@ -68,7 +68,9 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="mb-0">
-                                        <span class="lead mb-0 font-weight-bold">{{ product.name }}</span>
+                                        <a href="{% url 'product_detail' product.id %}">
+                                            <span class="lead mb-0 font-weight-bold">{{ product.name }}</span>
+                                        </a>
                                         {% if product.condition.name == "New" %}
                                         <span class="badge badge-dark">NEW</span>
                                         {% else %}
