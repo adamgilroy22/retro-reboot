@@ -30,18 +30,7 @@ I wanted to give the site a retro feel so decided to use bright neon-like colour
 - `#ffd33b` used for highlights including headers.
 - `#ff2273` used for secondary highlights such as borders around cards and the homepage button.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
+I used [coolors.co](https://coolors.co/f5f5f5-0d0d11-ff2273-ffd33b-00bfc3) to generate my colour palette.
 
 ![screenshot](documentation/coolors.png)
 
