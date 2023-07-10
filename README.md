@@ -22,11 +22,7 @@ Overall,  I feel the user experience on the site is very strong with the site be
 
 ### Colour Scheme
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Explain your colours and the colour scheme.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I wanted to give the site a retro feel so decided to use bright neon-like colours across the site with a dark background. I feel like the dark background makes elements on the site pop nicely to give the user an elevated experience as they browse what we have to offer.
 
 - `#000000` used for primary text.
 - `#E84610` used for primary highlights.
