@@ -64,6 +64,10 @@ a:hover {
     color: var(--main-pink) !important;
 }
 
+.bg-dark {
+    background-color: var(--main-dark) !important;
+}
+
 .home-heading,
 .home-subheading {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
