@@ -436,6 +436,10 @@ a:hover {
     background-color: var(--main-dark);
 }
 
+.basket-border {
+    border: 2px solid var(--main-pink);
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
