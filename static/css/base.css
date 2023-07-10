@@ -48,7 +48,7 @@ a:hover {
 }
 
 .text-yellow {
-    color: var(--main-yellow);
+    color: var(--main-yellow) !important;
 }
 
 .home-heading,
