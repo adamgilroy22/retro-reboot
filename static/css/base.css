@@ -47,6 +47,10 @@ a:hover {
     color: var(--main-yellow);
 }
 
+.text-yellow {
+    color: var(--main-yellow);
+}
+
 .home-heading,
 .home-subheading {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
