@@ -88,7 +88,7 @@
                                         {% endif %}
                                     </p> 
                                 </div>
-                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                <div class="card-footer pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col-12">
                                             <p class="lead text-left font-weight-bold">€{{ product.price }}
@@ -108,10 +108,10 @@
                                                     {% csrf_token %}
                                                     <input type="hidden" name="quantity" value="1">
                                                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                                                    <input type="submit" value="Add to basket" class="btn btn-black btn-block">
+                                                    <input type="submit" value="Add to basket" class="add-to-basket-btn btn btn-block">
                                                 </form>
                                             {% else %}
-                                            <button class="btn btn-black btn-block disabled">Add to basket</button>
+                                            <button class="btn add-to-basket-btn btn-block disabled">Add to basket</button>
                                             {% endif %}
                                         </div>
                                     </div>
