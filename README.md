@@ -34,23 +34,15 @@ I used [coolors.co](https://coolors.co/f5f5f5-0d0d11-ff2273-ffd33b-00bfc3) to ge
 
 ![screenshot](documentation/coolors.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
 :root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
+    --off-white: #f5f5f5;
+    --main-dark: #0d0d11;
+    --main-pink: #ff2273;
+    --main-yellow: #ffd33b;
+    --main-teal: #00bfc3;
 }
 ```
 
