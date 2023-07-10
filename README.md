@@ -600,7 +600,7 @@ Consider adding a basic screenshot of your Projects Board.
 [GitHub Issues](https://github.com/adamgilroy22/retro-reboot/issues) served as an another Agile tool.
 There, I used my own **User Story Template** to manage user stories.
 
-It also helped with milestone iterations on a weekly basis.
+It also helped to keep on top of my [milestones](https://github.com/adamgilroy22/retro-reboot/milestones) for the project.
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
@@ -702,7 +702,7 @@ Newsletter model:
 
 ```python
 class NewsletterSignup(models.Model):
-email = models.EmailField(unique=True, null=False, blank=False)
+    email = models.EmailField(unique=True, null=False, blank=False)
 
 def __str__(self):
     return self.email
