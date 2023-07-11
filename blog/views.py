@@ -8,6 +8,9 @@ from .forms import CommentForm, PostForm
 
 
 class PostList(generic.ListView):
+    """
+    List blog posts and paginate by 6
+    """
     model = Post
     queryset = Post.objects.filter(published=True).order_by('-created_on')
     template_name = 'blog/blog.html'
