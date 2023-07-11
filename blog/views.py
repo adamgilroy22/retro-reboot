@@ -118,7 +118,7 @@ def add_post(request):
 
 @login_required
 def edit_post(request, slug):
-    """ Edit a product in the store """
+    """ Edit a blog post """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('blog'))
