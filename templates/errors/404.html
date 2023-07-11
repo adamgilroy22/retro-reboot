@@ -5,26 +5,26 @@
 
 {% block page_header %}
 <div class="container header-container">
-    <div class="row">
-        <div class="col"></div>
-    </div>
+  <div class="row">
+    <div class="col"></div>
+  </div>
 </div>
 {% endblock %}
 
 {% block content %}
 <div class="container">
-    <div class="row h-100">
-      <div class="col col-lg-6 col-md-8 col-sm-12 m-auto text-center p-3">
-        <div class="card border-0">
-          <img src="{% static 'img/404-page.png' %}" class="card-img-top" alt="Retro Reboot 404 page image">
-          <div class="card-body">
-            <h1 class="card-title logo-font text-yellow">The Page You're Looking For Is In Another Castle</h1>
-            <h4>
-                <a class="btn-outline-black btn-lg text-uppercase py-3" href="{% url 'products' %}" role="button">Return To Shop</a>
+  <div class="row h-100">
+    <div class="col col-lg-6 col-md-8 col-sm-12 m-auto text-center p-3">
+      <div class="card border-0">
+        <img src="{% static 'img/404-page.png' %}" class="card-img-top" alt="Retro Reboot 404 page image">
+        <div class="card-body">
+          <h1 class="card-title logo-font text-yellow">The Page You're Looking For Is In Another Castle</h1>
+          <h4 class="pt-3">
+            <a class="btn-outline-black btn-lg text-uppercase py-3" href="{% url 'products' %}" role="button">Return To Shop</a>
           </h4>
-          </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 {% endblock %}
