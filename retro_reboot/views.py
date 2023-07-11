@@ -9,3 +9,8 @@ def handler404(request, exception):
 def handler500(request):
     """ Error Handler 500 - Internal Server Error """
     return render(request, "errors/500.html", status=500)
+
+
+def handler403(request):
+    """ Error Handler 403 - Forbidden Error """
+    return render(request, "errors/403.html", status=403)
