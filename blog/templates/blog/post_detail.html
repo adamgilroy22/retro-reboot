@@ -2,6 +2,7 @@
 {% load static %}
 {% load crispy_forms_tags %}
 
+{% block extra_title %}- {{ post.title }}{% endblock %}
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
