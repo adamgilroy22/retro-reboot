@@ -1035,14 +1035,7 @@ This project could not have been completed without some help from the internet f
 
 ### Content
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I used some online resources to help me overcome some challenges I faced during development and to inspire some elements I used in the site. You can find them below.
 
 | Source | Location | Notes |
 | --- | --- | --- |
