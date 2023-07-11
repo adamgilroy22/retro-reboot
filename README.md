@@ -1031,13 +1031,7 @@ To my knowledge there are no differences between the local and deployed versions
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+This project could not have been completed without some help from the internet for various code-snippets to inspire the final project, media to fill the site with and people to support me along the way. In the following sections I want to give credit for my sources and people who've inspired me throughout development.
 
 ### Content
 
