@@ -75,6 +75,10 @@ class PostDetail(View):
 
 
 class PostLike(View):
+    """
+    Like a blog post and give user a message
+    confirming like/unlike
+    """
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
 
