@@ -40,11 +40,11 @@
     <nav aria-label="Post navigation">
         <ul class="pagination justify-content-center">
             {% if open_tickets.has_previous %}
-            <li class="page-item"><a href="?page={{ open_tickets.previous_page_number }}" class="btn btn-outline-primary">Newer</a></li>
+            <li class="page-item"><a href="?page={{ open_tickets.previous_page_number }}" class="btn btn-outline-black">Newer Tickets</a></li>
             {% endif %}
 
             {% if open_tickets.has_next %}
-            <li class="page-item"><a href="?page={{ open_tickets.next_page_number }}" class="btn btn-outline-primary">Older</a></li>
+            <li class="page-item"><a href="?page={{ open_tickets.next_page_number }}" class="btn btn-outline-black">Older Tickets</a></li>
             {% endif %}
         </ul>
     </nav>
