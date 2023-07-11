@@ -35,3 +35,4 @@ urlpatterns = [
 
 handler404 = 'retro_reboot.views.handler404'
 handler500 = 'retro_reboot.views.handler500'
+handler403 = 'retro_reboot.views.handler403'
