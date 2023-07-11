@@ -3,20 +3,6 @@
 
 {% block extra_title %}- Page Not Found{% endblock %}
 
-{% block extra_css %}
-<style>
-    .homepage-image {
-        background: url("{% static 'img/homepage.png' %}") no-repeat center;
-        background-size: cover;
-        height: calc(100vh - 164px);
-    }
-
-    body {
-        background-color: #0D0D11;
-    }
-</style>
-{% endblock %}
-
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -26,12 +12,19 @@
 {% endblock %}
 
 {% block content %}
-<div class="text-center bg-image homepage-image">
-    <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="col-md-8 text-white p-3">
-            <h1 class="mb-3 home-heading logo-font text-outline-black text-white">The Page You're Looking For Is In Another Castle</h1>
-            <a class="shop-now-button btn text-uppercase py-3" href="{% url 'products' %}" role="button">Return To Shop</a>
+<div class="container">
+    <div class="row h-100">
+      <div class="col col-lg-6 col-md-8 col-sm-12 m-auto text-center p-3">
+        <div class="card border-0">
+          <img src="{% static 'img/404-page.png' %}" class="card-img-top" alt="Retro Reboot 404 page image">
+          <div class="card-body">
+            <h1 class="card-title logo-text">The Page You're Looking For Is In Another Castle</h1>
+            <h4>
+                <a class="shop-now-button btn text-uppercase py-3" href="{% url 'products' %}" role="button">Return To Shop</a>
+          </h4>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
 {% endblock %}
