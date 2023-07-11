@@ -2,7 +2,8 @@
 
 {% load i18n %}
 {% load static %}
-{% block head_title %}{% trans "Verify Your E-mail Address" %}{% endblock %}
+
+{% block extra_title %}- Verify Email{% endblock %}
 
 {% block page_header %}
 <div class="container header-container">
@@ -22,7 +23,7 @@
                 <div class="card-body">
                     <h1 class="card-title logo-font text-yellow">{% trans "Verify Your E-mail Address" %}</h1>
                     <h5 class="card-text">We have sent an e-mail to you for verification. Follow the link provided to finalize the signup process.</h5>
-                        <h5 class="card-text">Please <a href="{% url 'contact' %}" class="text-teal">contact us</a> if you do not receive it within a few minutes.</h5>
+                    <h5 class="card-text">Please <a href="{% url 'contact' %}" class="text-teal">contact us</a> if you do not receive it within a few minutes.</h5>
                     <h4 class="p-3">
                         <a href="{% url 'home' %}" class="btn-outline-black btn-lg text-uppercase py-2">Back To Homepage</a>
                     </h4>
