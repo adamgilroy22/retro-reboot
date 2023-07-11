@@ -34,3 +34,4 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'retro_reboot.views.handler404'
+handler500 = 'retro_reboot.views.handler500'
