@@ -215,6 +215,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
+### Checkout Page Wireframes
+
+<details>
+<summary>Click to View Checkout Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-checkout.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-checkout.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-checkout.png)
+
+</details>
+
 ### Sign Out Page Wireframes
 
 <details>
