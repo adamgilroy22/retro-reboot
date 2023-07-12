@@ -199,6 +199,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
+### Sign Out Page Wireframes
+
+<details>
+<summary>Click to View Sign Out Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-sign-out.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-sign-out.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-sign-out.png)
+
+</details>
+
 ## Features
 
 ### Existing Features
