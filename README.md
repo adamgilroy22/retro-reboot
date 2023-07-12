@@ -183,6 +183,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
+### Product Detail Page Wireframes
+
+<details>
+<summary>Click to View Product Detail Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-product-detail.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-product-detail.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-product-detail.png)
+
+</details>
+
 ## Features
 
 ### Existing Features
