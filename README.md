@@ -263,6 +263,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
+### Blog Post Wireframes
+
+<details>
+<summary>Click to View Blog Post wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-blog-post.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-blog-post.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-blog-post.png)
+
+</details>
+
 ### Sign Out Page Wireframes
 
 <details>
