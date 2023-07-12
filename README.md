@@ -247,6 +247,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
+### Contact Page Wireframes
+
+<details>
+<summary>Click to View Contact Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-contact.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-contact.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-contact.png)
+
+</details>
+
 ### Blog Page Wireframes
 
 <details>
