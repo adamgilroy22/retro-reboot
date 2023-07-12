@@ -135,13 +135,21 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
-### About Page Wireframes
+### Sign Up Page Wireframes
 
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
+<details>
+<summary>Click to View Sign Up Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-sign-up.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-sign-up.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-sign-up.png)
+
+</details>
 
 ### Contact Page Wireframes
 
