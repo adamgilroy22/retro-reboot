@@ -295,6 +295,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
+### Open Tickets Page Wireframes
+
+<details>
+<summary>Click to View Open Tickets Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-open-tickets.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-open-tickets.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-open-tickets.png)
+
+</details>
+
 ### Sign Out Page Wireframes
 
 <details>
