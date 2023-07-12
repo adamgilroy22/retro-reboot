@@ -72,7 +72,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 ### EPIC 2: Products
 
 - As a site user I want to be able to see a list of all site products so that I can browse what the site has to offer. `(MUST HAVE)`
-- As a site user I want to be able to see the prices of products including current deals so that I can make a decision whether or not to purchase. `(MUST HAVE)`
+- As a site user I want to be able to see the prices of products clearly so that I can make a decision whether or not to purchase. `(MUST HAVE)`
 - As a site user I want to be able to view a product on its own individual page so that I can see more information about the product. `(MUST HAVE)`
 - As a site user I want to be able to sort products by category (game/console or games by console) so that I can find specific products related to the category I select. `(SHOULD HAVE)`
 
@@ -87,7 +87,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 ### EPIC 4: Site User Accounts
 
 - As a site user I want to be able to create an account on the site so that I can save my billing and shipping details and see a history of my purchases on my account. `(MUST HAVE)`
-- As a registered site user I want to be able to add products to a wish list so that I can keep a collection of items I am interested in buying in the future. `(COULD HAVE)`
+- As a registered site user I want to be able to add products to a wish list so that I can keep a collection of items I am interested in buying in the future. `(WONT HAVE)`
 - As a registered user I want to be able to edit the details saved to my account so that I can keep my details up to date. `(SHOULD HAVE)`
 
 ### EPIC 5: Blog
@@ -108,7 +108,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 ### EPIC 7: SEO & Marketing
 
 - As a site user I want to be able to sign up for the site's mailing list so that I can receive offers and news in my inbox. `(COULD HAVE)`
-- As a site user I want to be able to spin a discount wheel so that I can receive a discount code pending on the outcome of the wheel. `(COULD HAVE)`
+- As a site user I want to be able to spin a discount wheel so that I can receive a discount code pending on the outcome of the wheel. `(WONT HAVE)`
 - As a site user I want to be able to enter the Konami code (Up Up Down Down Left Right Left Right B A) on my keyboard so that I can experience an easter egg. `(COULD HAVE)`
 - As a site admin I want to be able to send marketing emails to people who signed up to the mailing list so that I can send out updates and offers to their inboxes. `(COULD HAVE)`
 - As a site admin I want to be able to set appropriate keywords on site pages so that I can increase the chances potential customers will find the site when searching to purchase records on Google. `(MUST HAVE)`
