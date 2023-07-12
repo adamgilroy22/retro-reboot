@@ -167,11 +167,21 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### All Products Page Wireframes
 
-Repeat for any addition wireframe pages you have.
+<details>
+<summary>Click to View All Products Page wireframes</summary>
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+#### Mobile
+![screenshot](documentation/wireframes/mobile-all-products.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-all-products.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-all-products.png)
+
+</details>
 
 ## Features
 
