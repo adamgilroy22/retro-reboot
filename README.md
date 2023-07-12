@@ -121,11 +121,19 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Home Page Wireframes
 
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
+<details>
+<summary>Click to View Home Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-home.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-home.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-home.png)
+
+</details>
 
 ### About Page Wireframes
 
