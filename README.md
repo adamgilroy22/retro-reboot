@@ -151,13 +151,21 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 </details>
 
-### Contact Page Wireframes
+### Sign In Page Wireframes
 
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
+<details>
+<summary>Click to View Sign In Page wireframes</summary>
+
+#### Mobile
+![screenshot](documentation/wireframes/mobile-sign-in.png)
+
+#### Tablet
+![screenshot](documentation/wireframes/tablet-sign-in.png)
+
+#### Desktop
+![screenshot](documentation/wireframes/desktop-sign-in.png)
+
+</details>
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
