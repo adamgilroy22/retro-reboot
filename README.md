@@ -417,6 +417,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ![screenshot](documentation/feature03.png)
 
+- **Admin Dropdown**
+
+    - If the user is logged in and has admin permissions, they will see an admin icon in the main nav menu.
+    - Clicking this will give the admin options to add a new product, add a new blog post and view open contact page tickets. 
+
+![screenshot](documentation/feature03.png)
+
 - **User Sign Up**
 
     - Users without an account can register for one through the register link in the main nav menu. This will present them with a form to add their details and created a profile for that user on completion.
@@ -529,6 +536,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - Admin's can add a new post to the blog by clicking "Add new blog post" in the site's nav menu.
     - This brings them to a page containing a form to create a new post.
     - The admin must fill out the Title, Content, Excerpt and select an image for the post.
+    - The content field is a summernote field so the admin can style the post content from the front end.
     - The Slug for the post will auto fill as the admin types the Title.
     - The post author is automatically set to be the current logged in admin who is creating the post.
 
