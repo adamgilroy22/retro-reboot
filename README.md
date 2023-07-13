@@ -431,6 +431,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ![screenshot](documentation/feature03.png)
 
+- **User Sign Out**
+
+    - If a user wants to end their logged in session, they can click logout under the account dropdown in the nav menu.
+    - This will bring them to a page confirming they want to log out.
+
+![screenshot](documentation/feature03.png)
+
 - **Password Reset**
 
     - If a user is trying to log in and has forgotten their password they can visit the password reset page. Here a user must enter their email address they used to sign up with and an email will be sent to them with further instructions on resetting their password to regain access to their account.
