@@ -47,6 +47,7 @@ def checkout(request):
 
     if request.method == 'POST':
         basket = request.session.get('basket', {})
+        discount = request.session.get('discount')
 
         form_data = {
             'full_name': request.POST['full_name'],
@@ -88,6 +89,14 @@ def checkout(request):
                     )
                     order.delete()
                     return redirect(reverse('view_basket'))
+
+            if discount:
+                savings = ((order.grand_total/100) * discount)
+                order.grand_total -= savings
+                order.discount = savings
+                order.save()
+            else:
+                savings = 0
 
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse(

@@ -581,7 +581,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 - **Discount Amount**
 
-    - When a user successfully adds a discount code, the amount that has been taken off is displayed in red text in place of the discount code form.
+    - When a user successfully adds a discount code, the amount that has been taken off is displayed in place of the discount code form.
     - A delete icon appears next to the discount amount if the user wants to use a different discount code and on clicking, a message appears confirming the discount has been removed and the discount code form will appear in place of the discount amount.
 
 ![screenshot](documentation/feature03.png)
