@@ -64,6 +64,10 @@ a:hover {
     color: var(--main-yellow);
 }
 
+.nav-link:hover {
+    color: var(--main-yellow) !important;
+}
+
 .text-yellow {
     color: var(--main-yellow) !important;
 }
