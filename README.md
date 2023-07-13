@@ -687,6 +687,16 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ![screenshot](documentation/feature03.png)
 
+- **Error Pages**
+
+    - If a user ends up on a page that either doesn't exist or that they shouldn't be on (regular user using admin page links or trying to edit/delete something through a link) then they'll be shown an error page with a button to bring them back to the shop.
+
+![screenshot](documentation/feature03.png)
+
+![screenshot](documentation/feature03.png)
+
+![screenshot](documentation/feature03.png)
+
 ### Future Features
 
 While I feel that the site has an abundance of features, there are several ones I would like to add in the future that didn't fit into the current development cycle for this project. These features have been logged as Won't Have in my MoSCoW prioritization.
