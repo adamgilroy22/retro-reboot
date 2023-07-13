@@ -32,6 +32,8 @@ main {
     color: var(--off-white);
 }
 
+/* Footer */
+
 body > footer {
     position: sticky;
     top: 100vh;
@@ -42,8 +44,14 @@ footer {
     color: var(--off-white);
 }
 
+/* Make GitHub link permanently yellow */
 footer a {
     color: var(--main-yellow);
+}
+
+/* Make all a elements in footer yellow on hover */
+footer a:hover {
+    color: var(--main-yellow) !important;
 }
 
 a {
