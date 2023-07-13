@@ -423,6 +423,8 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
     ![screenshot](documentation/testing/search-error.png)
 
+    ![screenshot](documentation/testing/empty-search.png)
+
 - **Individual Product Page**
 
     - Each product also has its own individual page for the user to see more information about the product including a description for every game and console on the site. Similar to the all products page, the product's image, name, release year and price appear on the individual page along with buttons to add the product to the user's basket or to return to the all products page and keep shopping.
