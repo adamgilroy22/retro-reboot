@@ -742,25 +742,139 @@ I created an entity relationship diagram using [Draw.io](https://draw.io). This 
 
 ![screenshot](documentation/retro-reboot-entity-relationship-diagram.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### Models
 
-Using Markdown formatting to represent an example ERD table using the Product model above:
+The following are the models created for Retro Reboot.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- **Allauth User Model**
+    - The User model was built using [Django's Allauth library](https://django-allauth.readthedocs.io/en/latest/overview.html)
+    - When a user is created, they're automatically assigned a profile through the Profile model.
 
-- Table: **Product**
+- **UserProfile**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **FK** | user | OneToOne | FK to **User** model |
+    | | default_phone_number | CharField | |
+    | | default_street_address1 | CharField | |
+    | | default_street_address2 | CharField | |
+    | | default_town_or_city | CharField | |
+    | | default_county | CharField | |
+    | | default_postcode | CharField | |
+    | | default_country | CountryField | |
+
+- **Category**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | | name | CharField | |
+
+- **Platform**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | | name | CharField | |
+    | | display_name | CharField | |
+
+- **Condition**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | | name | CharField | |
+
+- **Product**
 
     | **PK** | **id** (unique) | Type | Notes |
     | --- | --- | --- | --- |
     | **FK** | category | ForeignKey | FK to **Category** model |
-    | | sku | CharField | |
     | | name | CharField | |
-    | | description | TextField | |
-    | | has_sizes | BooleanField | |
+    | **FK** | platform | ForeignKey | FK to **Platform** model |
+    | | year | IntegerField | |
+    | **FK** | condition | ForeignKey | FK to **Condition** model |
     | | price | DecimalField | |
-    | | rating | DecimalField | |
-    | | image_url | URLField | |
     | | image | ImageField | |
+    | | stock | IntegerField | |
+
+- **Order**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | | order_number | CharField | |
+    | **FK** | user_profile | ForeignKey | FK to **UserProfile** model |
+    | | full_name | CharField | |
+    | | email | EmailField | |
+    | | phone_number | CharField | |
+    | | country | CountryField | |
+    | | postcode | CharField | |
+    | | town_or_city | CharField | |
+    | | street_address1 | CharField | |
+    | | street_address2 | CharField | |
+    | | county | CharField | |
+    | | discount | DecimalField | |
+    | | delivery_cost | DecimalField | |
+    | | order_total | DecimalField | |
+    | | grand_total | DecimalField | |
+    | | original_basket | TextField | |
+    | | stripe_pid | CharField | |
+
+- **OrderLineItem**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **FK** | order | ForeignKey | FK to **Order** model |
+    | **FK** | product | ForeignKey | FK to **Product** model |
+    | | quantity | IntegerField | |
+    | | lineitem_total | DecimalField | |
+
+- **DiscountCode**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **UNIQUE** | code | CharField | |
+    | | discount | IntegerField | |
+
+- **NewsletterSignup**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **UNIQUE** | email | EmailField | |
+
+- **Ticket**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | | name | CharField | |
+    | | email | EmailField | |
+    | | message | TextField | |
+    | | sent_at | DateTimeField | |
+    | | seen | BooleanField | |
+
+- **Post**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **UNIQUE** | title | CharField | |
+    | **UNIQUE** | slug | SlugField | |
+    | **FK** | author | ForeignKey | FK to **User** model |
+    | | updated_on | DateTimeField | |
+    | | content | TextField | |
+    | | image | ImageField | |
+    | | excerpt | TextField | |
+    | | created_on | DateTimeField | |
+    | | published | BooleanField | |
+    | **FK** | likes | ManyToMany | FK to **User** model |
+
+- **Comment**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **FK** | post | ForeignKey | FK to **Post** model |
+    | | name | CharField | |
+    | | email | EmailField | |
+    | | body | TextField | |
+    | | created_on | DateTimeField | |
+    | | approved | BooleanField | |
+    
 
 ## Agile Development Process
 
