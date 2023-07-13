@@ -62,11 +62,11 @@
                                 <div class="image-container">
                                     {% if product.image %}
                                     <a href="{% url 'product_detail' product.id %}">
-                                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}" height="auto" width="auto">
+                                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}" height="100%" width="100%">
                                     </a>
                                     {% else %}
                                     <a href="{% url 'product_detail' product.id %}">
-                                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}no-image.png" alt="{{ product.name }}" height="auto" width="auto">
+                                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}no-image.png" alt="{{ product.name }}" height="100%" width="100%">
                                     </a>
                                     {% endif %}
                                 </div>
