@@ -335,26 +335,30 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
     - This is the page a user lands on when arriving at the site. It welcomes them to the site and gives them an idea of what the site sells. A button is present that will bring the user to the site's product page.
 
-![screenshot](documentation/feature01.png)
+    ![screenshot](documentation/testing/homepage.png)
 
 - **All Products Page**
 
     - This is a page containing all products that the site sells.
 
-![screenshot](documentation/feature02.png)
+    ![screenshot](documentation/testing/all-products.png)
 
 - **Product Card**
 
     - Each product has its own card which contains the product's condition, image, name, platform, release year and price.
     - If the user is logged in as an admin, they will also see an edit and delete icon for each product.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/product-card.png)
+
+    ![screenshot](documentation/testing/edit-delete-icons.png)
 
 - **Condition Badge**
 
     - This appears on every product to let the user know whether the product is brand new and in its original box or second hand.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/condition-new.png)
+
+    ![screenshot](documentation/testing/condition-used.png)
 
 - **Product Stock Count**
 
@@ -364,133 +368,172 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 	- When a product is purchased, the stock will automatically decrease by the number of units of each product the customer purchases.
 	- When a product's stock reaches 0, the stock count is replaced with a sold out badge and the Add to basket button is disabled so product is not able to be added to the user's basket.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/stock-green.png)
+
+    ![screenshot](documentation/testing/stock-yellow.png)
+
+    ![screenshot](documentation/testing/stock-sold-out.png)
 
 - **Add to basket button**
 
     - Every product has a button that lets the user to add it to their basket when viewing it both on the all products page or the individual product page. This adds one unit of the product to the user's basket and they can increase the quantity from their basket if they want to purchase more than one.
+    - A user is shown a message confirming when an item has been added to their basket.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/add-to-basket.png)
+
+    ![screenshot](documentation/testing/add-to-basket-disabled.png)
+
+    ![screenshot](documentation/testing/add-to-basket-message.png)
 
 - **Product Sorting**
 
     - When the user is viewing the all products page, they can sort the products in a number of ways. Products can be sorted by: Price (low to high), Price (high to low), Name (A-Z), Name (Z-A), Year (oldest to newest), Year (newest to oldest), Platform (A-Z), Platform (Z-A)
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/product-sorting.png)
 
 - **Main Nav Menu**
 
     - Throughout the whole site the user has access to the main nav menu. Features include a search bar, account/profile access, basket link and running total if the user has items added to their baskets and links to filter products by platform and category as well as a link to the site's blog,
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/main-nav.png)
+
+    ![screenshot](documentation/testing/main-nav-dropdown.png)
 
 - **Product Filtering**
 
     - Through the nav menu, a user can sort and filter products. All products can be sorted by price, platform and release year and if the user wants to see products specific to a game or console they can sort both of these by platform (Nintendo, Sega, Sony and Arcade).
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/product-filtering-menu.png)
+
+    ![screenshot](documentation/testing/product-filtering-page.png)
+
+    ![screenshot](documentation/testing/product-filtering-detail.png)
 
 - **Search Bar**
 
     - Users can use the nav menu's search bar to find specific products. The search term is matched up with products' name and description to give the user a list of products to match their search term.
 	- The user can also see how many results were returned for their search term.
+    - If the user hits the search button without entering anything, an error message is shown.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/search-bar.png)
+
+    ![screenshot](documentation/testing/search.png)
+
+    ![screenshot](documentation/testing/search-results.png)
+
+    ![screenshot](documentation/testing/search-error.png)
 
 - **Individual Product Page**
 
     - Each product also has its own individual page for the user to see more information about the product including a description for every game and console on the site. Similar to the all products page, the product's image, name, release year and price appear on the individual page along with buttons to add the product to the user's basket or to return to the all products page and keep shopping.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/product-detail.png)
 
 - **Product Quantity Selectors**
 
     - Each individual product page contains a quantity selector if the product is in stock.
     - The selector lets the user add a minimum of 1 and a maximum of whatever the product's current stock is to their basket.
     - After setting the quantity, a user can click the add to basket button to add that number of the product to their basket.
+    - If the user already has an item in their basket and tries to add more than the stock, the form quantity buttons will still allow the user to select a max range of the product's stock but if the amount that the user is trying to add plus what they already have in their basket is greater than the product's stock, an error message will be shown.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/quantity-selector.png)
+
+    ![screenshot](documentation/testing/quantity-selector-minus-disabled.png)
+
+    ![screenshot](documentation/testing/quantity-selector-plus-disabled.png)
+
+    ![screenshot](documentation/testing/add-to-basket-error.png)
 
 - **My Account Dropdown**
 
     - If the user is logged in, the my account dropdown in the nav menu will contain a link to the user's profile.
 	- If the user isn't logged in they will be given the option to either register for an account or sign in to an existing account. 
 
-![screenshot](documentation/feature03.png)
+   ![screenshot](documentation/testing/my-account-dropdown.png)
+
+   ![screenshot](documentation/testing/my-account-dropdown-logged-out.png)
 
 - **Admin Dropdown**
 
     - If the user is logged in and has admin permissions, they will see an admin icon in the main nav menu.
     - Clicking this will give the admin options to add a new product, add a new blog post and view open contact page tickets. 
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/admin-dropdown.png)
 
 - **Add Product**
 
     - If the user is logged in and has admin permissions, they can add new products to the site from the admin dropdown in the nav menu.
     - The add product page contains a form for the admin to fill out with the details of the new product.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/add-product.png)
 
 - **Edit Product**
 
     - If the user is logged in and has admin permissions, they can edit site products by clicking the edit icon on either the product card on the all products page or the individual product page.
     - The edit product page contains the same form as the add product page but the fields are already populated with the product's current data.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/edit-product.png)
 
 - **Delete Product**
 
     - If the user is logged in and has admin permissions, they can delete site products by clicking the delete icon on either the product card on the all products page or the individual product page.
     - After clicking the icon, the admin will be directed to a confirmation page to avoid products being accidentally deleted.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/delete-product.png)
 
 - **User Sign Up**
 
     - Users without an account can register for one through the register link in the main nav menu. This will present them with a form to add their details and created a profile for that user on completion.
 	- Users are sent a confirmation email to complete their account sign up to help avoid people from creating spam accounts on the site.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/sign-up.png)
 
 - **User Sign In**
 
     - If a user isn't signed in to the site but has a profile, they can follow the sign in link where they're presented with a log in page. They must input their username or email address and correct password to do so. There's also a checkbox to let the user be remembered on their current device to avoid having to log in every time they visit the site.
 	- There's a link for users who have forgotten their password.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/sign-in.png)
 
 - **User Sign Out**
 
     - If a user wants to end their logged in session, they can click logout under the account dropdown in the nav menu.
     - This will bring them to a page confirming they want to log out.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/sign-out.png)
 
 - **Password Reset**
 
     - If a user is trying to log in and has forgotten their password they can visit the password reset page. Here a user must enter their email address they used to sign up with and an email will be sent to them with further instructions on resetting their password to regain access to their account.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/password-reset.png)
+
+    ![screenshot](documentation/testing/password-reset-sent.png)
+
+    ![screenshot](documentation/testing/password-reset-email.png)
+
+    ![screenshot](documentation/testing/change-password.png)
+
+    ![screenshot](documentation/testing/change-password-done.png)
 
 - **User Profile**
 
     - When a user has completed registration on the site, they are given a profile. The profile is pretty simple in that it contains the user's default delivery information if set and a list of the user's previous orders
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/profile.png)
 
 - **Default Deliver Information Form**
 
     - On the user's profile there is a form containing the user's default delivery information if the user has saved it. The user can update this information from their profile by altering the form and clicking the update information button. This information will be automatically used for the user's next purchase to make the site easier to use for customers.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/default-delivery-form.png)
 
 - **Order History**
 
     - Users can view a list with their full order history on their profiles. The data is displayed in a table with each row including the order number, time and date of purchase, items included in the order and the total of each order.
 	- The order number contains a link which when the user clicks on it, they are brought to the order confirmation page for that specific order which contains all the details for that order and a link to return to the user's profile.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/order-history.png)
 
 - **Site Footer**
 
@@ -498,20 +541,26 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - Two columns with links to games and consoles by platform in the middle.
     - A form to subscribe to the newsletter on the right.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/footer.png)
 
 - **Newsletter**
 
     - Using the form in the footer, users can sign up to the site's newsletter where on submission, they will be sent a welcome email containing an exclusive discount code to use on the site.
     - Users can only sign up to the newsletter once and if they try to sign up with an already registered email address, they will see a message letting them know.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/newsletter-form.png)
+
+    ![screenshot](documentation/testing/newsletter-alert.png)
+
+    ![screenshot](documentation/testing/newsletter-email.png)
+
+    ![screenshot](documentation/testing/newsletter-error.png)
 
 - **Contact Us Page**
 
     - This page can be accessed from the footer across the site and contains a map of Cork which is where the business is located and a contact us form.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/contact-page.png)
 
 - **Contact Us Form**
 
@@ -519,15 +568,30 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - When the form is submitted, the user is sent an automated email confirming that their message has been seen and that a member of the team will follow up with them.
     - A ticket is created using the Ticket model with the information from the form with the seen field set to false as default.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/contact-page.png)
+    
+    ![screenshot](documentation/testing/contact-form.png)
+
+    ![screenshot](documentation/testing/contact-alert.png)
+
+    ![screenshot](documentation/testing/contact-email.png)
 
 - **Ticket Management**
 
     - Admins can view a list of open tickets on a page accessed through the nav menu. This page lists all tickets where the seen field in the model is equal to false.
     - Once admins have viewed/dealt with open tickets, they can click the button to close the ticket. This will set the seen field to true and it will no longer appear in the list of open tickets.
+    - A message is shown to the admin to confirm the ticket has been marked as seen.
     - The heading shows a count of the amount of open tickets if there are some and a message shows up if there are no open tickets letting the admin know so.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/open-tickets-1.png)
+
+    ![screenshot](documentation/testing/open-tickets-2.png)
+
+    ![screenshot](documentation/testing/single-open-ticket.png)
+
+    ![screenshot](documentation/testing/ticket-closed-alert.png)
+
+    ![screenshot](documentation/testing/no-open-tickets.png)
 
 - **Blog**
 
@@ -536,14 +600,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - Users can click on a post to read the full thing.
     - If the logged in user is an admin, edit and delete icons are present to either change or remove the post.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/blog.png)
 
 - **Blog Post**
 
     - Each post has an individual page where users can read the full post, like the post or leave a comment.
     - Under the post is a list of comments left by users.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/blog-post.png)
+
+    ![screenshot](documentation/testing/blog-not-liked.png)
+
+    ![screenshot](documentation/testing/blog-liked.png)
+
+    ![screenshot](documentation/testing/blog-liked-alert.png)
+
+    ![screenshot](documentation/testing/blog-comment-count.png)
 
 - **Blog Comments**
 
@@ -551,7 +623,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - When the form is submitted users are given a message confirming so.
     - Comments are approved by default but if an admin sees a comment that isn't appropriate they can be removed by changing the comment's approved status to false.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/blog-comments.png)
 
 - **Add Blog Post Page**
 
@@ -562,20 +634,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - The Slug for the post will auto fill as the admin types the Title.
     - The post author is automatically set to be the current logged in admin who is creating the post.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/admin-panel-blog.png)
+    
+    ![screenshot](documentation/testing/add-blog.png)
 
 - **Edit Blog Post Page**
 
     - Admin's can edit blog posts by selecting the edit icon on a post.
     - This shows a form containing the current data for the post and allows the admin to edit.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/edit-blog.png)
 
 - **Delete Blog Post Page**
 
     - Admin's can also delete blog posts from the front end by selecting the delete icon. This will bring them to a confirmation page to delete the post to avoid any accidental data loss.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/delete-blog.png)
 
 - **Basket**
 
@@ -584,7 +658,9 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - When the user clicks on this they can see all the items in their basket, individual price of each product, subtotal per product if the quantity is greater than 1 and a quantity selector for each product with buttons to update the quantity or remove the product completely from their basket.
     - If a user doesn't have anything in their basket, a message will appear prompting the user to continue shopping.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/basket.png)
+
+    ![screenshot](documentation/testing/empty-basket.png)
 
 - **Basket Quantity Selector**
 
@@ -592,19 +668,23 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - If the users sets the quantity to 0 or clicks the remove button, the product will be completely removed from their basket.
     - The user can add a maximum of the product's stock to their basket from here the same as on the individual product page.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/basket-quantity-selector.png)
+
+    ![screenshot](documentation/testing/basket-quantity-selector-max.png)
 
 - **Basket Total**
 
     - This is the amount that the user's basket comes to after all the products and their quantities are added together.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/basket-total.png)
 
 - **Delivery Cost**
 
     - Under the basket total, the user can see their delivery cost. If their basket comes to over €50 then delivery is free, otherwise it's calculated at 10% of their order.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/delivery.png)
+
+    ![screenshot](documentation/testing/delivery-free.png)
 
 - **Discount Code Form**
 
@@ -614,27 +694,33 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - The form is removed when a discount has been added to avoid users stacking discounts.
     - If a user removes their current discount then the form will appear again.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/discount-form.png)
+
+    ![screenshot](documentation/testing/discount-added.png)
+
+    ![screenshot](documentation/testing/discount-invalid.png)
 
 - **Discount Amount**
 
     - When a user successfully adds a discount code, the amount that has been taken off is displayed in place of the discount code form.
     - A delete icon appears next to the discount amount if the user wants to use a different discount code and on clicking, a message appears confirming the discount has been removed and the discount code form will appear in place of the discount amount.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/discount-amount.png)
+
+    ![screenshot](documentation/testing/discount-removed.png)
 
 - **Grand Total**
 
     - At the bottom of the basket page a user can see their grand total.
     - This is the final total they will be charged and is calculated by adding their basket total to their shipping costs if they haven't met the free shipping criteria and taking away whatever percentage discount if they used a discount code.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/grand-total.png)
 
 - **Basket Buttons**
 
     - After the grand total, users will see two buttons, one to continue shopping and one to continue to the checkout.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/basket-buttons.png)
 
 - **Checkout**
 
@@ -642,34 +728,34 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - This page contains a form for the user's delivery and payment information and a summary of the user's order.
     - If the user has an account on the site, they can save their delivery information on their profile to automatically be filled in the checkout.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/checkout.png)
 
 - **Customer Details Form**
 
     - In the checkout the user can add their details and if they're logged in, can check the box to save their details for future transactions.
     - Users must enter their payment information before completing the checkout and all payments are handled via Stripe.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/checkout-form.png)
 
 - **Order Summary**
 
     - A final summary of the user's order is shown containing all the user's basket items, quantity and subtotal for each item.
     - The user can also see their order total, delivery costs, any discounts that have been applied and the grand total in the summary.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/order-summary.png)
 
 - **Checkout Buttons**
 
     - At the very end of the checkout the user will see two buttons, one to adjust their basket and another to complete their order.
     - The grand total is displayed under the complete order button to further inform the user of how much their card will be charged on order completion.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/checkout-buttons.png)
 
 - **Order Confirmation Email**
 
     - Once the order is complete and payment has been received, the user will receive an order confirmation email containing their order number and a receipt with the total paid.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/order-confirmation-email.png)
 
 - **Order Confirmation Page**
 
@@ -677,7 +763,11 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - This page contains a final rundown of the order and what the user purchased.
     - This page can be accessed again from the user's profile if they have an account on the site by clicking the order number from the list of past orders.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/order-confirmation-page.png)
+
+    ![screenshot](documentation/testing/order-confirmation.png)
+
+    ![screenshot](documentation/testing/past-order-confirmation.png)
 
 - **Konami Code Easter Egg**
 
@@ -685,17 +775,19 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - When the user types the code in, a sound is played and a modal box appears giving them an exclusive discount code to use in their basket.
     - This feature currently only works on devices connected to a keyboard.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/konami-code-easter-egg.png)
+
+    ![screenshot](documentation/testing/konami-code-modal.png)
 
 - **Error Pages**
 
     - If a user ends up on a page that either doesn't exist or that they shouldn't be on (regular user using admin page links or trying to edit/delete something through a link) then they'll be shown an error page with a button to bring them back to the shop.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/404-page.png)
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/403-page.png)
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](documentation/testing/500-page.png)
 
 ### Future Features
 
