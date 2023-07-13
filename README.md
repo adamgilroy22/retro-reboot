@@ -439,6 +439,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ![screenshot](documentation/feature03.png)
 
+- **Delete Product**
+
+    - If the user is logged in and has admin permissions, they can delete site products by clicking the delete icon on either the product card on the all products page or the individual product page.
+    - After clicking the icon, the admin will be directed to a confirmation page to avoid products being accidentally deleted.
+
+![screenshot](documentation/feature03.png)
+
 - **User Sign Up**
 
     - Users without an account can register for one through the register link in the main nav menu. This will present them with a form to add their details and created a profile for that user on completion.
