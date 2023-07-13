@@ -9,36 +9,37 @@
 {% endblock %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
 <div class="masthead">
     <div class="container">
-        <div class="row g-0">
-            <div class="col-md-6 masthead-text">
-                <!-- Post title goes in these h1 tags -->
-                <h1 class="post-title">{{ post.title }}</h1>
-                <!-- Post author goes before the | the post's created date goes after -->
-                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
-                {% if request.user.is_superuser %}
-                <small class="ml-3">
-                    <a href="{% url 'edit_post' post.slug %}">Edit</a> |
-                    <a class="text-danger" href="{% url 'delete_post' post.slug %}">Delete</a>
-                </small>
-                {% endif %}
-            </div>
-            <div class="d-none d-md-block col-md-6 masthead-image">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if post.image %}
                 <img src="{{ post.image.url }}" width="100%">
                 {% else %}
                 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
                 {% endif %}
+            </div>
+            <div class="col-lg-6 col-md-12 masthead-text">
+                <!-- Post title goes in these h1 tags -->
+                <h1 class="post-title">{{ post.title }}</h1>
+                <!-- Post author goes before the | the post's created date goes after -->
+                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}
+                    {% if request.user.is_superuser %}
+                    <span class="ml-2">
+                        <a class="text-yellow" href="{% url 'edit_post' post.slug %}"><i class="fa-solid fa-pen-to-square"></i></a> |
+                        <a class="text-danger" href="{% url 'delete_post' post.slug %}"><i class="fa-regular fa-trash-can"></i></a>
+                    </span>
+                    {% endif %}
+                </p>
             </div>
         </div>
     </div>
