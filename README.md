@@ -346,10 +346,11 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 - **Product Card**
 
     - Each product has its own card which contains the product's condition, image, name, platform, release year and price.
+    - If the user is logged in as an admin, they will also see an edit and delete icon for each product.
 
 ![screenshot](documentation/feature03.png)
 
-- **Condition Banner**
+- **Condition Badge**
 
     - This appears on every product to let the user know whether the product is brand new and in its original box or second hand.
 
