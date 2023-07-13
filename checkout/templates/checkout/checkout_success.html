@@ -165,7 +165,7 @@
                             <p class="mb-0 text-black font-weight-bold">Order Total:</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.order_total }}</p>
+                            <p class="mb-0">€{{ order.order_total }}</p>
                         </div>
                     </div>
 
@@ -174,16 +174,27 @@
                             <p class="mb-0 text-black font-weight-bold">Delivery Cost:</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.deliver_cost }}</p>
+                            <p class="mb-0">{% if order.delivery_cost > 0 %}€{{ order.delivery_cost }}{% else %}FREE{% endif %}</p>
                         </div>
                     </div>
+
+                    {% if order.discount > 0 %}
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <p class="mb-0 text-black font-weight-bold">Discount:</p>
+                        </div>
+                        <div class="col-12 col-md-8 text-md-right">
+                            <p class="mb-0">-€{{ order.discount }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
 
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black font-weight-bold">Grand Total:</p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="mb-0">{{ order.grand_total }}</p>
+                            <p class="mb-0">€{{ order.grand_total }}</p>
                         </div>
                     </div>
 
