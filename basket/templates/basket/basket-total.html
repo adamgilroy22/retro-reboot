@@ -5,7 +5,7 @@
 <h6>Delivery: FREE</h6>
 {% endif %}
 {% if discount > 0 %}
-<h6 class="text-danger mb-4"><strong>Discount: -€{{ savings|floatformat:2 }}</strong> <a href="{% url 'remove-discount' %}"><i class="fa-solid fa-trash fa-sm"></i></a></h6>
+<h6 class="mb-4">Discount: -€{{ savings|floatformat:2 }} <a class="text-danger" href="{% url 'remove-discount' %}"><i class="fa-regular fa-trash-can"></i></a></h6>
 {% else %}
 <form action="{% url 'add-discount' %}" method="POST">
     {% csrf_token %}
