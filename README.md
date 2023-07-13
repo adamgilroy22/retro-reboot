@@ -569,8 +569,6 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
     - This is a simple form that a user can fill out to contact the site owners.
     - When the form is submitted, the user is sent an automated email confirming that their message has been seen and that a member of the team will follow up with them.
     - A ticket is created using the Ticket model with the information from the form with the seen field set to false as default.
-
-    ![screenshot](documentation/testing/contact-page.png)
     
     ![screenshot](documentation/testing/contact-form.png)
 
