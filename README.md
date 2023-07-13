@@ -424,6 +424,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ![screenshot](documentation/feature03.png)
 
+- **Add Product**
+
+    - If the user is logged in and has admin permissions, they can add new products to the site from the admin dropdown in the nav menu.
+    - The add product page contains a form for the admin to fill out with the details of the new product.
+
+![screenshot](documentation/feature03.png)
+
 - **User Sign Up**
 
     - Users without an account can register for one through the register link in the main nav menu. This will present them with a form to add their details and created a profile for that user on completion.
