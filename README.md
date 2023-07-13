@@ -1345,6 +1345,7 @@ I used some online resources to help me overcome some challenges I faced during 
 | [StackOverflow](https://stackoverflow.com/questions/4919076/outline-effect-to-text) | Outline on homepage text to avoid contrast clashes with background image elements on smaller screens | Outline effect to text |
 | [Get Bootstrap](https://getbootstrap.com/docs/4.6/components/modal/) | Konami Code easter egg modal | Modal |
 | [Code Institute](https://github.com/Code-Institute-Solutions/boutique_ado_v1/) | Project foundations | Boutique Ado Project |
+| [GitHub](https://github.com/summernote/django-summernote) | Blog Creation | Django Summernote implementation on the front end for admin's to create blog posts |
 
 ### Media
 
