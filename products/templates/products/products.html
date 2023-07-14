@@ -152,12 +152,11 @@
 {{ block.super }}
 
 <script>
+    /* jshint esversion: 11 */
     $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
-    })
-</script>
+        window.scrollTo(0,0);
+    });
 
-<script>
     $('#sort-selector').change(function() {
         var selector = $(this);
         var currentUrl = new URL(window.location);
@@ -177,6 +176,6 @@
 
             window.location.replace(currentUrl);
         }
-    })
+    });
 </script>
 {% endblock %}
