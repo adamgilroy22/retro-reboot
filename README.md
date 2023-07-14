@@ -1431,7 +1431,8 @@ I used some online resources to help me overcome some challenges I faced during 
 | [StackOverflow](https://stackoverflow.com/questions/25839043/how-do-i-remove-label-text-in-django-generated-form) | Removing label from discount and newsletter forms | How do I remove Label text in Django generated form? |
 | [StackOverflow](https://stackoverflow.com/questions/4919076/outline-effect-to-text) | Outline on homepage text to avoid contrast clashes with background image elements on smaller screens | Outline effect to text |
 | [Get Bootstrap](https://getbootstrap.com/docs/4.6/components/modal/) | Konami Code easter egg modal | Modal |
-| [Code Institute](https://github.com/Code-Institute-Solutions/boutique_ado_v1/) | Project foundations | Boutique Ado Project |
+| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/) | Project foundations | Boutique Ado Walkthrough Project |
+| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) | Blog | I Think Therefore I Blog Walkthrough Project |
 | [GitHub](https://github.com/summernote/django-summernote) | Blog Creation | Django Summernote implementation on the front end for admin's to create blog posts |
 
 ### Media
