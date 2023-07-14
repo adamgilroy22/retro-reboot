@@ -1,6 +1,11 @@
-# RETRO REBOOT
+# __Retro Reboot - Portfolio Project 5__
+![mockup](documentation/mockup.png)
 
 Welcome to Retro Reboot. An e-commerce site dedicated to providing gamers with a selection of retro video games and consoles to purchase.
+
+Developed by Adam Gilroy
+
+[Live link to website](https://retro-reboot.herokuapp.com/)
 
 ## UX
 
