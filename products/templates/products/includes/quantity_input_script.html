@@ -1,9 +1,10 @@
 <script>
+    /* jshint esversion: 11, jquery: true */
     // Disable +/- buttons outside stock range
     function handleEnableDisable(itemId) {
         var currentValue = parseInt($(`.id_qty_${itemId}`).val());
         var minusDisabled = currentValue < 2;
-        var plusDisabled = currentValue >= document.getElementById("ItemStock").value;;
+        var plusDisabled = currentValue >= document.getElementById("ItemStock").value;
         $(`.decrement-qty_${itemId}`).prop('disabled', minusDisabled);
         $(`.increment-qty_${itemId}`).prop('disabled', plusDisabled);
     }
