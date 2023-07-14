@@ -213,6 +213,12 @@ Sample Python code validation documentation (tables are extremely helpful!):
 | Newsletter models.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/newsletter/models.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Newsletter urls.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/newsletter/urls.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Newsletter views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/newsletter/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Products admin.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/products/admin.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Products forms.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/products/forms.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Products models.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/products/models.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Products urls.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/products/urls.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Products views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/products/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Products widgets.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/products/widgets.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 
 ## Browser Compatibility
 
