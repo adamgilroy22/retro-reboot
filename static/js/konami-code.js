@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
 var current = 0;
 var modal = document.getElementById("konamiModal");
@@ -16,7 +18,7 @@ var keyHandler = function (event) {
 
 	// If complete, alert and reset
 	if (pattern.length === current) {
-		playAudio()
+		playAudio();
 		modal.style.display = "block";
 		current = 0;
 	}
