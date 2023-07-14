@@ -223,6 +223,10 @@ Sample Python code validation documentation (tables are extremely helpful!):
 | Profiles models.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/profiles/models.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Profiles urls.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/profiles/urls.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Profiles views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/profiles/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Project Level settings.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/retro_reboot/settings.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Project Level urls.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/retro_reboot/urls.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Project Level views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/retro_reboot/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+
 
 ## Browser Compatibility
 
