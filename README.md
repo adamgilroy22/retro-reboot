@@ -991,19 +991,15 @@ There, I used my own **User Story Template** to manage user stories.
 
 It also helped to keep on top of my [milestones](https://github.com/adamgilroy22/retro-reboot/milestones) for the project.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a screenshot of your Open and Closed Issues.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 - [Open Issues](https://github.com/adamgilroy22/retro-reboot/issues)
 
-    ![screenshot](documentation/gh-issues-open.png)
+    ![screenshot](documentation/open-issues.png)
 
 - [Closed Issues](https://github.com/adamgilroy22/retro-reboot/issues?q=is%3Aissue+is%3Aclosed)
 
-    ![screenshot](documentation/gh-issues-closed.png)
+    ![screenshot](documentation/closed-issues-1.png)
+
+    ![screenshot](documentation/closed-issues-2.png)
 
 ### MoSCoW Prioritization
 
