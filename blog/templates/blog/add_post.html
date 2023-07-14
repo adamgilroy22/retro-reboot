@@ -45,7 +45,7 @@
     {{ block.super }}
     <script>
         // convert Blog title to slug-format on front-end
-        /* jshint esversion: 11 */
+        /* jshint esversion: 11, jquery: true */
         let title = document.getElementById("id_title");
         let slug = document.getElementById("id_slug");
         title?.addEventListener("keyup", convertToSlug);
