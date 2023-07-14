@@ -208,6 +208,11 @@ Sample Python code validation documentation (tables are extremely helpful!):
 | Discount Codes models.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/discount_codes/models.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Homepage models.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/homepage/urls.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Homepage views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/homepage/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Newsletter admin.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/newsletter/admin.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Newsletter forms.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/newsletter/forms.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Newsletter models.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/newsletter/models.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Newsletter urls.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/newsletter/urls.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Newsletter views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/newsletter/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 
 ## Browser Compatibility
 
