@@ -198,6 +198,11 @@ Sample Python code validation documentation (tables are extremely helpful!):
 | Checkout views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/checkout/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Checkout webhook_handler.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/checkout/webhook_handler.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Checkout webhooks.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/checkout/webhooks.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Contact admin.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/contact/admin.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Contact forms.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/contact/forms.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Contact models.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/contact/models.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Contact urls.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/contact/urls.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Contact views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/contact/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 
 ## Browser Compatibility
 
