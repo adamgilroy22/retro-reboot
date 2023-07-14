@@ -121,14 +121,16 @@
 
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript">
-    $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
-    })
-</script>
-{% include 'products/includes/quantity_input_script.html' %}
 
-<script type="text/javascript">
+{% include 'products/includes/quantity_input_script.html' %}
+<script>
+    /* jshint esversion: 11, jquery: true */
+    
+    // Back to top
+    $('.btt-link').click(function(e) {
+        window.scrollTo(0,0);
+    });
+
     // force qty_input to only be 0-99
     $(".qty_input").keyup(function() {
             let inputVal = $(this).val();
@@ -143,7 +145,7 @@
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
         form.submit();
-    })
+    });
 
     // Remove item and reload on click
     $('.remove-item').click(function(e) {
@@ -156,6 +158,6 @@
          .done(function() {
              location.reload();
          });
-    })
+    });
 </script>
 {% endblock %}
