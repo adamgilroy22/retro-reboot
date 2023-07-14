@@ -482,6 +482,11 @@ a:hover {
         color: var(--off-white);
     }
 
+    .nav-link i.fa-lg:hover {
+        font-size: 1rem;
+        color: var(--main-yellow) !important;
+    }
+
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
