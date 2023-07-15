@@ -80,6 +80,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 - As a site user I want to be able to see the prices of products clearly so that I can make a decision whether or not to purchase. `(MUST HAVE)`
 - As a site user I want to be able to view a product on its own individual page so that I can see more information about the product. `(MUST HAVE)`
 - As a site user I want to be able to sort products by category (game/console or games by console) so that I can find specific products related to the category I select. `(SHOULD HAVE)`
+- As a registered site user I want to be able to review products that I have purchased so that I can share my experience with other potential customers. `(WONT HAVE)`
 
 ### EPIC 3: Ordering/Cart Management
 
