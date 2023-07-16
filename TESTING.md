@@ -182,9 +182,9 @@ Sample Python code validation documentation (tables are extremely helpful!):
 
 | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Basket contexts.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/basket/contexts.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
-| Basket urls.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/basket/urls.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
-| Basket views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/basket/views.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
+| Basket contexts.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/basket/contexts.py) | ![screenshot](documentation/testing/basket-contexts-python-test.png) | Pass: No Errors |
+| Basket urls.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/basket/urls.py) | ![screenshot](documentation/testing/basket-urls-python-test.png) | Pass: No Errors |
+| Basket views.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/basket/views.py) | ![screenshot](documentation/testing/basket-views-python-test.png) | Pass: No Errors |
 | Blog admin.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/blog/admin.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Blog forms.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/blog/forms.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
 | Blog models.py | [CI PEP8](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/adamgilroy22/retro-reboot/main/blog/models.py) | ![screenshot](documentation/py-validation-run.png) | Pass: No Errors |
