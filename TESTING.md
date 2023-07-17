@@ -317,8 +317,9 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Complete Order button with all details filled out | Loading spinner appears and order is processed | Pass | |
 | | Order completed | Order confirmation email is sent to the user and redirection to checkout success page | Pass | |
 | **Checkout Success Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Order completed | Redirection to checkout success page | Pass | |
+| | Click Checkout latest deals button | Redirects user to all products page | Pass | Only visible if user comes to this page straight from order completion |
+| | Click Back to profile button button | Redirects user to their profile | Pass | Only visible if user comes to this page from the order history list on their profile |
 | **Add Product Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
