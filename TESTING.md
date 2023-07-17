@@ -321,8 +321,10 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Checkout latest deals button | Redirects user to all products page | Pass | Only visible if user comes to this page straight from order completion |
 | | Click Back to profile button button | Redirects user to their profile | Pass | Only visible if user comes to this page from the order history list on their profile |
 | **Add Product Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click Add New Product link from Admin dropdown | Redirects admin to add product page | Pass | User can only see this if they're logged in as an admin |
+| | Click Cancel button | Redirects admin to all products page | Pass | |
+| | Click Add Product button with form filled correctly | Creates a new product on the site using the information provided | Pass | |
+| | Click Add Product button with form filled incorrectly | Message appears letting the admin know to fill in the required form fields | Pass | |
 | **Edit Product Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
