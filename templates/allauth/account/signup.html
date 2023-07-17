@@ -26,7 +26,8 @@
         <img src="{% static 'img/signup-image.png' %}" class="card-img-top" alt="Retro Reboot signup page image">
         <div class="card-body">
           <h1 class="card-title logo-font text-yellow text-center">{% trans "Sign Up" %}</h1>
-          <h5 class="card-text text-white text-center">{% blocktrans %}Already have an account? Then please <a class="text-teal" href="{{ login_url }}">sign in</a>.{% endblocktrans %}</h5>
+          <h5 class="card-text text-white text-center">{% blocktrans %}Already have an account? Then please <a
+              class="text-teal" href="{{ login_url }}">sign in</a>.{% endblocktrans %}</h5>
           <div class="col-lg-10 p-2 m-auto">
             <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
               {% csrf_token %}
@@ -34,11 +35,11 @@
               {% if redirect_field_value %}
               <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
               {% endif %}
+              <div class="text-center">
+                <button class="btn-outline-black btn-lg text-uppercase py-2" type="submit">Sign Up</button>
+              </div>
+            </form>
           </div>
-          <div class="text-center">
-            <button class="btn-outline-black btn-lg text-uppercase py-2" type="submit">{% trans "Sign Up" %}</button>
-          </div>
-          </form>
         </div>
       </div>
     </div>
