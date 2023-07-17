@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://retro-reboot.herokuapp.com/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/basket/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?sort=platform&amp;direction=asc</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?sort=year&amp;direction=asc</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?category=Game&amp;platform=nes,super-nintendo,nintendo-64,gameboy,gameboy-colour,nintendo-gamecube&amp;sort=platform&amp;direction=asc</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?category=Game&amp;platform=sega-dreamcast,sega-genesis&amp;sort=platform&amp;direction=asc</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?category=Game&amp;platform=playstation,playstation-2&amp;sort=platform&amp;direction=asc</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?category=Console&amp;platform=nes,super-nintendo,nintendo-64,gameboy,gameboy-colour,nintendo-gamecube</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?category=Console&amp;platform=sega-dreamcast,sega-genesis</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?category=Console&amp;platform=playstation,playstation-2</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=arcade-machine</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/blog/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/contact/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/15/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=nes</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/21/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/12/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/19/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/20/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/14/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/115/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/13/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/17/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/95/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/110/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/18/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/16/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/25/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=super-nintendo</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/96/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/31/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/29/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/28/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/30/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/27/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/26/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/22/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/24/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/23/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/35/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=gameboy</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/108/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/93/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/33/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/34/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/32/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/36/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/37/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/39/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/38/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/114/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=nintendo-64</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/3/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/1/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/10/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/7/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/4/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/8/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/11/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/6/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/2/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/9/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/97/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/5/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/76/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=sega-genesis</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/68/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/69/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/70/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/74/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/77/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/102/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/116/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/112/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/75/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/71/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/73/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/72/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/89/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=sega-dreamcast</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/88/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/101/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/90/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/91/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/92/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/52/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=playstation</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/53/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/49/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/54/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/55/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/50/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/51/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/48/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/56/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/57/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/99/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/81/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/?platform=playstation-2</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/83/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/84/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/85/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/86/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/87/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/80/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/79/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/78/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/100/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/111/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/113/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/82/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/65/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/64/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/117/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://retro-reboot.herokuapp.com/products/40/</loc>
+  <lastmod>2023-07-17T22:02:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
