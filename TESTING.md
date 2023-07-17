@@ -494,7 +494,7 @@ All previously closed/fixed bugs can be tracked [here](https://github.com/adamgi
 
 **Open Issues**
 
-Any remaining open issues can be tracked [here](https://github.com/adamgilroy22/retro-reboot/issues).
+Any remaining open issues can be tracked [here](https://github.com/adamgilroy22/retro-reboot/issues). Any remaining user stories have been labeled as Won't Have in my MoSCoW prioritization.
 
 | Bug | Status |
 | --- | --- |
@@ -506,43 +506,8 @@ Any remaining open issues can be tracked [here](https://github.com/adamgilroy22/
 
 ## Unfixed Bugs
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+There is one remaining bug that I am aware of and have left open in GitHub issues: [BUG: Search is sensitive to accents](https://github.com/adamgilroy22/retro-reboot/issues/31).
 
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
+I decided not to attempt to fix this bug during development so far as it was only affecting a small number of products on the site. I worked around this bug by replacing the é with e in product descriptions that mention the word Pokémon. As the search picks up from both the product title and description, I was able to leave the accent in the product names that are affected so if a user was to search the products using the accent they would still appear in the results.
 
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-Some examples:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
-
-    ![screenshot](documentation/unfixed-bug01.png)
-
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
-
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
-
-    ![screenshot](documentation/unfixed-bug02.png)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-There are no remaining bugs that I am aware of.
+This is a bug that can definitely be looked at and fixed as the site grows and more products are added in the future but for now I felt the work that would go in to fixing the bug was not worth it due to the miniscule affect it has that was easily worked around by updating product descriptions.
