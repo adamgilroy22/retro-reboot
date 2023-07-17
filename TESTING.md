@@ -365,8 +365,18 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Close Ticket button on ticket | Marks ticket as seen and removes it from list of open tickets | Pass | If last open ticket is closed the page will contain just a header saying No Open Tickets |
 | | Brute forcing the URL to access open ticket page if not an admin | User given an error | Pass | Redirects user to error page |
 | **Footer** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click Blog link in footer | Redirects user to blog page | Pass | |
+| | Click Contact Us link in footer | Redirects user to contact page | Pass | |
+| | Click social media icons in footer | Opens social media site clicked in a new tab | Pass | |
+| | Click on Games By Nintendo link in footer | Redirection to All Products page | Pass | Products filtered to Games on Nintendo consoles |
+| | Click on Games By Sega link in footer | Redirection to All Products page | Pass | Products filtered to Games on Sega consoles |
+| | Click on Games By Sony link in footer | Redirection to All Products page | Pass | Products filtered to Games on Sony consoles |
+| | Click on Consoles By Nintendo link in footer | Redirection to All Products page | Pass | Products filtered to Nintendo consoles |
+| | Click on Consoles By Sega link in footer | Redirection to All Products page | Pass | Products filtered to Sega consoles |
+| | Click on Consoles By Sony link in footer | Redirection to All Products page | Pass | Products filtered to Sony consoles |
+| | Click on Subscribe button on blank newsletter form | Error message appears telling user to try again | Pass | |
+| | Click on Subscribe button on filled newsletter form | Alert message lets user know they have signed up for the mailing list and welcome email is sent to address provided | Pass | |
+| | Try to subscribe to newsletter with already subscribed email address | Error message appears telling user to check the form or make sure they're not already subscribed | Pass | |
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
