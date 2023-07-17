@@ -175,37 +175,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Defensive Programming
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Defensive programming (defensive design) is extremely important!
-
-When building projects that accept user inputs or forms, you should always test the level of security for each.
-Examples of this could include (not limited to):
-
-Forms:
-- Users cannot submit an empty form
-- Users must enter valid email addresses
-
-PP3 (Python-only):
-- Users must enter a valid letter/word/string when prompted
-- Users must choose from a specific list only
-
-Flask/Django:
-- Users cannot brute-force a URL to navigate to a restricted page
-- Users cannot perform CRUD functionality while logged-out
-- User-A should not be able to manipulate data belonging to User-B, or vice versa
-- Non-Authenticated users should not be able to access pages that require authentication
-- Standard users should not be able to access pages intended for superusers
-
-You'll want to test all functionality on your application, whether it's a standard form,
-or uses CRUD functionality for data manipulation on a database.
-Make sure to include the `required` attribute on any form-fields that should be mandatory.
-Try to access various pages on your site as different user types (User-A, User-B, guest user, admin, superuser).
-
-You should include any manual tests performed, and the expected results/outcome.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 Defensive programming was manually tested with the below user acceptance testing:
 
 | Page | User Action | Expected Result | Pass/Fail | Comments |
@@ -290,6 +259,11 @@ Defensive programming was manually tested with the below user acceptance testing
 | **Log Out Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **User Profile Page** | | | | |
+| | Click on the My Profile link under account on nav menu | Redirection to User profile page page | Pass | Only shows for logged in users |
+| | Click Update Information button | Saves form contents to be default information for user | Pass | Default information is cleared if form is submitted while blank |
+| | Click Order Number for previous order in Order History | Redirects user to order confirmation page for that order | Pass | |
+| | Brute forcing the URL to profile if not logged in | User given an error | Pass | Redirects user to error page |
 | **Basket** | | | | |
 | | Click Basket icon in main nav | Redirects user to basket page | Pass | Shows back to shop button if basket is empty |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
@@ -377,13 +351,6 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click on Subscribe button on blank newsletter form | Error message appears telling user to try again | Pass | |
 | | Click on Subscribe button on filled newsletter form | Alert message lets user know they have signed up for the mailing list and welcome email is sent to address provided | Pass | |
 | | Try to subscribe to newsletter with already subscribed email address | Error message appears telling user to check the form or make sure they're not already subscribed | Pass | |
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Repeat for all other tests, as applicable to your own site.
-The aforementioned tests are just an example of a few different project scenarios.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## User Story Testing
 
