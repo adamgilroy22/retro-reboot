@@ -280,34 +280,34 @@ The following are user stories I've implemented with screenshots to prove.
 
 | User Story | Screenshot |
 | --- | --- |
-| As a first-time site visitor I want to be able to clearly see what the site's purpose is so that I can decide whether or not to continue browsing it. | ![screenshot](documentation/testing) |
-| As a user I want to be able to easily navigate the website so that I can find the content I'm looking for. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to search the website so that I can find specific products and see if the site has them in stock. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to contact the site owners so that I can request further information about the site or lodge a complaint. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to see a list of all site products so that I can browse what the site has to offer. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to see the prices of products clearly so that I can make a decision whether or not to purchase. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to view a product on its own individual page so that I can see more information about the product. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to sort products by category (game/console or games by console) so that I can find specific products related to the category I select. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to add products to my shopping basket so that I can proceed to the checkout and purchase them. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to see a running total of the items in my basket so that I can manage my spending and know what to expect at the checkout. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to checkout with a card payment so that I can place an order for the items in my basket. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to receive an order confirmation email after I purchase from the shop so that I can have a record of what I've purchased in my email inbox. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to apply discount codes in the checkout so that I can receive a discount on my purchase. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to create an account on the site so that I can save my billing and shipping details and see a history of my purchases on my account. | ![screenshot](documentation/testing) |
-| As a registered user I want to be able to edit the details saved to my account so that I can keep my details up to date. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to view blog posts on the website so that I can read any posts I feel are relevant to me. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to create blog posts from the front end so that I can share information with site visitors. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to edit existing blog posts so that I can ensure that posts are up to date and relevant without having to create them from scratch in case of error. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to delete existing blog posts so that I can remove any unwanted posts from the site. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to create new products from the front end so that I can easily add new products to the site. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to edit existing products so that I can ensure that all product listings are up to date and accurate. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to delete products from the site so that I can remove any products that are no longer being supplied by the site. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to set the stock for each product so that I can manage how many units of each product the site can sell. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to see a list of open tickets so that I can manage contact form inquiries. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to sign up for the site's mailing list so that I can receive offers and news in my inbox. | ![screenshot](documentation/testing) |
-| As a site user I want to be able to enter the Konami code (Up Up Down Down Left Right Left Right B A) on my keyboard so that I can experience an easter egg. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to set appropriate keywords on site pages so that I can increase the chances potential customers will find the site when searching to purchase records on Google. | ![screenshot](documentation/testing) |
-| As a site admin I want to be able to share the business on Facebook so that I can reach and market to a larger audience. | ![screenshot](documentation/testing) |
+| As a first-time site visitor I want to be able to clearly see what the site's purpose is so that I can decide whether or not to continue browsing it. | ![screenshot](documentation/testing/homepage.png) |
+| As a user I want to be able to easily navigate the website so that I can find the content I'm looking for. | ![screenshot](documentation/testing/main-nav.png) ![screenshot](documentation/testing/main-nav-dropdown.png) |
+| As a site user I want to be able to search the website so that I can find specific products and see if the site has them in stock. | ![screenshot](documentation/testing/search-bar.png) ![screenshot](documentation/testing/search-results.png) ![screenshot](documentation/testing/search.png) |
+| As a site user I want to be able to contact the site owners so that I can request further information about the site or lodge a complaint. | ![screenshot](documentation/testing/contact-page.png) ![screenshot](documentation/testing/contact-form.png) |
+| As a site user I want to be able to see a list of all site products so that I can browse what the site has to offer. | ![screenshot](documentation/testing/all-products.png) |
+| As a site user I want to be able to see the prices of products clearly so that I can make a decision whether or not to purchase. | ![screenshot](documentation/testing/product-card.png) |
+| As a site user I want to be able to view a product on its own individual page so that I can see more information about the product. | ![screenshot](documentation/testing/product-detail.png) |
+| As a site user I want to be able to sort products by category (game/console or games by console) so that I can find specific products related to the category I select. | ![screenshot](documentation/testing/product-filtering-menu.png) ![screenshot](documentation/testing/product-filtering-detail.png) |
+| As a site user I want to be able to add products to my shopping basket so that I can proceed to the checkout and purchase them. | ![screenshot](documentation/testing/add-to-basket.png) |
+| As a site user I want to be able to see a running total of the items in my basket so that I can manage my spending and know what to expect at the checkout. | ![screenshot](documentation/testing/add-to-basket-message.png) |
+| As a site user I want to be able to checkout with a card payment so that I can place an order for the items in my basket. | ![screenshot](documentation/testing/checkout.png) |
+| As a site user I want to be able to receive an order confirmation email after I purchase from the shop so that I can have a record of what I've purchased in my email inbox. | ![screenshot](documentation/testing/order-confirmation-email.png) |
+| As a site user I want to be able to apply discount codes in the checkout so that I can receive a discount on my purchase. | ![screenshot](documentation/testing/discount-form.png) ![screenshot](documentation/testing/discount-added.png) |
+| As a site user I want to be able to create an account on the site so that I can save my billing and shipping details and see a history of my purchases on my account. | ![screenshot](documentation/testing/sign-up.png) |
+| As a registered user I want to be able to edit the details saved to my account so that I can keep my details up to date. | ![screenshot](documentation/testing/profile.png) ![screenshot](documentation/testing/default-delivery-form.png) |
+| As a site user I want to be able to view blog posts on the website so that I can read any posts I feel are relevant to me. | ![screenshot](documentation/testing/blog.png) ![screenshot](documentation/testing/blog-post.png) |
+| As a site admin I want to be able to create blog posts from the front end so that I can share information with site visitors. | ![screenshot](documentation/testing/add-blog.png) |
+| As a site admin I want to be able to edit existing blog posts so that I can ensure that posts are up to date and relevant without having to create them from scratch in case of error. | ![screenshot](documentation/testing/edit-blog.png) |
+| As a site admin I want to be able to delete existing blog posts so that I can remove any unwanted posts from the site. | ![screenshot](documentation/testing/delete-blog.png) |
+| As a site admin I want to be able to create new products from the front end so that I can easily add new products to the site. | ![screenshot](documentation/testing/add-product.png) |
+| As a site admin I want to be able to edit existing products so that I can ensure that all product listings are up to date and accurate. | ![screenshot](documentation/testing/edit-product.png) |
+| As a site admin I want to be able to delete products from the site so that I can remove any products that are no longer being supplied by the site. | ![screenshot](documentation/testing/delete-product.png) |
+| As a site admin I want to be able to set the stock for each product so that I can manage how many units of each product the site can sell. | ![screenshot](documentation/testing/stock-green.png) ![screenshot](documentation/testing/stock-yellow.png) ![screenshot](documentation/testing/stock-sold-out.png) |
+| As a site admin I want to be able to see a list of open tickets so that I can manage contact form inquiries. | ![screenshot](documentation/testing/open-tickets-1.png) ![screenshot](documentation/testing/single-open-ticket.png) ![screenshot](documentation/testing/no-open-tickets.png) |
+| As a site user I want to be able to sign up for the site's mailing list so that I can receive offers and news in my inbox. | ![screenshot](documentation/testing/newsletter-form.png) ![screenshot](documentation/testing/newsletter-alert.png) ![screenshot](documentation/testing/newsletter-email.png) |
+| As a site user I want to be able to enter the Konami code (Up Up Down Down Left Right Left Right B A) on my keyboard so that I can experience an easter egg. | ![screenshot](documentation/testing/konami-code-easter-egg.png) ![screenshot](documentation/testing/konami-code-modal.png) |
+| As a site admin I want to be able to set appropriate keywords on site pages so that I can increase the chances potential customers will find the site when searching to purchase records on Google. | ![screenshot](documentation/testing/seo-keywords.png) |
+| As a site admin I want to be able to share the business on Facebook so that I can reach and market to a larger audience. | ![screenshot](documentation/facebook-mockup.png) |
 
 The following are user stories I wasn't able to implement and have labeled as Wont Have in my MoSCoW prioritization
 
