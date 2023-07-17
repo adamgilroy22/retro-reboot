@@ -116,7 +116,7 @@ View a full list of user stories [here](https://github.com/adamgilroy22/retro-re
 - As a site user I want to be able to sign up for the site's mailing list so that I can receive offers and news in my inbox. `(COULD HAVE)`
 - As a site user I want to be able to spin a discount wheel so that I can receive a discount code pending on the outcome of the wheel. `(WONT HAVE)`
 - As a site user I want to be able to enter the Konami code (Up Up Down Down Left Right Left Right B A) on my keyboard so that I can experience an easter egg. `(COULD HAVE)`
-- As a site admin I want to be able to send marketing emails to people who signed up to the mailing list so that I can send out updates and offers to their inboxes. `(COULD HAVE)`
+- As a site admin I want to be able to send marketing emails to people who signed up to the mailing list so that I can send out updates and offers to their inboxes. `(WONT HAVE)`
 - As a site admin I want to be able to set appropriate keywords on site pages so that I can increase the chances potential customers will find the site when searching to purchase records on Google. `(MUST HAVE)`
 - As a site admin I want to be able to share the business on Facebook so that I can reach and market to a larger audience. `(SHOULD HAVE)`
 
