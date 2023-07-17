@@ -271,13 +271,18 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click on edit blog button | Redirection to Edit Blog page for that post | Pass | Button only appears if logged in user is an admin |
 | | Click on delete blog button | Redirection to Delete Blog confirmation page for that post | Pass | Button only appears if logged in user is an admin |
 | **Sign Up Page** | | | | |
-| | Click on Sign Up button on home page | Redirection to Sign Up page | Pass | |
+| | Click on Register button under account on nav menu | Redirection to Sign Up page | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
 | | Enter valid password (twice) | Field will only accept password format | Pass | |
-| | Click Sign Up button on sign up page | Redirects user to feed | Pass | |
+| | Click Sign Up button on sign up page | Sends confirmation email and lets user know to check their email | Pass | |
+| | Click link in confirmation email | Redirects user to sign in page | Pass | |
 | **Sign In Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click on the Login button under account on nav menu | Redirection to Login page | Pass | |
+| | Enter valid email address | Field will only accept email address format | Pass | |
+| | Enter valid password | Field will only accept password format | Pass | |
+| | Click Login button on login page | Redirects user to homepage | Pass | |
+| | Click Forgot Password | Redirects user to password reset page | Pass | |
+| | Sign in before confirming account | Redirects to message reminding user to confirm email address | Pass | |
 | **Password Reset Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
