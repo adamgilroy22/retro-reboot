@@ -39,12 +39,31 @@ Sample HTML code validation documentation (tables are extremely helpful!):
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fretro-reboot%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fretro-reboot%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.png) | obsolete iframe warnings |
-| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fretro-reboot%2Fquiz.html) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Add Blog | n/a | ![screenshot](documentation/html-validation-add-blog.png) | Duplicate IDs found, and fixed |
-| Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining HTML files |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2F) | ![screenshot](documentation/html-validation-home.png) | Pass: No Errors |
+| All Products | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F) | ![screenshot](documentation/html-validation-contact.png) | Pass: No Errors |
+| Individual Product | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F13%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fcontact%2F) | ![screenshot](documentation/html-validation-quiz.png) | Error: Bad value 100% for attribute width on element iframe (Needed to display map properly) |
+| Blog | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fblog%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Blog Post | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fblog%2Fcaring-for-game-cartridges-essential-tips%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Sign Up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Fsignup%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Sign In | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Flogin%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Password Reset | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Fpassword%2Freset%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Search | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F%3Fq%3Dpokemon) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Log Out | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Basket | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Checkout | n/a | ![screenshot](documentation/html-validation-quiz.png) | Warning: Empty heading (Loading spinner after submitting checkout form) |
+| Checkout Success | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Profile | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Add Product | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Edit Product | n/a | ![screenshot](documentation/html-validation-quiz.png) | Error: An img element must have an alt attribute, except under certain conditions (Current image for product being edited) |
+| Delete Product | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Add Blog | n/a | ![screenshot](documentation/html-validation-quiz.png) | Multiple Errors all from summernote widget for blog content field |
+| Edit Blog | n/a | ![screenshot](documentation/html-validation-quiz.png) | Multiple Errors all from summernote widget for blog content field |
+| Delete Blog | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Open Tickets | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Quiz | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Quiz | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
+| Quiz | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
