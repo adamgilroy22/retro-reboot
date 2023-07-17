@@ -325,9 +325,15 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Cancel button | Redirects admin to all products page | Pass | |
 | | Click Add Product button with form filled correctly | Creates a new product on the site using the information provided | Pass | |
 | | Click Add Product button with form filled incorrectly | Message appears letting the admin know to fill in the required form fields | Pass | |
+| | Set product's stock to be less than 1 | Product will be created but appear on the site as sold out with add to basket button disabled | Pass | |
+| | Brute forcing the URL to add a new product if not an admin | User given an error | Pass | Redirects user to error page |
 | **Edit Product Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click edit icon on product | Redirects user to Edit Product page | Pass | User must be an admin to access this page |
+| | Click Cancel button | Redirects admin to all products page | Pass | |
+| | Click Update Product button with form filled correctly | Updates product with information provided | Pass | |
+| | Click Update Product button with form filled incorrectly | Message appears letting the admin know to fill in the required form fields | Pass | |
+| | Set product's stock to be less than 1 | Product will be updated but appear on the site as sold out with add to basket button disabled | Pass | |
+| | Brute forcing the URL to edit a product if not an admin | User given an error | Pass | Redirects user to error page |
 | **Delete Product Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
