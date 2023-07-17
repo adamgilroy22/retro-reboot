@@ -71,16 +71,16 @@
                         <div class="form-group w-50">
                             <div class="input-group input-group-{{ product.id }}">
                                 <div class="input-group-prepend">
-                                    <button class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}" data-item_id="{{ product.id }}">
+                                    <button class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}" aria-label="Decrease quantity" data-item_id="{{ product.id }}">
                                         <span class="icon">
                                             <i class="fas fa-minus"></i>
                                         </span>
                                     </button>
                                 </div>
                                 <input type="hidden" id="ItemStock" name="variable" value="{{ product.stock }}">
-                                <input class="form-control qty_input id_qty_{{ product.id }}" type="number" name="quantity" value="1" min="1" max="{{ product.stock }}" data-item_id="{{ product.id }}">
+                                <input class="form-control qty_input id_qty_{{ product.id }}" type="number" name="quantity" value="1" min="1" max="{{ product.stock }}" data-item_id="{{ product.id }}" aria-label="Product quantity">
                                 <div class="input-group-append">
-                                    <button class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}" data-item_id="{{ product.id }}">
+                                    <button class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}" aria-label="Increase quantity" data-item_id="{{ product.id }}">
                                         <span class="icon">
                                             <i class="fas fa-plus"></i>
                                         </span>
