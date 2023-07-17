@@ -349,8 +349,12 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Add Post button with no image set | Blog post will be created but will be displayed with default blog post image | Pass | |
 | | Brute forcing the URL to add a new blog post if not an admin | User given an error | Pass | Redirects user to error page |
 | **Edit Blog Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click edit icon on blog post | Redirects user to Edit Blog Post page | Pass | User must be an admin to see icon and access this page |
+| | Click Cancel button | Redirects admin to blog | Pass | |
+| | Click Update Post button with form filled correctly | Updates blog post with information provided | Pass | |
+| | Click Update Post button with form filled incorrectly | Message appears letting the admin know to fill in the required form fields | Pass | |
+| | Click Update Post button with no image set | Blog post will be updated but will be displayed with default blog post image | Pass | |
+| | Brute forcing the URL to edit a blog post if not an admin | User given an error | Pass | Redirects user to error page |
 | **Delete Blog Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
