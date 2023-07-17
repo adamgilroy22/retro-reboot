@@ -210,37 +210,107 @@ Defensive programming was manually tested with the below user acceptance testing
 
 | Page | User Action | Expected Result | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-| Home Page | | | | |
+| **Home Page** | | | | |
 | | Click on Logo | Redirection to Home page | Pass | |
-| | Click on Home link in navbar | Redirection to Home page | Pass | |
-| Gallery Page | | | | |
-| | Click on Gallery link in navbar | Redirection to Gallery page | Pass | |
-| | Load gallery images | All images load as expected | Pass | |
-| Contact Page | | | | |
+| | Click on Shop Now button | Redirection to All Products page | Pass | |
+| **All Products Page** | | | | |
+| | Click on All Products link in navbar | Redirection to All Products page | Pass | |
+| | Click on All Products By Price link in navbar | Redirection to All Products page | Pass | Products sorted by price low to high |
+| | Click on All Products By Platform link in navbar | Redirection to All Products page | Pass | Products sorted by platform with platform sorted A-Z |
+| | Click on All Products By Release Year link in navbar | Redirection to All Products page | Pass | Products sorted by release year old - new |
+| | Click on Games By Nintendo link in navbar | Redirection to All Products page | Pass | Products filtered to Games on Nintendo consoles |
+| | Click on Games By Sega link in navbar | Redirection to All Products page | Pass | Products filtered to Games on Sega consoles |
+| | Click on Games By Sony link in navbar | Redirection to All Products page | Pass | Products filtered to Games on Sony consoles |
+| | Click on Consoles By Nintendo link in navbar | Redirection to All Products page | Pass | Products filtered to Nintendo consoles |
+| | Click on Consoles By Sega link in navbar | Redirection to All Products page | Pass | Products filtered to Sega consoles |
+| | Click on Consoles By Sony link in navbar | Redirection to All Products page | Pass | Products filtered to Sony consoles |
+| | Click on Price (low to high) in Sort by... dropdown | Redirection to All Products page | Pass | Products sorted by price low to high |
+| | Click on Price (high to low) in Sort by... dropdown | Redirection to All Products page | Pass | Products sorted by price high to low |
+| | Click on Name (A-Z) in Sort by... dropdown | Redirection to All Products page | Pass | Products sorted alphabetically A-Z |
+| | Click on Name (Z-A) in Sort by... dropdown | Redirection to All Products page | Pass | Products sorted alphabetically Z-A |
+| | Click on Year (oldest to newest) in Sort by... dropdown | Redirection to All Products page | Pass | Products sorted by release year old to new |
+| | Click on Year (newest to oldest) in Sort by... dropdown | Redirection to All Products page | Pass | Products sorted by release year new to old |
+| | Click on Platform (A-Z) in Sort by... dropdown | Redirection to All Products page | Pass | Products sorted by platform A-Z |
+| | Click on Platform (Z-A) in Sort by... dropdown | Redirection to All Products page | Pass | Products sorted by platform Z-A |
+| | Click on Product card image | Redirection to Product Detail page for that product | Pass | |
+| | Click on Product card name | Redirection to Product Detail page for that product | Pass | |
+| | Click on Add to basket button | Product added to basket | Pass | Single quantity added to basket |
+| | Click on disabled Add to basket button | Nothing | Pass | |
+| | Click on edit product button | Redirection to Edit Product page for that product | Pass | Button only appears if logged in user is an admin |
+| | Click on delete product button | Redirection to Delete Product confirmation page for that product | Pass | Button only appears if logged in user is an admin |
+| **Product Detail Page** | | | | |
 | | Click on Contact link in navbar | Redirection to Contact page | Pass | |
 | | Enter first/last name | Field will accept freeform text | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
 | | Enter message in textarea | Field will accept freeform text | Pass | |
 | | Click the Submit button | Redirects user to form-dump | Pass | User must click 'Back' button to return |
-| Sign Up | | | | |
+| **Contact Page** | | | | |
 | | Click on Sign Up button | Redirection to Sign Up page | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
 | | Enter valid password (twice) | Field will only accept password format | Pass | |
 | | Click on Sign Up button | Asks user to confirm email page | Pass | Email sent to user |
 | | Confirm email | Redirects user to blank Sign In page | Pass | |
-| Log In | | | | |
+| **Blog Page** | | | | |
 | | Click on the Login link | Redirection to Login page | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
 | | Enter valid password | Field will only accept password format | Pass | |
 | | Click Login button | Redirects user to home page | Pass | |
-| Log Out | | | | |
+| **Blog Post** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
-| Profile | | | | |
+| **Sign Up Page** | | | | |
 | | Click on Profile button | User will be redirected to the Profile page | Pass | |
 | | Click on the Edit button | User will be redirected to the edit profile page | Pass | |
 | | Click on the My Orders link | User will be redirected to the My Orders page | Pass | |
 | | Brute forcing the URL to get to another user's profile | User should be given an error | Pass | Redirects user back to own profile |
+| **Sign In Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Password Reset Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Log Out Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Basket** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Checkout** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Checkout Success Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Add Product Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Edit Product Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Delete Product Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Add Blog Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Edit Blog Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Delete Blog Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Add Product Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Edit Product Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Open Tickets Page** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| **Footer** | | | | |
+| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Confirm Logout button | Redirects user to home page | Pass | |
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
