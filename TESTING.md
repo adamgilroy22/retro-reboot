@@ -163,34 +163,40 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 ## Lighthouse Audit
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
-Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
-
-If you don't have Lighthouse in your Developer Tools,
-it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-Sample Lighthouse testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
-| About | Mobile | ![screenshot](documentation/lighthouse-about-mobile.png) | Some minor warnings |
-| About | Desktop | ![screenshot](documentation/lighthouse-about-desktop.png) | Few warnings |
-| Gallery | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
-| Gallery | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+| Home | Desktop | ![screenshot](documentation/testing/lighthouse-home-desktop.png) | No major warnings |
+| Home | Mobile | ![screenshot](documentation/testing/lighthouse-home-mobile.png) | Some minor warnings |
+| All Products | Desktop | ![screenshot](documentation/testing/lighthouse-all-products-desktop.png) | Some minor warnings |
+| All Products | Mobile | ![screenshot](documentation/testing/lighthouse-all-products-mobile.png) | Some minor warnings |
+| Individual Product | Desktop | ![screenshot](documentation/testing/lighthouse-product-desktop.png) | No major warnings |
+| Individual Product | Mobile | ![screenshot](documentation/testing/lighthouse-product-mobile.png) | Some minor warnings |
+| Contact | Desktop | ![screenshot](documentation/testing/lighthouse-contact-desktop.png) | No major warnings |
+| Contact | Mobile | ![screenshot](documentation/testing/lighthouse-contact-mobile.png) | Some minor warnings |
+| Blog | Desktop | ![screenshot](documentation/testing/lighthouse-blog-desktop.png) | No major warnings |
+| Blog | Mobile | ![screenshot](documentation/testing/lighthouse-blog-mobile.png) | Some minor warnings |
+| Blog Post | Desktop | ![screenshot](documentation/testing/lighthouse-blog-post-desktop.png) | No major warnings |
+| Blog Post | Mobile | ![screenshot](documentation/testing/lighthouse-blog-post-mobile.png) | Some minor warnings |
+| Sign Up | Desktop | ![screenshot](documentation/testing/lighthouse-signup-desktop.png) | No major warnings |
+| Sign Up | Mobile | ![screenshot](documentation/testing/lighthouse-signup-mobile.png) | Some minor warnings |
+| Sign In | Desktop | ![screenshot](documentation/testing/lighthouse-login-desktop.png) | No major warnings |
+| Sign In | Mobile | ![screenshot](documentation/testing/lighthouse-login-mobile.png) | Some minor warnings |
+| Password Reset | Desktop | ![screenshot](documentation/testing/lighthouse-password-reset-desktop.png) | No major warnings |
+| Password Reset | Mobile | ![screenshot](documentation/testing/lighthouse-password-reset-mobile.png) | Some minor warnings |
+| Search | Desktop | ![screenshot](documentation/testing/lighthouse-search-desktop.png) | No major warnings |
+| Search | Mobile | ![screenshot](documentation/testing/lighthouse-search-mobile.png) | Some minor warnings |
+| Log Out | Desktop | ![screenshot](documentation/testing/lighthouse-logout-desktop.png) | No major warnings |
+| Log Out | Mobile | ![screenshot](documentation/testing/lighthouse-logout-mobile.png) | Some minor warnings |
+| Basket | Desktop | ![screenshot](documentation/testing/lighthouse-basket-desktop.png) | No major warnings |
+| Basket | Mobile | ![screenshot](documentation/testing/lighthouse-basket-mobile.png) | Some minor warnings |
+| Checkout | Desktop | ![screenshot](documentation/testing/lighthouse-checkout-desktop.png) | No major warnings |
+| Checkout | Mobile | ![screenshot](documentation/testing/lighthouse-checkout-mobile.png) | Some minor warnings |
+| Checkout Success | Desktop | ![screenshot](documentation/testing/lighthouse-checkout-success-desktop.png) | Some minor warnings |
+| Checkout Success | Mobile | ![screenshot](documentation/testing/lighthouse-checkout-success-mobile.png) | Some minor warnings |
+| Profile | Desktop | ![screenshot](documentation/testing/lighthouse-profile-desktop.png) | No major warnings |
+| Profile | Mobile | ![screenshot](documentation/testing/lighthouse-profile-mobile.png) | Some minor warnings |
 
 ## Defensive Programming
 
