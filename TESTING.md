@@ -284,8 +284,8 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Forgot Password | Redirects user to password reset page | Pass | |
 | | Sign in before confirming account | Redirects to message reminding user to confirm email address | Pass | |
 | **Password Reset Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Enter valid email address | Field will only accept email address format | Pass | |
+| | Click Reset Password button | Sends email with instructions to reset password | Pass | |
 | **Log Out Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
