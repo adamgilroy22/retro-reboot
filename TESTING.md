@@ -308,8 +308,14 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click on Keep Shopping button | Redirection to All Products page | Pass | |
 | | Click on Secure Checkout button | Redirection to checkout page | Pass | |
 | **Checkout** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click on Secure Checkout button in basket | Redirection to checkout page | Pass | |
+| | Click Complete Order button without all required fields filled out | Message letting user know that required fields need to be filled out | Pass | |
+| | Click Save delivery information to profile button | User's default information will be set to whatever is filled in at the checkout on order completion | Pass | Only visible to logged in users |
+| | Click on Create an account link | Redirection to sign up page | Pass | Only visible to logged out users |
+| | Click on login link | Redirection to sign in page | Pass | Only visible to logged out users |
+| | Click Complete Order button without card details filled out | Message letting user know that their card number is incomplete | Pass | |
+| | Click Complete Order button with all details filled out | Loading spinner appears and order is processed | Pass | |
+| | Order completed | Order confirmation email is sent to the user and redirection to checkout success page | Pass | |
 | **Checkout Success Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
