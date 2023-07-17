@@ -21,72 +21,30 @@ You are not required to validate external libraries/frameworks, such as imported
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-- If you are copying/pasting your HTML code, use this link: https://validator.w3.org/#validate_by_input
-- (*recommended*) If you are using the live deployed site pages, use this link: https://validator.w3.org/#validate_by_uri
-
-It's recommended to validate the live pages (each of them) using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to a page to validate it again in the future.
-The URL will look something like this:
-
-- https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamgilroy22.github.io%2Fretro-reboot%2Findex.html
-
-Sample HTML code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2F) | ![screenshot](documentation/html-validation-home.png) | Pass: No Errors |
-| All Products | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F) | ![screenshot](documentation/html-validation-contact.png) | Pass: No Errors |
-| Individual Product | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F13%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fcontact%2F) | ![screenshot](documentation/html-validation-quiz.png) | Error: Bad value 100% for attribute width on element iframe (Needed to display map properly) |
-| Blog | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fblog%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Blog Post | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fblog%2Fcaring-for-game-cartridges-essential-tips%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Sign Up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Fsignup%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Sign In | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Flogin%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Password Reset | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Fpassword%2Freset%2F) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Search | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F%3Fq%3Dpokemon) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Log Out | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Basket | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Checkout | n/a | ![screenshot](documentation/html-validation-quiz.png) | Warning: Empty heading (Loading spinner after submitting checkout form) |
-| Checkout Success | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Profile | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Add Product | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Edit Product | n/a | ![screenshot](documentation/html-validation-quiz.png) | Error: An img element must have an alt attribute, except under certain conditions (Current image for product being edited) |
-| Delete Product | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Add Blog | n/a | ![screenshot](documentation/html-validation-quiz.png) | Multiple Errors all from summernote widget for blog content field |
-| Edit Blog | n/a | ![screenshot](documentation/html-validation-quiz.png) | Multiple Errors all from summernote widget for blog content field |
-| Delete Blog | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Open Tickets | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Quiz | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Quiz | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Quiz | n/a | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-**IMPORTANT**: Python/Jinja syntax in HTML
-
-Python projects that use Jinja syntax, such as `{% for loops %}`, `{% url 'home' %}`, and `{{ variable|filter }}`
-will not validate properly if you're copying/pasting into the HTML validator.
-
-In order to properly validate these types of files, it's recommended to
-[validate by uri](https://validator.w3.org/#validate_by_uri) from the deployed Heroku pages.
-
-Unfortunately, pages that require a user to be logged-in and authenticated (CRUD functionality),
-will not work using this method, due to the fact that the HTML Validator (W3C) doesn't have
-access to login to your pages.
-In order to properly validate HTML pages with Jinja syntax for authenticated pages, follow these steps:
-
-- Navigate to the deployed pages which require authentication
-- Right-click anywhere on the page, and select **View Page Source** (usually `CTRL+U` or `⌘+U` on Mac).
-- This will display the entire "compiled" code, without any Jinja syntax.
-- Copy everything, and use the [validate by input](https://validator.w3.org/#validate_by_input) method.
-- Repeat this process for every page that requires a user to be logged-in/authenticated.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2F) | ![screenshot](documentation/testing/html-validation-home.png) | Pass: No Errors |
+| All Products | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F) | ![screenshot](documentation/testing/html-validation-all-products.png) | Pass: No Errors |
+| Individual Product | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F13%2F) | ![screenshot](documentation/testing/html-validation-individual-product.png) | Pass: No Errors |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fcontact%2F) | ![screenshot](documentation/testing/html-validation-contact.png) | Error: Bad value 100% for attribute width on element iframe (Needed to display map properly) |
+| Blog | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fblog%2F) | ![screenshot](documentation/testing/html-validation-blog.png) | Pass: No Errors |
+| Blog Post | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fblog%2Fcaring-for-game-cartridges-essential-tips%2F) | ![screenshot](documentation/testing/html-validation-blog-post.png) | Pass: No Errors |
+| Sign Up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Fsignup%2F) | ![screenshot](documentation/testing/html-validation-signup.png) | Pass: No Errors |
+| Sign In | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Flogin%2F) | ![screenshot](documentation/testing/html-validation-login.png) | Pass: No Errors |
+| Password Reset | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Faccounts%2Fpassword%2Freset%2F) | ![screenshot](documentation/testing/html-validation-password-reset.png) | Pass: No Errors |
+| Search | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fretro-reboot.herokuapp.com%2Fproducts%2F%3Fq%3Dpokemon) | ![screenshot](documentation/testing/html-validation-search.png) | Pass: No Errors |
+| Log Out | n/a | ![screenshot](documentation/testing/html-validation-logout.png) | Pass: No Errors |
+| Basket | n/a | ![screenshot](documentation/testing/html-validation-basket.png) | Pass: No Errors |
+| Checkout | n/a | ![screenshot](documentation/testing/html-validation-checkout.png) | Warning: Empty heading (Loading spinner after submitting checkout form) |
+| Checkout Success | n/a | ![screenshot](documentation/testing/html-validation-checkout-success.png) | Pass: No Errors |
+| Profile | n/a | ![screenshot](documentation/testing/html-validation-profile.png) | Pass: No Errors |
+| Add Product | n/a | ![screenshot](documentation/testing/html-validation-add-product.png) | Pass: No Errors |
+| Edit Product | n/a | ![screenshot](documentation/testing/html-validation-edit-product.png) | Error: An img element must have an alt attribute, except under certain conditions (Current image for product being edited) |
+| Delete Product | n/a | ![screenshot](documentation/testing/html-validation-delete-product.png) | Pass: No Errors |
+| Add Blog | n/a | ![screenshot](documentation/testing/html-validation-add-blog.png) | Multiple Errors all from summernote widget for blog content field |
+| Edit Blog | n/a | ![screenshot](documentation/testing/html-validation-edit-blog.png) | Multiple Errors all from summernote widget for blog content field |
+| Delete Blog | n/a | ![screenshot](documentation/testing/html-validation-delete-blog.png) | Pass: No Errors |
+| Open Tickets | n/a | ![screenshot](documentation/testing/html-validation-open-tickets.png) | Pass: No Errors |
 
 ### CSS
 
