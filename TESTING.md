@@ -360,15 +360,10 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Cancel button | Redirects admin to blog | Pass | |
 | | Click Delete Post button | Blog post will be completely deleted from the site | Pass | |
 | | Brute forcing the URL to delete a blog post if not an admin | User given an error | Pass | Redirects user to error page |
-| **Add Product Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
-| **Edit Product Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
 | **Open Tickets Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click View Open Tickets link from Admin dropdown | Redirects admin to open tickets | Pass | User can only see this if they're logged in as an admin |
+| | Click Close Ticket button on ticket | Marks ticket as seen and removes it from list of open tickets | Pass | If last open ticket is closed the page will contain just a header saying No Open Tickets |
+| | Brute forcing the URL to access open ticket page if not an admin | User given an error | Pass | Redirects user to error page |
 | **Footer** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
