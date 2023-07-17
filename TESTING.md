@@ -498,8 +498,11 @@ Any remaining open issues can be tracked [here](https://github.com/adamgilroy22/
 
 | Bug | Status |
 | --- | --- |
-| [JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).](https://github.com/adamgilroy22/retro-reboot/issues/4) | Open |
-| [Python `E501 line too long` (93 > 79 characters)](https://github.com/adamgilroy22/retro-reboot/issues/5) | Open |
+| [USER STORY: Wishlist](https://github.com/adamgilroy22/retro-reboot/issues/13) | Open |
+| [USER STORY: Send Marketing Emails](https://github.com/adamgilroy22/retro-reboot/issues/23) | Open |
+| [USER STORY: Discount Wheel](https://github.com/adamgilroy22/retro-reboot/issues/27) | Open |
+| [BUG: Search is sensitive to accents](https://github.com/adamgilroy22/retro-reboot/issues/31) | Open |
+| [USER STORY: Product Reviews](https://github.com/adamgilroy22/retro-reboot/issues/42) | Open |
 
 ## Unfixed Bugs
 
