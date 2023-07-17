@@ -23,9 +23,9 @@
             <div class="col-lg-6 col-md-12 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if post.image %}
-                <img src="{{ post.image.url }}" width="100%">
+                <img src="{{ post.image.url }}" alt="{{ post.title }} image">
                 {% else %}
-                <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
+                <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="Default blog image">
                 {% endif %}
             </div>
             <div class="col-lg-6 col-md-12 masthead-text">
