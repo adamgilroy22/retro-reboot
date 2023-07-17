@@ -48,10 +48,10 @@
 
         {% if request.user.is_superuser %}
         <li class="nav-item dropdown d-lg-none">
-            <a class="font-weight-bold nav-link text-white mr-5" href="#" id="consoles-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="font-weight-bold nav-link text-white mr-5" href="#" id="admin-options-mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Admin
             </a>
-            <div class="dropdown-menu" aria-labelledby="consoles-link">
+            <div class="dropdown-menu" aria-labelledby="admin-options-mobile">
                 <a href="{% url 'add_product' %}" class="dropdown-item">Add New Product</a>
                 <a href="{% url 'add_post' %}" class="dropdown-item">Add New Blog Post</a>
                 <a href="{% url 'open_tickets' %}" class="dropdown-item">View Open Tickets</a>
