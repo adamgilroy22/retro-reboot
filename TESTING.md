@@ -257,10 +257,11 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Send with missing fields | Message lets user know all fields are required | Pass | |
 | | Click Send with all valid fields | User is sent email confirming their message has been received and new ticket is created in open tickets page for admin | Pass | |
 | **Blog Page** | | | | |
-| | Click on the Login link | Redirection to Login page | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter valid password | Field will only accept password format | Pass | |
-| | Click Login button | Redirects user to home page | Pass | |
+| | Click on the Blog link in nav menu | Redirection to Blog page | Pass | |
+| | Click on the Blog link in footer | Redirection to Blog page | Pass | |
+| | Click on Blog post | Redirection to Blog Post page | Pass | |
+| | Click on edit blog button | Redirection to Edit Blog page for that post | Pass | Button only appears if logged in user is an admin |
+| | Click on delete blog button | Redirection to Delete Blog confirmation page for that post | Pass | Button only appears if logged in user is an admin |
 | **Blog Post** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
