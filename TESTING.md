@@ -356,8 +356,10 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Update Post button with no image set | Blog post will be updated but will be displayed with default blog post image | Pass | |
 | | Brute forcing the URL to edit a blog post if not an admin | User given an error | Pass | Redirects user to error page |
 | **Delete Blog Page** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click delete icon on blog post | Redirects user to Delete Blog post page | Pass | User must be an admin to see icon and access this page |
+| | Click Cancel button | Redirects admin to blog | Pass | |
+| | Click Delete Post button | Blog post will be completely deleted from the site | Pass | |
+| | Brute forcing the URL to delete a blog post if not an admin | User given an error | Pass | Redirects user to error page |
 | **Add Product Page** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
