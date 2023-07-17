@@ -250,11 +250,12 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click on edit product button | Redirection to Edit Product page for that product | Pass | Button only appears if logged in user is an admin |
 | | Click on delete product button | Redirection to Delete Product confirmation page for that product | Pass | Button only appears if logged in user is an admin |
 | **Contact Page** | | | | |
-| | Click on Sign Up button | Redirection to Sign Up page | Pass | |
+| | Click on Contact Us link in footer | Redirection to Contact Us page | Pass | |
+| | Enter name | Form will only submit if all fields are filled | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter valid password (twice) | Field will only accept password format | Pass | |
-| | Click on Sign Up button | Asks user to confirm email page | Pass | Email sent to user |
-| | Confirm email | Redirects user to blank Sign In page | Pass | |
+| | Enter message | Form will only submit if all fields are filled | Pass | |
+| | Click Send with missing fields | Message lets user know all fields are required | Pass | |
+| | Click Send with all valid fields | User is sent email confirming their message has been received and new ticket is created in open tickets page for admin | Pass | |
 | **Blog Page** | | | | |
 | | Click on the Login link | Redirection to Login page | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
