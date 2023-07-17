@@ -244,6 +244,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click + button on quantity selector form | Quantity number increases if number + 1 is less than or equal to product's stock | Pass | |
 | | Click - button on quantity selector form | Quantity number decreases if current quantity is greater than one | Pass | |
 | | Click + button on quantity selector form if quantity is at the product's stock | Nothing | Pass | |
+| | Manually enter number greater than product stock in quantity selector form | Error message appears letting the user know what the product's stock is | Pass | |
 | | Click Add To Basket button | Product is added to basket and quantity is set to the user's choice | Pass | |
 | | Click Add To Basket button when user already has the product in their basket | Quantity selected is added to the existing quantity in the user's basket for the product | Pass | Only applicable if quantity being added plus existing quantity remains less than or equal to product's stock |
 | | Click Add To Basket button when user already has the product in their basket and quantity selected plus existing quantity is greater than product's stock | Message appears informing user that they're trying to add more quantity than the product has in stock and nothing is added | Pass | |
@@ -290,8 +291,22 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
 | **Basket** | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
+| | Click Basket icon in main nav | Redirects user to basket page | Pass | Shows back to shop button if basket is empty |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
+| | Click + button on quantity selector form | Quantity number increases if number + 1 is less than or equal to product's stock | Pass | |
+| | Click - button on quantity selector form | Quantity number decreases if current quantity is greater than one | Pass | |
+| | Click + button on quantity selector form if quantity is at the product's stock | Nothing | Pass | |
+| | Click update button under quantity selector form | Updated quantity of product in basket to number in quantity select form | Pass | |
+| | Click remove button under quantity selector form | Removes product from basket completely | Pass | |
+| | Manually enter number greater than product stock in quantity selector form | Error message appears letting the user know what the product's stock is | Pass | |
+| | Click on discount apply button with empty discount field | Message appears letting user know the field can't be blank | Pass | |
+| | Click on discount apply button with invalid code in the discount field | Error message shows letting user know the code entered doesn't exist | Pass | |
+| | Click on discount apply button with valid code in the discount field | Alert message shows letting user know the discount has been added | Pass | |
+| | Discount code added successfully | Percentage gets taken off the basket total, discount form is replaced with discount amount | Pass | |
+| | Click on trash icon next to discount amount | Discount removed and discount code form reappears in place of discount amount | Pass | |
+| | Remove item from basket that brings total to below €50 | Delivery goes from FREE to 10% of the total cost of the basket contents | Pass | |
+| | Click on Keep Shopping button | Redirection to All Products page | Pass | |
+| | Click on Secure Checkout button | Redirection to checkout page | Pass | |
 | **Checkout** | | | | |
 | | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
 | | Click Confirm Logout button | Redirects user to home page | Pass | |
