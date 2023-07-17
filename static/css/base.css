@@ -304,6 +304,10 @@ a:hover {
     width: 100%;
 }
 
+.masthead-image img {
+    width: 100%;
+}
+
 .masthead-text {
     color: var(--off-white);
 }
