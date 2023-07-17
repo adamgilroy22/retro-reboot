@@ -239,11 +239,16 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click on edit product button | Redirection to Edit Product page for that product | Pass | Button only appears if logged in user is an admin |
 | | Click on delete product button | Redirection to Delete Product confirmation page for that product | Pass | Button only appears if logged in user is an admin |
 | **Product Detail Page** | | | | |
-| | Click on Contact link in navbar | Redirection to Contact page | Pass | |
-| | Enter first/last name | Field will accept freeform text | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter message in textarea | Field will accept freeform text | Pass | |
-| | Click the Submit button | Redirects user to form-dump | Pass | User must click 'Back' button to return |
+| | Click on Product image or name in all products page | Redirection to Product Detail page | Pass | |
+| | Click on Keep Shopping button | Redirection to All Products page | Pass | |
+| | Click + button on quantity selector form | Quantity number increases if number + 1 is less than or equal to product's stock | Pass | |
+| | Click - button on quantity selector form | Quantity number decreases if current quantity is greater than one | Pass | |
+| | Click + button on quantity selector form if quantity is at the product's stock | Nothing | Pass | |
+| | Click Add To Basket button | Product is added to basket and quantity is set to the user's choice | Pass | |
+| | Click Add To Basket button when user already has the product in their basket | Quantity selected is added to the existing quantity in the user's basket for the product | Pass | Only applicable if quantity being added plus existing quantity remains less than or equal to product's stock |
+| | Click Add To Basket button when user already has the product in their basket and quantity selected plus existing quantity is greater than product's stock | Message appears informing user that they're trying to add more quantity than the product has in stock and nothing is added | Pass | |
+| | Click on edit product button | Redirection to Edit Product page for that product | Pass | Button only appears if logged in user is an admin |
+| | Click on delete product button | Redirection to Delete Product confirmation page for that product | Pass | Button only appears if logged in user is an admin |
 | **Contact Page** | | | | |
 | | Click on Sign Up button | Redirection to Sign Up page | Pass | |
 | | Enter valid email address | Field will only accept email address format | Pass | |
