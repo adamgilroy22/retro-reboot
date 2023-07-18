@@ -1440,6 +1440,10 @@ I used some media found online throughout this project, in particular for produc
 | [Canva](https://www.canva.com/) | Entire site | Images | I created images for homepage, error pages, no-image for products and favicon on Canva |
 | [Arcade Artwork](https://www.arcadeartwork.org/) | Products | Images | Product images |
 | [YouTube](https://www.youtube.com/watch?v=9d3qCPcMgH4&ab_channel=DylanSavage) | Konami Code easter egg | Sound | Sound is played when code is entered correctly. Original sound is owned by Nintendo |
+| [Unsplash](https://unsplash.com/photos/k-xYhI3-gJM) | Blog | Image | Header image for post: Caring for Game Cartridges: Essential Tips |
+| [Unsplash](https://unsplash.com/photos/jkj3__wfDAk) | Blog | Image | Header image for post: Building a Retro Gaming Collection for Beginners |
+| [Unsplash](https://unsplash.com/photos/YXdbaTRcQzA) | Blog | Image | Header image for post: Tips for Repairing and Restoring Retro Game Consoles |
+| [Code Institute](https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg) | Blog | Image | Default blog post image |
 
 ### Acknowledgements
 
