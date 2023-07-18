@@ -835,6 +835,10 @@ I created an entity relationship diagram using [Draw.io](https://draw.io). This 
 
 ![screenshot](documentation/retro-reboot-entity-relationship-diagram.png)
 
+I generated an additional entity relationship diagram using [pygraphviz](https://django-extensions.readthedocs.io/en/latest/graph_models.html).
+
+![screenshot](documentation/erd.png)
+
 ### Models
 
 The following are the models created for Retro Reboot.
