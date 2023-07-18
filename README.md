@@ -1448,15 +1448,10 @@ I used some media found online throughout this project, in particular for produc
 
 ### Acknowledgements
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+This project tested me to my limits at times and I couldn't have completed it without the amazing people in my life. I want to thank these people for helping and supporting me in getting this project over the line and also for their support throughout this whole course as this is my final project for this diploma.
 
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
-- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support, belief and words of encouragement throughout the development of this project and all my previous projects. I can say with 100% certainty that I would not have achieved all I have so far if I didn't have Tim in my corner throughout.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would like to thank my parents, for their constant support, belief and love throughout this course and project.
+- I would like to thank my partner Cayanne, for believing in me throughout this course even at times I didn't fully believe in myself.
+- I would like to thank everyone who tested Retro Reboot during development, for their feedback and words of encouragement.
