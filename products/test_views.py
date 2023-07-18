@@ -17,7 +17,7 @@ class TestViews(TestCase):
         testuser.save()
 
         """
-        Get correct urls for product list and product page
+        Get correct urls for product list
         """
         self.client = Client()
         self.product_list_url = reverse('products')
