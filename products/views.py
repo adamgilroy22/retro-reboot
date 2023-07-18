@@ -31,6 +31,8 @@ def all_products(request):
                 sortkey = 'category__name'
             if sortkey == 'platform':
                 sortkey = 'platform__name'
+            if sortkey == 'condition':
+                sortkey = 'condition__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
@@ -46,6 +48,10 @@ def all_products(request):
             platforms = request.GET['platform'].split(',')
             products = products.filter(platform__name__in=platforms)
             platforms = Platform.objects.filter(name__in=platforms)
+
+        if 'condition' in request.GET:
+            condition = request.GET['condition'].split(',')
+            products = products.filter(condition__name__in=condition)
 
         if 'q' in request.GET:
             query = request.GET['q']
