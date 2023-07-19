@@ -413,6 +413,20 @@ In order to run the tests, I ran the following command in the terminal each time
 
 ![screenshot](documentation/testing/automated-tests.png)
 
+| Testing File | Screenshot |
+| --- | --- |
+| [Discount Forms]() | N/A |
+| [Blog Forms]() | N/A |
+| [Blog Views]() | N/A |
+| [Product Forms]() | N/A |
+| [Product Views]() | N/A |
+| [Contact Forms]() | N/A |
+| [Contact Views]() | N/A |
+| [Basket Views](basket/tests.py) | N/A |
+| [Checkout Forms]() | N/A |
+| [Profile Views]() | N/A |
+| [Homepage Views]() | N/A |
+
 ## Bugs
 
 ### GitHub **Issues**
