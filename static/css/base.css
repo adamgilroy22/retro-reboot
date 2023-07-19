@@ -8,6 +8,10 @@
     --main-teal: #00bfc3;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--main-dark);
     color: var(--off-white);
