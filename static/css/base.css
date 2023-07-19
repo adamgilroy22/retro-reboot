@@ -404,6 +404,13 @@ a:hover {
 	color: #17a2b8; /* text-info */
 }
 
+/* Contact Page */
+.contact-map {
+    width: 100% !important;
+    height: 100% !important;
+    border: none;
+}
+
 /* Product Form */
 
 .btn-file {
