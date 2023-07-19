@@ -183,6 +183,8 @@ Defensive programming was manually tested with the below user acceptance testing
 | **Home Page** | | | | |
 | | Click on Logo | Redirection to Home page | Pass | |
 | | Click on Shop Now button | Redirection to All Products page | Pass | |
+| | Enter Konami code correctly on keyboard | Sound plays and modal pops up giving discount code | Pass | |
+| | Enter Konami code incorrectly on keyboard | Nothing | Pass | |
 | **All Products Page** | | | | |
 | | Click on All Products link in navbar | Redirection to All Products page | Pass | |
 | | Click on All Products By Price link in navbar | Redirection to All Products page | Pass | Products sorted by price low to high |
