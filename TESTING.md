@@ -54,6 +54,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | File | Screenshot | Notes |
 | --- | --- | --- |
 | konami-code.js | ![screenshot](documentation/testing/konami-code-js-validation.png) | Pass: No Errors |
+| countryfields.js | ![screenshot](documentation/testing/countryfields-js-validation.png) | Pass: No Errors |
 | add_post.html (postloadjs) | ![screenshot](documentation/testing/add-post-postloadjs-validation.png) | Pass: No Errors |
 | edit_post.html (postloadjs) | ![screenshot](documentation/testing/edit-post-postloadjs-validation.png) | Pass: No Errors |
 | add_product.html (postloadjs) | ![screenshot](documentation/testing/add-product-postloadjs-validation.png) | Pass: No Errors |
