@@ -222,6 +222,10 @@ Defensive programming was manually tested with the below user acceptance testing
 | | Click Add To Basket button when user already has the product in their basket and quantity selected plus existing quantity is greater than product's stock | Message appears informing user that they're trying to add more quantity than the product has in stock and nothing is added | Pass | |
 | | Click on edit product button | Redirection to Edit Product page for that product | Pass | Button only appears if logged in user is an admin |
 | | Click on delete product button | Redirection to Delete Product confirmation page for that product | Pass | Button only appears if logged in user is an admin |
+| **Search** | | | | |
+| | Enter word into search bar that appears in at least one product's name or description | Redirection to Products page | Pass | Products filtered to only show products containing search term |
+| | Enter word into search bar that doesn't appear in any product's name or description | Redirection to Products page | Pass | Products page is empty and shows user that 0 products were returned |
+| | Enter nothing into search bar | Redirection to Products page | Pass | Error message shows and lets user know they entered nothing into the search bar and all products are displayed |
 | **Contact Page** | | | | |
 | | Click on Contact Us link in footer | Redirection to Contact Us page | Pass | |
 | | Enter name | Form will only submit if all fields are filled | Pass | |
