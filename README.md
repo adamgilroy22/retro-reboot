@@ -797,7 +797,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Future Features
 
-While I feel that the site has an abundance of features, there are several ones I would like to add in the future that didn't fit into the current development cycle for this project. These features have been logged as Won't Have in my MoSCoW prioritization.
+While I feel that the site has an abundance of features, there are several ones I would like to add in the future that didn't fit into the current development cycle for this project. These features have been logged as Won't Have in my MoSCoW prioritization and placed in the backlog of my project's development board.
 
 - Discount Wheel
     - I want to add a spin the wheel game to the site where a user can input their email address to try and win a discount code. Emails would be collected and added to the newsletter list enticing users to sign up for the mailing list.
