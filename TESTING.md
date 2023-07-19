@@ -415,17 +415,17 @@ In order to run the tests, I ran the following command in the terminal each time
 
 | Testing File | Screenshot |
 | --- | --- |
-| [Discount Forms]() | N/A |
-| [Blog Forms]() | N/A |
-| [Blog Views]() | N/A |
-| [Product Forms]() | N/A |
-| [Product Views]() | N/A |
-| [Contact Forms]() | N/A |
-| [Contact Views]() | N/A |
+| [Discount Forms](discount_codes/tests.py) | N/A |
+| [Blog Forms](blog/test_forms.py) | N/A |
+| [Blog Views](blog/test_views.py) | N/A |
+| [Product Forms](products/test_forms.py) | N/A |
+| [Product Views](products/test_views.py) | N/A |
+| [Contact Forms](contact/test_forms.py) | N/A |
+| [Contact Views](contact/test_views.py) | N/A |
 | [Basket Views](basket/tests.py) | N/A |
-| [Checkout Forms]() | N/A |
-| [Profile Views]() | N/A |
-| [Homepage Views]() | N/A |
+| [Checkout Forms](checkout/tests.py) | N/A |
+| [Profile Views](profiles/tests.py) | N/A |
+| [Homepage Views](homepage/tests.py) | N/A |
 
 ## Bugs
 
