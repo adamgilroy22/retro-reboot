@@ -415,17 +415,17 @@ In order to run the tests, I ran the following command in the terminal each time
 
 | Testing File | Screenshot |
 | --- | --- |
-| [Discount Forms](discount_codes/tests.py) | N/A |
-| [Blog Forms](blog/test_forms.py) | N/A |
-| [Blog Views](blog/test_views.py) | N/A |
-| [Product Forms](products/test_forms.py) | N/A |
-| [Product Views](products/test_views.py) | N/A |
-| [Contact Forms](contact/test_forms.py) | N/A |
-| [Contact Views](contact/test_views.py) | N/A |
-| [Basket Views](basket/tests.py) | N/A |
-| [Checkout Forms](checkout/tests.py) | N/A |
-| [Profile Views](profiles/tests.py) | N/A |
-| [Homepage Views](homepage/tests.py) | N/A |
+| [Discount Forms](discount_codes/tests.py) | ![screenshot](documentation/testing/automated-testing-discount-forms.png) |
+| [Blog Forms](blog/test_forms.py) | ![screenshot](documentation/testing/automated-testing-blog-forms.png) |
+| [Blog Views](blog/test_views.py) | ![screenshot](documentation/testing/automated-testing-blog-views.png) |
+| [Product Forms](products/test_forms.py) | ![screenshot](documentation/testing/automated-testing-product-forms.png) |
+| [Product Views](products/test_views.py) | ![screenshot](documentation/testing/automated-testing-product-views.png) |
+| [Contact Forms](contact/test_forms.py) | ![screenshot](documentation/testing/automated-testing-contact-forms.png) |
+| [Contact Views](contact/test_views.py) | ![screenshot](documentation/testing/automated-testing-contact-views.png) |
+| [Basket Views](basket/tests.py) | ![screenshot](documentation/testing/automated-testing-basket-views.png) |
+| [Checkout Forms](checkout/tests.py) | ![screenshot](documentation/testing/automated-testing-checkout-forms.png) |
+| [Profile Views](profiles/tests.py) | ![screenshot](documentation/testing/automated-testing-profile-views.png) |
+| [Homepage Views](homepage/tests.py) | ![screenshot](documentation/testing/automated-testing-homepage-views.png) |
 
 ## Bugs
 
