@@ -393,7 +393,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 - **Product Sorting**
 
-    - When the user is viewing the all products page, they can sort the products in a number of ways. Products can be sorted by: Price (low to high), Price (high to low), Name (A-Z), Name (Z-A), Year (oldest to newest), Year (newest to oldest), Platform (A-Z), Platform (Z-A)
+    - When the user is viewing the all products page, they can sort the products in a number of ways. Products can be sorted by: Price (low to high), Price (high to low), Name (A-Z), Name (Z-A), Year (oldest to newest), Year (newest to oldest), Platform (A-Z), Platform (Z-A), Stock (low to high) and Stock (high to low)
 
     ![screenshot](documentation/testing/product-sorting.png)
 
