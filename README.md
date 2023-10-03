@@ -7,6 +7,8 @@ Developed by Adam Gilroy
 
 [Live link to website](https://retro-reboot.herokuapp.com/)
 
+Final Grade: Distinction
+
 ## UX
 
 When designing this site, I wanted to keep it pretty basic. Over complicating the design of an e-commerce store risks a bad user experience which is the last thing you want when trying to entice a user to become a customer.
